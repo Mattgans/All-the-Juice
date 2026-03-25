@@ -887,6 +887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ParticleAudioTrigger
   audioSource: {fileID: 28599765}
   particles: {fileID: 1031939103}
+  haptics: {fileID: 0}
 --- !u!1001 &30724690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1633,7 +1634,8 @@ GameObject:
   - component: {fileID: 56105186}
   - component: {fileID: 56105185}
   - component: {fileID: 56105184}
-  m_Layer: 5
+  - component: {fileID: 56105187}
+  m_Layer: 3
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1718,12 +1720,39 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &56105187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56105182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee10491ef6d5d1d49a270cf6b09bdc19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.VR::OVROverlayCanvas
+  _mipmapMode: 0
+  _dynamicResolution: 1
+  _redrawResolutionThreshold: 2147483647
+  rectTransform: {fileID: 56105183}
+  maxTextureSize: 2048
+  manualRedraw: 0
+  renderInterval: 1
+  renderIntervalFrameOffset: 0
+  superSample: 0
+  layer: 5
+  opacity: 2
+  shape: 0
+  curveRadius: 1
+  overlapMask: 0
+  compositionMode: 1
+  _overlayEnabled: 1
 --- !u!1 &62249060
 GameObject:
   m_ObjectHideFlags: 0
@@ -2293,7 +2322,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -3916,6 +3944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ParticleAudioTrigger
   audioSource: {fileID: 166771724}
   particles: {fileID: 605302651}
+  haptics: {fileID: 0}
 --- !u!82 &166771724
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4622,6 +4651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ParticleAudioTrigger
   audioSource: {fileID: 234228679}
   particles: {fileID: 729569437}
+  haptics: {fileID: 0}
 --- !u!82 &234228679
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5784,7 +5814,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315136619}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 0.90961653, b: 0.745283, a: 1}
   m_Intensity: 1
@@ -5836,7 +5866,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -6180,6 +6210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ParticleAudioTrigger
   audioSource: {fileID: 320274828}
   particles: {fileID: 243612178}
+  haptics: {fileID: 0}
 --- !u!1 &326581953
 GameObject:
   m_ObjectHideFlags: 0
@@ -8072,6 +8103,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2657625865324565839, guid: 8b619c2273fa4e1478003dbcbaf3223b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 500046201}
+    - targetCorrespondingSourceObject: {fileID: 2657625865324565839, guid: 8b619c2273fa4e1478003dbcbaf3223b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 500046204}
   m_SourcePrefab: {fileID: 100100000, guid: 8b619c2273fa4e1478003dbcbaf3223b, type: 3}
 --- !u!1 &500046196 stripped
 GameObject:
@@ -8119,6 +8153,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WoodGenerator
   baseOakPerTick: 10
   tickInterval: 5
+--- !u!114 &500046204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500046196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bff4f5a8991d7fa47baed5c5ff25979f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tiny.Trail
+  material: {fileID: 2100000, guid: 44c0a98045e51e54db998366c5208a35, type: 2}
+  duration: 0.5
+  corner: 0
+  loop: 0
+  points:
+  - {x: 0.13384192, y: 1.1971118, z: -0.00000084217305}
+  - {x: 0.20437567, y: 1.176946, z: -0.0000006808234}
+  - {x: 0.2680951, y: 1.1346639, z: -0.0000008347287}
+  - {x: 0.26600593, y: 1.0940158, z: -0.0000009888288}
+  - {x: 0.27538627, y: 1.0567539, z: -0.0000011433326}
+  - {x: 0.30363154, y: 1.0074756, z: -0.0000012964039}
+  - {x: 0.33241853, y: 0.97992074, z: -0.0000014520648}
+  - {x: 0.30716777, y: 0.866094, z: -0.0000015974414}
+  - {x: 0.2500376, y: 0.76057434, z: -0.0000017438082}
+  - {x: 0.21597871, y: 0.7449684, z: -0.0000019008936}
+  - {x: 0.22135234, y: 0.6945941, z: -0.0000020538341}
+  - {x: 0.19066057, y: 0.6064237, z: -0.000002361215}
+  - {x: 0.15782492, y: 0.67553586, z: -0.0000023694538}
+  - {x: 0.119379126, y: 0.6575368, z: -0.0000025262539}
+  - {x: 0.10059047, y: 0.564284, z: -0.000002674083}
 --- !u!1 &500783167
 GameObject:
   m_ObjectHideFlags: 0
@@ -9057,75 +9123,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1289347937}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &568926045
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 568926048}
-  - component: {fileID: 568926047}
-  - component: {fileID: 568926046}
-  m_Layer: 0
-  m_Name: '[BuildingBlock] Auto Matchmaking'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &568926046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568926045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4922ff06fa8ce0948b4f2f5923c69d77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxPlayersPerRoom: 4
-  lobbyName: lobbyName
-  maxRetries: 3
-  retryInterval: {x: 1, y: 3}
---- !u!114 &568926047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568926045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Meta.XR.BuildingBlocks::Meta.XR.BuildingBlocks.BuildingBlock
-  blockId: d45b4309-f823-42e4-b871-0f58e8e647d8
-  instanceId: 9497bdfa-4501-4999-80c2-b51d21aea000
-  version: 1
-  installationRoutineCheckpoint:
-    _installationRoutineId: 0d740637-ae4c-40f5-98e2-1a9bac152d35
-    _installationVariants:
-    - _memberName: installMatchmaking
-      _value: '{"value__":0}'
---- !u!4 &568926048
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568926045}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &583548362
 GameObject:
@@ -13103,7 +13100,8 @@ GameObject:
   - component: {fileID: 829249950}
   - component: {fileID: 829249949}
   - component: {fileID: 829249948}
-  m_Layer: 5
+  - component: {fileID: 829249951}
+  m_Layer: 3
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13188,12 +13186,39 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &829249951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829249946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee10491ef6d5d1d49a270cf6b09bdc19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.VR::OVROverlayCanvas
+  _mipmapMode: 0
+  _dynamicResolution: 1
+  _redrawResolutionThreshold: 2147483647
+  rectTransform: {fileID: 829249947}
+  maxTextureSize: 2048
+  manualRedraw: 0
+  renderInterval: 1
+  renderIntervalFrameOffset: 0
+  superSample: 0
+  layer: 5
+  opacity: 2
+  shape: 0
+  curveRadius: 1
+  overlapMask: 0
+  compositionMode: 1
+  _overlayEnabled: 1
 --- !u!1 &836445373
 GameObject:
   m_ObjectHideFlags: 0
@@ -16763,6 +16788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ParticleAudioTrigger
   audioSource: {fileID: 977406860}
   particles: {fileID: 1885451783}
+  haptics: {fileID: 0}
 --- !u!1001 &983177144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20047,6 +20073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ParticleAudioTrigger
   audioSource: {fileID: 1211735450}
   particles: {fileID: 642241071}
+  haptics: {fileID: 0}
 --- !u!1 &1212698770
 GameObject:
   m_ObjectHideFlags: 0
@@ -20599,7 +20626,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -20947,7 +20973,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -21471,6 +21496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ParticleAudioTrigger
   audioSource: {fileID: 1287025783}
   particles: {fileID: 848025389}
+  haptics: {fileID: 0}
 --- !u!82 &1287025783
 AudioSource:
   m_ObjectHideFlags: 0
@@ -22974,7 +23000,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -23861,7 +23886,8 @@ GameObject:
   - component: {fileID: 1392698301}
   - component: {fileID: 1392698300}
   - component: {fileID: 1392698299}
-  m_Layer: 5
+  - component: {fileID: 1392698302}
+  m_Layer: 3
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23946,12 +23972,39 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1392698302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392698297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee10491ef6d5d1d49a270cf6b09bdc19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.VR::OVROverlayCanvas
+  _mipmapMode: 0
+  _dynamicResolution: 1
+  _redrawResolutionThreshold: 2147483647
+  rectTransform: {fileID: 1392698298}
+  maxTextureSize: 2048
+  manualRedraw: 0
+  renderInterval: 1
+  renderIntervalFrameOffset: 0
+  superSample: 0
+  layer: 5
+  opacity: 2
+  shape: 0
+  curveRadius: 1
+  overlapMask: 0
+  compositionMode: 1
+  _overlayEnabled: 1
 --- !u!1 &1392967814
 GameObject:
   m_ObjectHideFlags: 0
@@ -26311,133 +26364,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 908027767}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1489261272
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1489261276}
-  - component: {fileID: 1489261275}
-  - component: {fileID: 1489261274}
-  - component: {fileID: 1489261273}
-  m_Layer: 0
-  m_Name: '[BuildingBlock] Network Manager'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1489261273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489261272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6960e84d07fb87f47956e7a81d71c4e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ProtocolType: 1
-  m_UseWebSockets: 0
-  m_UseEncryption: 0
-  m_MaxPacketQueueSize: 128
-  m_MaxPayloadSize: 6144
-  m_HeartbeatTimeoutMS: 500
-  m_ConnectTimeoutMS: 1000
-  m_MaxConnectAttempts: 60
-  m_DisconnectTimeoutMS: 30000
-  ConnectionData:
-    Address: 127.0.0.1
-    Port: 7777
-    WebSocketPath: /
-    ServerListenAddress: 127.0.0.1
-    ClientBindPort: 0
-  DebugSimulator:
-    PacketDelayMS: 0
-    PacketJitterMS: 0
-    PacketDropRate: 0
---- !u!114 &1489261274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489261272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 593a2fe42fa9d37498c96f9a383b6521, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NetworkManagerExpanded: 0
-  NetworkConfig:
-    ProtocolVersion: 0
-    NetworkTransport: {fileID: 1489261273}
-    PlayerPrefab: {fileID: 0}
-    Prefabs:
-      NetworkPrefabsLists:
-      - {fileID: 11400000, guid: 13f82365bb650f34e88a82d418a59062, type: 2}
-    TickRate: 30
-    ClientConnectionBufferTimeout: 10
-    ConnectionApproval: 0
-    ConnectionData: 
-    EnableTimeResync: 0
-    TimeResyncInterval: 30
-    EnsureNetworkVariableLengthSafety: 0
-    EnableSceneManagement: 1
-    ForceSamePrefabs: 0
-    RecycleNetworkIds: 1
-    NetworkIdRecycleDelay: 120
-    RpcHashSize: 0
-    LoadSceneTimeOut: 120
-    SpawnTimeout: 10
-    EnableNetworkLogs: 1
-    NetworkTopology: 0
-    UseCMBService: 0
-    AutoSpawnPlayerPrefabClientSide: 1
-    NetworkProfilingMetrics: 1
-    OldPrefabList: []
-  RunInBackground: 1
-  LogLevel: 1
---- !u!114 &1489261275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489261272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Meta.XR.BuildingBlocks::Meta.XR.BuildingBlocks.BuildingBlock
-  blockId: 1d8db162-54f6-43df-b4ef-b499df1f6769
-  instanceId: 070d5e76-dd96-49d1-904f-427041fa8c84
-  version: 1
-  installationRoutineCheckpoint:
-    _installationRoutineId: 45364db4-f880-45c3-9d76-d366c46500d3
-    _installationVariants:
-    - _memberName: installMatchmaking
-      _value: '{"value__":0}'
---- !u!4 &1489261276
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489261272}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1489586457
 GameObject:
   m_ObjectHideFlags: 0
@@ -26952,6 +26878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ParticleTrigger
   audioSource: {fileID: 1511261135}
   particles: {fileID: 1054073981}
+  haptics: {fileID: 0}
 --- !u!82 &1511261135
 AudioSource:
   m_ObjectHideFlags: 0
@@ -30764,7 +30691,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -34273,6 +34199,7 @@ GameObject:
   - component: {fileID: 1923339351}
   - component: {fileID: 1923339352}
   - component: {fileID: 1923339353}
+  - component: {fileID: 1923339354}
   m_Layer: 0
   m_Name: Start Axe
   m_TagString: Untagged
@@ -34522,6 +34449,28 @@ MonoBehaviour:
         Min: 1
         Max: 1
   _resetScaleResponsivenessOnConstraintOvershoot: 0
+--- !u!114 &1923339354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923339343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bff4f5a8991d7fa47baed5c5ff25979f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tiny.Trail
+  material: {fileID: 2100000, guid: 44c0a98045e51e54db998366c5208a35, type: 2}
+  duration: 0.5
+  corner: 0
+  loop: 0
+  points:
+  - {x: 0.09623394, y: 0.4368194, z: 0.008313492}
+  - {x: 0.1156622, y: 0.3960291, z: -0.004976151}
+  - {x: 0.1348509, y: 0.3372268, z: -0.004976151}
+  - {x: 0.1237532, y: 0.2801335, z: -0.004976151}
+  - {x: 0.093692, y: 0.225841, z: -0.004976151}
 --- !u!1001 &1933866072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38776,6 +38725,4 @@ SceneRoots:
   - {fileID: 1487024299}
   - {fileID: 1421332349}
   - {fileID: 1560826543}
-  - {fileID: 1489261276}
-  - {fileID: 568926048}
   - {fileID: 1158460957}
