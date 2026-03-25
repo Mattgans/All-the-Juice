@@ -1,9 +1,11 @@
+using Oculus.Haptics;
 using UnityEngine;
 
 public class ParticleAudioTrigger : MonoBehaviour
 {
     public AudioSource audioSource;
     public ParticleSystem particles;
+    public HapticSource haptics;
 
     public void PlayAudio()
     {
@@ -16,6 +18,14 @@ public class ParticleAudioTrigger : MonoBehaviour
         if (particles != null)
         {
             particles.Play();
+        }
+    }
+
+    public void PlayHaptic()
+    {
+        if (haptics != null)
+        {
+            haptics.Play();
         }
     }
 }
