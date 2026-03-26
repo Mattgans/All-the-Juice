@@ -43,6 +43,10 @@ public class TycoonManager : MonoBehaviour
     public ParticleSystem upgradeParticles;
     public AudioSource upgradeAudio;
 
+    [Header("House Settings")]
+    public int oakHouseCost = 5000;
+    public int mapleHouseCost = 5000;
+
     void Awake()
     {
         if (Instance == null) Instance = this;
@@ -178,6 +182,32 @@ public class TycoonManager : MonoBehaviour
             float nextCost = Mathf.FloorToInt(mapleProductionMultiplier) * 100;
             string costDisplay = mapleProductionMultiplier >= 5.0f ? "MAX" : $"{nextCost} Maple";
             mapleMultText.text = $"Maple Multiplier\nCost: {costDisplay}\nCurrent: {mapleProductionMultiplier}x";
+        }
+    }
+
+    public void TryPurchaseOakHouse(HouseToggler toggler)
+    {
+        if (ResourceManager.Instance.oakCount >= oakHouseCost)
+        {
+            ResourceManager.Instance.AddOak(-oakHouseCost);
+            toggler.EnableHouse();
+        }
+        else
+        {
+            Debug.Log("Not enough Oak for the house!");
+        }
+    }
+
+    public void TryPurchaseMapleHouse(HouseToggler toggler)
+    {
+        if (ResourceManager.Instance.mapleCount >= mapleHouseCost)
+        {
+            ResourceManager.Instance.AddMaple(-mapleHouseCost);
+            toggler.EnableHouse();
+        }
+        else
+        {
+            Debug.Log("Not enough Oak for the house!");
         }
     }
 }

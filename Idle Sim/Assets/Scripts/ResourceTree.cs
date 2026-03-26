@@ -10,6 +10,7 @@ public class ResourceTree : MonoBehaviour
     public int yieldAmount = 10;
     public float respawnTime = 10f;
     public float hitCooldown = 0.5f;
+    public Quaternion originalRotation;
 
     [Header("Visuals")]
     public GameObject fullTreeModel;
@@ -88,6 +89,7 @@ public class ResourceTree : MonoBehaviour
 
     void ResetTree()
     {
+        fullTreeModel.transform.rotation = originalRotation;
         hitsRemaining = Random.Range(3, 6);
         isAvailable = true;
         canBeHit = true;
