@@ -5,6 +5,7 @@ public class HouseToggler : MonoBehaviour
     [Header("Settings")]
     [Tooltip("Drag your Baker_house object here from the Hierarchy")]
     public GameObject bakerHouse;
+    public ParticleSystem particles;
 
     /// <summary>
     /// This method turns the house ON. 
@@ -14,6 +15,8 @@ public class HouseToggler : MonoBehaviour
     {
         if (bakerHouse != null)
         {
+            if (particles != null)
+                particles.Play();
             bakerHouse.SetActive(true);
             Debug.Log("Baker House has been enabled!");
         }
@@ -30,6 +33,8 @@ public class HouseToggler : MonoBehaviour
     {
         if (bakerHouse != null)
         {
+            if (particles != null)
+                particles.Play();
             bool currentState = bakerHouse.activeSelf;
             bakerHouse.SetActive(!currentState);
         }
