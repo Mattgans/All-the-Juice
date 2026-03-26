@@ -16,6 +16,10 @@ public class ResourceTree : MonoBehaviour
     public GameObject cutStumpModel; 
     public Animator treeAnimator; 
 
+    [Header("Juicy")]
+    public AudioSource FallAudio;
+    public ParticleSystem particles;
+
     private int hitsRemaining;
     private bool isAvailable = true;
     private bool canBeHit = true;
@@ -61,6 +65,14 @@ public class ResourceTree : MonoBehaviour
                 ResourceManager.Instance.AddOak(yieldAmount);
             else if (typeOfTree == TreeType.Maple)
                 ResourceManager.Instance.AddMaple(yieldAmount);
+        }
+
+        if (FallAudio != null) {
+            FallAudio.Play();
+        }
+
+        if(particles != null) {
+            particles.Play();
         }
 
         fullTreeModel.SetActive(false);
