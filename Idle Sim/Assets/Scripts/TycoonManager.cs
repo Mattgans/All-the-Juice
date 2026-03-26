@@ -1,12 +1,20 @@
 using UnityEngine;
 using TMPro;
+using Tiny; // Required for the Trail script
+
+// This class allows us to see a list of Trails for EACH generator in the Inspector
+[System.Serializable]
+public class TrailGroup
+{
+    public string generatorName; // Just for labeling in Inspector
+    public Trail[] trails;       // Drag the 5 color scripts for ONE generator here
+}
 
 public class TycoonManager : MonoBehaviour
 {
     public static TycoonManager Instance;
 
     [Header("Global Settings")]
-    [Tooltip("How much the cost increases each time you buy a generator (1.5 = 50% increase).")]
     public float priceMultiplier = 1.5f;
 
     [Header("Oak Logic")]
@@ -16,7 +24,9 @@ public class TycoonManager : MonoBehaviour
     [Space]
     public TextMeshProUGUI oakGenCostText;
     public TextMeshProUGUI oakMultText;
-    public GameObject[] oakGenModels; // Ensure size is 4
+    public GameObject[] oakGenModels; 
+    [Space]
+    public TrailGroup[] oakGeneratorTrailGroups; // Set Size to 4 in Inspector
 
     [Header("Maple Logic")]
     public int mapleGenBaseCost = 50;
@@ -25,11 +35,13 @@ public class TycoonManager : MonoBehaviour
     [Space]
     public TextMeshProUGUI mapleGenCostText;
     public TextMeshProUGUI mapleMultText;
-    public GameObject[] mapleGenModels; // Ensure size is 4
+    public GameObject[] mapleGenModels;
+    [Space]
+    public TrailGroup[] mapleGeneratorTrailGroups; // Set Size to 4 in Inspector
 
-    [Header("House Settings")]
-    public int oakHouseCost = 5000;
-    public int mapleHouseCost = 5000;
+    [Header("Upgrade Effects")]
+    public ParticleSystem upgradeParticles;
+    public AudioSource upgradeAudio;
 
     void Awake()
     {
@@ -40,26 +52,30 @@ public class TycoonManager : MonoBehaviour
     void Start()
     {
         UpdateTycoonUI();
+        // Initialize all trails to the current multiplier level
+        UpdateAllTrailVisuals(oakGeneratorTrailGroups, oakProductionMultiplier, false);
+        UpdateAllTrailVisuals(mapleGeneratorTrailGroups, mapleProductionMultiplier, false);
     }
 
-    // --- OAK PURCHASES ---
+    // --- OAK UPGRADES ---
 
     public void BuyOakGenerator()
     {
         int currentCost = GetExponentialCost(oakGenBaseCost, oakGenCount);
-
         if (ResourceManager.Instance.oakCount >= currentCost && oakGenCount < 4)
         {
             ResourceManager.Instance.AddOak(-currentCost);
             oakGenModels[oakGenCount].SetActive(true);
             oakGenCount++;
+            
+            // Ensure the newly bought generator has the correct trail color active
+            UpdateAllTrailVisuals(oakGeneratorTrailGroups, oakProductionMultiplier, false);
             UpdateTycoonUI();
         }
     }
 
     public void UpgradeOakMultiplier()
     {
-        // Cost: 100 for 1x->2x, 200 for 2x->3x, etc.
         int currentLevel = Mathf.FloorToInt(oakProductionMultiplier);
         int upgradeCost = currentLevel * 100;
 
@@ -67,21 +83,25 @@ public class TycoonManager : MonoBehaviour
         {
             ResourceManager.Instance.AddOak(-upgradeCost);
             oakProductionMultiplier += 1.0f;
+            
+            // This updates EVERY generator's trail color at once
+            UpdateAllTrailVisuals(oakGeneratorTrailGroups, oakProductionMultiplier, true);
             UpdateTycoonUI();
         }
     }
 
-    // --- MAPLE PURCHASES ---
+    // --- MAPLE UPGRADES ---
 
     public void BuyMapleGenerator()
     {
         int currentCost = GetExponentialCost(mapleGenBaseCost, mapleGenCount);
-
         if (ResourceManager.Instance.mapleCount >= currentCost && mapleGenCount < 4)
         {
             ResourceManager.Instance.AddMaple(-currentCost);
             mapleGenModels[mapleGenCount].SetActive(true);
             mapleGenCount++;
+            
+            UpdateAllTrailVisuals(mapleGeneratorTrailGroups, mapleProductionMultiplier, false);
             UpdateTycoonUI();
         }
     }
@@ -95,39 +115,41 @@ public class TycoonManager : MonoBehaviour
         {
             ResourceManager.Instance.AddMaple(-upgradeCost);
             mapleProductionMultiplier += 1.0f;
+            
+            UpdateAllTrailVisuals(mapleGeneratorTrailGroups, mapleProductionMultiplier, true);
             UpdateTycoonUI();
         }
     }
 
-    // --- HOUSE PURCHASES (Linking to your HouseToggler) ---
+    // --- LOGIC FOR MULTIPLE GROUPS ---
 
-    public void TryPurchaseOakHouse(HouseToggler toggler)
+    private void UpdateAllTrailVisuals(TrailGroup[] groups, float multiplierValue, bool playEffects)
     {
-        if (ResourceManager.Instance.oakCount >= oakHouseCost)
+        if (groups == null) return;
+
+        int targetIndex = Mathf.FloorToInt(multiplierValue) - 1;
+
+        // Loop through every generator (1 to 4)
+        foreach (TrailGroup group in groups)
         {
-            ResourceManager.Instance.AddOak(-oakHouseCost);
-            toggler.EnableHouse();
+            if (group.trails == null) continue;
+
+            // Inside each generator, loop through its 5 color trails
+            for (int i = 0; i < group.trails.Length; i++)
+            {
+                if (group.trails[i] != null)
+                {
+                    group.trails[i].enabled = (i == targetIndex);
+                }
+            }
         }
-        else
+
+        if (playEffects && Application.isPlaying)
         {
-            Debug.Log("Not enough Oak for the house!");
+            if (upgradeAudio != null) upgradeAudio.Play();
+            if (upgradeParticles != null) upgradeParticles.Play();
         }
     }
-
-    public void TryPurchaseMapleHouse(HouseToggler toggler)
-    {
-        if (ResourceManager.Instance.mapleCount >= mapleHouseCost)
-        {
-            ResourceManager.Instance.AddMaple(-mapleHouseCost);
-            toggler.EnableHouse();
-        }
-        else
-        {
-            Debug.Log("Not enough Maple for the house!");
-        }
-    }
-
-    // --- UTILITIES ---
 
     private int GetExponentialCost(int baseCost, int ownedCount)
     {
@@ -137,31 +159,25 @@ public class TycoonManager : MonoBehaviour
     public void UpdateTycoonUI()
     {
         // Oak UI
-        if (oakGenCostText != null)
-        {
+        if (oakGenCostText != null) {
             string costText = oakGenCount >= 4 ? "MAX" : $"{GetExponentialCost(oakGenBaseCost, oakGenCount)} Oak";
             oakGenCostText.text = $"Oak Generator\nCost: {costText}";
         }
-        
-        if (oakMultText != null)
-        {
+        if (oakMultText != null) {
             float nextCost = Mathf.FloorToInt(oakProductionMultiplier) * 100;
             string costDisplay = oakProductionMultiplier >= 5.0f ? "MAX" : $"{nextCost} Oak";
-            oakMultText.text = $"Oak Generator Multiplier\nCost: {costDisplay}\nCurrent: {oakProductionMultiplier}x";
+            oakMultText.text = $"Oak Multiplier\nCost: {costDisplay}\nCurrent: {oakProductionMultiplier}x";
         }
 
         // Maple UI
-        if (mapleGenCostText != null)
-        {
+        if (mapleGenCostText != null) {
             string costText = mapleGenCount >= 4 ? "MAX" : $"{GetExponentialCost(mapleGenBaseCost, mapleGenCount)} Maple";
             mapleGenCostText.text = $"Maple Generator\nCost: {costText}";
         }
-
-        if (mapleMultText != null)
-        {
+        if (mapleMultText != null) {
             float nextCost = Mathf.FloorToInt(mapleProductionMultiplier) * 100;
             string costDisplay = mapleProductionMultiplier >= 5.0f ? "MAX" : $"{nextCost} Maple";
-            mapleMultText.text = $"Maple Generator Multiplier\nCost: {costDisplay}\nCurrent: {mapleProductionMultiplier}x";
+            mapleMultText.text = $"Maple Multiplier\nCost: {costDisplay}\nCurrent: {mapleProductionMultiplier}x";
         }
     }
 }

@@ -562,7 +562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 151412
+// Method Definition Index: 151425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HapticsSdkGuidance_get_CurrentPopUpIndex_mF6127869105DFDC1A16952E34F0AD1148DF4D02A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -577,7 +577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HapticsSdkGuidance_get_CurrentPopUpIn
 		return L_0;
 	}
 }
-// Method Definition Index: 151413
+// Method Definition Index: 151426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkGuidance_set_CurrentPopUpIndex_m7C8E4956FB861834E3CD2368DC6EB4D6AFF0D3B5 (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -593,7 +593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkGuidance_set_CurrentPopUpIndex
 		return;
 	}
 }
-// Method Definition Index: 151414
+// Method Definition Index: 151427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkGuidance_Awake_m8AEE3EF9F183D9E22F4B4067A9D4BEAC4164F385 (HapticsSdkGuidance_t696D957456AD465DB537E530DFE38532A7FE8A1D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -615,7 +615,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkGuidance_Awake_m8AEE3EF9F183D9
 		return;
 	}
 }
-// Method Definition Index: 151415
+// Method Definition Index: 151428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkGuidance_NextStep_m5508198157C330A7FC145CAB20476AF27CDE8119 (HapticsSdkGuidance_t696D957456AD465DB537E530DFE38532A7FE8A1D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -747,7 +747,7 @@ IL_0085:
 		return;
 	}
 }
-// Method Definition Index: 151416
+// Method Definition Index: 151429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkGuidance__ctor_m67226127BB1C6A0F5AF8AD6BC5C8E566900422B1 (HapticsSdkGuidance_t696D957456AD465DB537E530DFE38532A7FE8A1D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -763,7 +763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkGuidance__ctor_m67226127BB1C6A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 151417
+// Method Definition Index: 151430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkOVRControllerGuidance_Update_m23B7FF8FF4781DED7824A4D6B5358C97F61F1ED4 (HapticsSdkOVRControllerGuidance_t855408C22FF69F5FE72ABD5FE60021852704023C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -777,7 +777,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkOVRControllerGuidance_Update_m
 		return;
 	}
 }
-// Method Definition Index: 151418
+// Method Definition Index: 151431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkOVRControllerGuidance_HandleHapticsSdkGuidanceStep_m990DA130B4DCDDDC2C9830187EDD06D81C229DE4 (HapticsSdkOVRControllerGuidance_t855408C22FF69F5FE72ABD5FE60021852704023C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -923,7 +923,7 @@ IL_00a8:
 		return;
 	}
 }
-// Method Definition Index: 151419
+// Method Definition Index: 151432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkOVRControllerGuidance_HandleControllerInput_m5E697F3394BD84F5254E3E0CC56D13A7CA5191DD (HapticsSdkOVRControllerGuidance_t855408C22FF69F5FE72ABD5FE60021852704023C* __this, int32_t ___0_controller, int32_t ___1_hand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1135,7 +1135,7 @@ IL_0123:
 		return;
 	}
 }
-// Method Definition Index: 151420
+// Method Definition Index: 151433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkOVRControllerGuidance__ctor_m5D21717999DF225F3C76AC69B00348BFCE460C31 (HapticsSdkOVRControllerGuidance_t855408C22FF69F5FE72ABD5FE60021852704023C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1151,7 +1151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkOVRControllerGuidance__ctor_m5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 151421
+// Method Definition Index: 151434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkPlaySample_Start_mB39D184E5418A6302A6A13A7E5EDCEE2DA67D0B5 (HapticsSdkPlaySample_t65F1C5249C8F4059BF800788FEF0C7EE44725046* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1197,7 +1197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkPlaySample_Start_mB39D184E5418
 		return;
 	}
 }
-// Method Definition Index: 151422
+// Method Definition Index: 151435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkPlaySample_PlayFirstClip_mED4C03B8733C3C3B4B5794D69FE39DF35F488DD7 (HapticsSdkPlaySample_t65F1C5249C8F4059BF800788FEF0C7EE44725046* __this, int32_t ___0_hand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1269,7 +1269,7 @@ IL_003f:
 		return;
 	}
 }
-// Method Definition Index: 151423
+// Method Definition Index: 151436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkPlaySample_StopFirstClip_m5AD6B3AB085585458545BB2797EE2E38FEEDD44A (HapticsSdkPlaySample_t65F1C5249C8F4059BF800788FEF0C7EE44725046* __this, int32_t ___0_hand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1341,7 +1341,7 @@ IL_003d:
 		return;
 	}
 }
-// Method Definition Index: 151424
+// Method Definition Index: 151437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkPlaySample_SetLoopingOfFirstClip_m79080372E878BA176F3DF8694AC70204DED920FB (HapticsSdkPlaySample_t65F1C5249C8F4059BF800788FEF0C7EE44725046* __this, int32_t ___0_hand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1441,7 +1441,7 @@ IL_00aa:
 		return;
 	}
 }
-// Method Definition Index: 151425
+// Method Definition Index: 151438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkPlaySample_ModulateAmplitudeAndFrequencyOfFirstClip_m0B2D91A817207E188FA2154BCC4595689603ED51 (HapticsSdkPlaySample_t65F1C5249C8F4059BF800788FEF0C7EE44725046* __this, int32_t ___0_hand, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1515,7 +1515,7 @@ IL_004d:
 		return;
 	}
 }
-// Method Definition Index: 151426
+// Method Definition Index: 151439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkPlaySample_PlaySecondClip_m5E3830B68B705FDDCF75EB75161AD24084FEEF12 (HapticsSdkPlaySample_t65F1C5249C8F4059BF800788FEF0C7EE44725046* __this, int32_t ___0_hand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1587,7 +1587,7 @@ IL_003f:
 		return;
 	}
 }
-// Method Definition Index: 151427
+// Method Definition Index: 151440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkPlaySample_StopSecondClip_mADBEE7F665F7FF3617EAC4B7B3EAA24FC337A500 (HapticsSdkPlaySample_t65F1C5249C8F4059BF800788FEF0C7EE44725046* __this, int32_t ___0_hand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1659,7 +1659,7 @@ IL_003d:
 		return;
 	}
 }
-// Method Definition Index: 151428
+// Method Definition Index: 151441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkPlaySample_OnDestroy_m518CD6DB33F42B7A7FBE89511162D0F5E794ABCC (HapticsSdkPlaySample_t65F1C5249C8F4059BF800788FEF0C7EE44725046* __this, const RuntimeMethod* method) 
 {
 	HapticClipPlayer_t52676339D3F2A8BEC736EAE3EB17AEBF18BD3349* G_B2_0 = NULL;
@@ -1759,7 +1759,7 @@ IL_003e:
 		return;
 	}
 }
-// Method Definition Index: 151429
+// Method Definition Index: 151442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkPlaySample_OnApplicationQuit_m06DE66D30FEE7B8A5EE9FDE4047AD0E623CB0CF9 (HapticsSdkPlaySample_t65F1C5249C8F4059BF800788FEF0C7EE44725046* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1772,7 +1772,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkPlaySample_OnApplicationQuit_m
 		return;
 	}
 }
-// Method Definition Index: 151430
+// Method Definition Index: 151443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkPlaySample__ctor_m0EEDEA1775F2229677B214941F9A3714F64F562E (HapticsSdkPlaySample_t65F1C5249C8F4059BF800788FEF0C7EE44725046* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1788,7 +1788,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticsSdkPlaySample__ctor_m0EEDEA1775F2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 151431
+// Method Definition Index: 151444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tF38E1661D23F66F3827399A54E8B36BAFF0BD60B UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m2B68F10BC46BAD5272688150A8A255C0A43CAAD2 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1822,7 +1822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tF38E1661D23F66F3827399A54E8B3
 		return L_6;
 	}
 }
-// Method Definition Index: 151432
+// Method Definition Index: 151445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m9AFC41CB0CD3FEFCCD4F696ADAB32E8376983A3E (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tB77C605CD8AC458B3B1B8099F527E54E3CA8523E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1927,7 +1927,7 @@ IL2CPP_EXTERN_C void MonoScriptData_tF38E1661D23F66F3827399A54E8B36BAFF0BD60B_ma
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 151413
+// Method Definition Index: 151426
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HapticsSdkGuidance_set_CurrentPopUpIndex_m7C8E4956FB861834E3CD2368DC6EB4D6AFF0D3B5_inline (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1943,7 +1943,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HapticsSdkGuidance_set_Curre
 		return;
 	}
 }
-// Method Definition Index: 151412
+// Method Definition Index: 151425
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HapticsSdkGuidance_get_CurrentPopUpIndex_mF6127869105DFDC1A16952E34F0AD1148DF4D02A_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
