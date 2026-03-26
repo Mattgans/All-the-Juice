@@ -30,6 +30,8 @@ public class ResourceManager : MonoBehaviour
     public GameObject cup2Canvas;
     public GameObject cup3Canvas;
 
+    public AudioSource achievementAudio;
+
     // Bools prevent the "SetActive" code from running every single frame
     private bool t1Unlocked, t2Unlocked, t3Unlocked;
 
@@ -55,6 +57,7 @@ public class ResourceManager : MonoBehaviour
         if (!t1Unlocked && oakCount >= 500)
         {
             t1Unlocked = true;
+            achievementAudio.Play();
             trophy1_Woodcutter.SetActive(true);
             cup1Canvas.SetActive(true);
         }
@@ -64,6 +67,7 @@ public class ResourceManager : MonoBehaviour
         if (!mapleUnlocked && oakCount >= oakGoal)
         {
             t2Unlocked = true;               // Mark the trophy as unlocked
+            achievementAudio.Play();
             trophy2_Explorer.SetActive(true); // Show the physical trophy
             cup2Canvas.SetActive(true);
             UnlockMapleArea();               // Clear the planes/blockers
@@ -98,6 +102,7 @@ public class ResourceManager : MonoBehaviour
         if (!t3Unlocked && mapleCount >= 5000)
         {
             t3Unlocked = true;
+            achievementAudio.Play();
             cup3Canvas.SetActive(true);
             trophy3_Tycoon.SetActive(true);
         }

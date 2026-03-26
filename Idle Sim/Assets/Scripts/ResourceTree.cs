@@ -66,7 +66,10 @@ public class ResourceTree : MonoBehaviour
             else if (typeOfTree == TreeType.Maple)
                 ResourceManager.Instance.AddMaple(yieldAmount);
         }
-
+        if (treeAnimator != null) {
+            treeAnimator.Play("tree_fall");
+            yield return new WaitForSeconds(1.1f);
+        }
         if (FallAudio != null) {
             FallAudio.Play();
         }
