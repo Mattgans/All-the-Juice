@@ -5515,6 +5515,7 @@ GameObject:
   - component: {fileID: 301804151}
   - component: {fileID: 301804150}
   - component: {fileID: 301804149}
+  - component: {fileID: 301804154}
   m_Layer: 0
   m_Name: ISDK_DistanceHandGrabInteraction
   m_TagString: Untagged
@@ -5665,6 +5666,52 @@ MonoBehaviour:
   _movementProvider: {fileID: 301804151}
   _handAligment: 1
   _handGrabPoses: []
+--- !u!114 &301804154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301804147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f8f6e9e6f3e114b9bf9a57c2160615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.PointableUnityEventWrapper
+  _pointable: {fileID: 1923339344}
+  _whenRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1923339355}
+        m_TargetAssemblyTypeName: Oculus.Haptics.HapticSource, Oculus.Haptics
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenMove:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenCancel:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &313167465
 GameObject:
   m_ObjectHideFlags: 0
@@ -31920,6 +31967,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820810330}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1825068881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1825068883}
+  - component: {fileID: 1825068882}
+  m_Layer: 0
+  m_Name: Haptics Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1825068882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825068881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9656ee9798937d74f8e228ba75121373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+--- !u!4 &1825068883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825068881}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.62591, y: 0.70339, z: 13.57117}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1825213771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34200,6 +34291,8 @@ GameObject:
   - component: {fileID: 1923339352}
   - component: {fileID: 1923339353}
   - component: {fileID: 1923339354}
+  - component: {fileID: 1923339355}
+  - component: {fileID: 1923339356}
   m_Layer: 0
   m_Name: Start Axe
   m_TagString: Untagged
@@ -34471,6 +34564,37 @@ MonoBehaviour:
   - {x: 0.1348509, y: 0.3372268, z: -0.004976151}
   - {x: 0.1237532, y: 0.2801335, z: -0.004976151}
   - {x: 0.093692, y: 0.225841, z: -0.004976151}
+--- !u!114 &1923339355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923339343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9dc93c7e1ae142448d4a122be86ea8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Haptics::Oculus.Haptics.HapticSource
+  _clip: {fileID: 2460798210113038985, guid: 8bf8e6318e0419d42b04b5b47bcecc81, type: 3}
+  _controller: 2
+  _loop: 0
+  _amplitude: 5
+  _frequencyShift: 0
+  _priority: 128
+--- !u!114 &1923339356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923339343}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7882b82984d0347a1155a92626c0b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  hapticSource: {fileID: 1923339355}
 --- !u!1001 &1933866072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35402,7 +35526,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1686021177305034388, guid: ebee340de387f334f9ac44e044abd8fb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1686021177305034388, guid: ebee340de387f334f9ac44e044abd8fb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -38715,8 +38839,8 @@ SceneRoots:
   - {fileID: 672771006}
   - {fileID: 2117713598}
   - {fileID: 474840694}
-  - {fileID: 1893985716}
   - {fileID: 1979834967}
+  - {fileID: 1893985716}
   - {fileID: 932356719}
   - {fileID: 1855076902}
   - {fileID: 1078243168}
@@ -38726,3 +38850,4 @@ SceneRoots:
   - {fileID: 1421332349}
   - {fileID: 1560826543}
   - {fileID: 1158460957}
+  - {fileID: 1825068883}

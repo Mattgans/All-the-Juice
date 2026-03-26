@@ -7,9 +7,13 @@
 
 
 
+extern void HapticInitializer_Awake_mEDF13F7347F6E8381D4CB2CB9193F58989B7559D (void);
+extern void HapticInitializer__ctor_m22D6E71AF9CE18844D5DC3F83D282B65DE31D508 (void);
 extern void HapticTrigger_Start_m5FE4CC4EAE8B1CC8CB58A9A166D479B4DA5C1D02 (void);
 extern void HapticTrigger_Update_mBB15D6202EC11461E8990DF4DBADEABA78BE69CD (void);
 extern void HapticTrigger__ctor_mBA50752F1EFD05544AC73AFF6D98C8F0550ED7E2 (void);
+extern void HapticTest_Start_m657AF8CEC140FC7B7303BCB674AD746BD745658F (void);
+extern void HapticTest__ctor_mD065B3949B87D9D21F226B14E429863EA210FD0D (void);
 extern void AxeBehavior_Start_m33ED71BE16D5550D10470F4F07B64687F0248C5D (void);
 extern void AxeBehavior_OnTriggerEnter_m01A4A5877B45AD9DFC2C7D1B64C8C9C3D5844934 (void);
 extern void AxeBehavior__ctor_m3AB39C436BA7DD27B450361E465383E9F0A2181F (void);
@@ -96,11 +100,15 @@ extern void U3CPhysicsUpdateU3Ed__26_MoveNext_m432DA2081F49F41AABD02F9EB68AFDC47
 extern void U3CPhysicsUpdateU3Ed__26_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m26F88D20FD08359017063FCB29FDD904AE099059 (void);
 extern void U3CPhysicsUpdateU3Ed__26_System_Collections_IEnumerator_Reset_m352E9CF47534E705848906FF0CDEB0A5F5D8D8CD (void);
 extern void U3CPhysicsUpdateU3Ed__26_System_Collections_IEnumerator_get_Current_m4931459AA71CC21681619ED73A4438F50D1D7400 (void);
-static Il2CppMethodPointer s_methodPointers[89] = 
+static Il2CppMethodPointer s_methodPointers[93] = 
 {
+	HapticInitializer_Awake_mEDF13F7347F6E8381D4CB2CB9193F58989B7559D,
+	HapticInitializer__ctor_m22D6E71AF9CE18844D5DC3F83D282B65DE31D508,
 	HapticTrigger_Start_m5FE4CC4EAE8B1CC8CB58A9A166D479B4DA5C1D02,
 	HapticTrigger_Update_mBB15D6202EC11461E8990DF4DBADEABA78BE69CD,
 	HapticTrigger__ctor_mBA50752F1EFD05544AC73AFF6D98C8F0550ED7E2,
+	HapticTest_Start_m657AF8CEC140FC7B7303BCB674AD746BD745658F,
+	HapticTest__ctor_mD065B3949B87D9D21F226B14E429863EA210FD0D,
 	AxeBehavior_Start_m33ED71BE16D5550D10470F4F07B64687F0248C5D,
 	AxeBehavior_OnTriggerEnter_m01A4A5877B45AD9DFC2C7D1B64C8C9C3D5844934,
 	AxeBehavior__ctor_m3AB39C436BA7DD27B450361E465383E9F0A2181F,
@@ -188,8 +196,12 @@ static Il2CppMethodPointer s_methodPointers[89] =
 	U3CPhysicsUpdateU3Ed__26_System_Collections_IEnumerator_Reset_m352E9CF47534E705848906FF0CDEB0A5F5D8D8CD,
 	U3CPhysicsUpdateU3Ed__26_System_Collections_IEnumerator_get_Current_m4931459AA71CC21681619ED73A4438F50D1D7400,
 };
-static const int32_t s_InvokerIndices[89] = 
+static const int32_t s_InvokerIndices[93] = 
 {
+	27041,
+	27041,
+	27041,
+	27041,
 	27041,
 	27041,
 	27041,
@@ -284,7 +296,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	89,
+	93,
 	s_methodPointers,
 	0,
 	NULL,

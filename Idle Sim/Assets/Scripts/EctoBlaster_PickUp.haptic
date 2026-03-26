@@ -1,0 +1,25 @@
+{
+  "version": { "major": 1, "minor": 0, "patch": 0 },
+  "metadata": {
+    "editor": "Meta Haptics Studio",
+    "project": "Strong_Noticeable_Grab",
+    "description": "High sustain haptic for guaranteed feedback"
+  },
+  "signals": {
+    "continuous": {
+      "envelopes": {
+        "amplitude": [
+          { "time": 0, "amplitude": 0 },
+          { "time": 0.02, "amplitude": 1.0 },
+          { "time": 0.25, "amplitude": 1.0 },
+          { "time": 0.3, "amplitude": 0 }
+        ],
+        "frequency": [
+          { "time": 0, "frequency": 0.5 },
+          { "time": 0.15, "frequency": 0.8 },
+          { "time": 0.3, "frequency": 0.5 }
+        ]
+      }
+    }
+  }
+}
