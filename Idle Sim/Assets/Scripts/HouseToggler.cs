@@ -1,4 +1,5 @@
 using UnityEngine;
+using Oculus.Haptics;
 
 public class HouseToggler : MonoBehaviour
 {
@@ -6,6 +7,8 @@ public class HouseToggler : MonoBehaviour
     [Tooltip("Drag your Baker_house object here from the Hierarchy")]
     public GameObject bakerHouse;
     public ParticleSystem particles;
+    public AudioSource audio;
+    public HapticSource haptics;
 
     /// <summary>
     /// This method turns the house ON. 
@@ -15,9 +18,13 @@ public class HouseToggler : MonoBehaviour
     {
         if (bakerHouse != null)
         {
+            bakerHouse.SetActive(true);
             if (particles != null)
                 particles.Play();
-            bakerHouse.SetActive(true);
+            if (audio != null)
+                audio.Play();
+            if (haptics != null)
+                haptics.Play();
             Debug.Log("Baker House has been enabled!");
         }
         else
