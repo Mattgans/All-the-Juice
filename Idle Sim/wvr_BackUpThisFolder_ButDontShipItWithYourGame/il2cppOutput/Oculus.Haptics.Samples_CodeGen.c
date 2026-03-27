@@ -54,8 +54,8 @@ static Il2CppMethodPointer s_methodPointers[21] =
 };
 static const int32_t s_InvokerIndices[21] = 
 {
-	43254,
-	41765,
+	43255,
+	41766,
 	27041,
 	27041,
 	27041,
@@ -73,7 +73,7 @@ static const int32_t s_InvokerIndices[21] =
 	27041,
 	27041,
 	27041,
-	43492,
+	43493,
 	27041,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Oculus_Haptics_Samples_CodeGenModule;

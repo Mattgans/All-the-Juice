@@ -476,13 +476,13 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[29] =
 };
 static const int32_t s_InvokerIndices[202] = 
 {
-	43489,
+	43490,
 	27041,
 	27041,
-	40684,
+	40685,
 	26777,
 	32713,
-	43291,
+	43292,
 	26777,
 	8054,
 	27041,
@@ -569,7 +569,7 @@ static const int32_t s_InvokerIndices[202] =
 	27041,
 	26777,
 	26777,
-	40684,
+	40685,
 	26777,
 	8054,
 	27041,
@@ -677,7 +677,7 @@ static const int32_t s_InvokerIndices[202] =
 	27041,
 	33821,
 	26777,
-	43413,
+	43414,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Meta_XR_MultiplayerBlocks_NGO_CodeGenModule;
 const Il2CppCodeGenModule g_Meta_XR_MultiplayerBlocks_NGO_CodeGenModule = 

@@ -140,9 +140,9 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D;
 struct U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2;
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
-struct U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC;
-struct U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4;
-struct U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923;
+struct U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6;
+struct U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF;
+struct U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5;
 struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
 struct U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9;
 
@@ -161,10 +161,10 @@ IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_i
 IL2CPP_EXTERN_C RuntimeClass* ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var;
@@ -179,7 +179,9 @@ IL2CPP_EXTERN_C String_t* _stringLiteral192AB71FCA5773A8031A7F4CDE0CFF6E3A586948
 IL2CPP_EXTERN_C String_t* _stringLiteral2F94F4742528BDF9EB11E79D6B1AA693BB9912DF;
 IL2CPP_EXTERN_C String_t* _stringLiteral3084D70A4D8DB6724E5CC528F4BA6F3AF15128A3;
 IL2CPP_EXTERN_C String_t* _stringLiteral47AB9F465787A8A4AFB5AFC9D0480948843DA104;
+IL2CPP_EXTERN_C String_t* _stringLiteral49FDD8CA6955B620A2DC8499142C1D7D1CEFC1EB;
 IL2CPP_EXTERN_C String_t* _stringLiteral5B044319176CF6DDBAB9F80C6E423EBF80702786;
+IL2CPP_EXTERN_C String_t* _stringLiteral67AC01D23967737E26112B8442FBD99E6005CA09;
 IL2CPP_EXTERN_C String_t* _stringLiteral6D773582DD8BDC916E42DD9D078777AA5B8F0547;
 IL2CPP_EXTERN_C String_t* _stringLiteral8269795F36935937B45BA7A25799A3FF073075A6;
 IL2CPP_EXTERN_C String_t* _stringLiteral84776BAA9E332E9A5B4427021595C78441B38948;
@@ -200,10 +202,10 @@ IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisMeshFilter_t6D1C
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Trail_SetVerticesAndCorner_mC2982F5F431189429650982EC51A823A276E736F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Trail_SetVertices_mD496D871550256959B71199651F71ADC33CC446B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CCooldownTimerU3Ed__16_System_Collections_IEnumerator_Reset_m2E578314F8335AA410C80318C3B1840AA24D3B3B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CHandleHarvestU3Ed__17_System_Collections_IEnumerator_Reset_m53DC41C7AA9DFF01110EDDF41E1E799BF2C467AF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCooldownTimerU3Ed__17_System_Collections_IEnumerator_Reset_mD21369B14A09B6658F017F32BD1053F20EEDF632_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CHandleHarvestU3Ed__18_System_Collections_IEnumerator_Reset_m84A29AFFB8FD14DD8F6F3C5FF0205552529EC829_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CPhysicsUpdateU3Ed__26_System_Collections_IEnumerator_Reset_m352E9CF47534E705848906FF0CDEB0A5F5D8D8CD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CShowAchievementU3Ed__23_System_Collections_IEnumerator_Reset_m30B98B89BE182FF54F2D359E684C502ADFB82D5D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CShowAchievementU3Ed__24_System_Collections_IEnumerator_Reset_m8A4C92B4519F3CB8A14B14064996FD65AA1E862C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CTriggerHapticsRoutineU3Ed__14_System_Collections_IEnumerator_Reset_mC6518F99AC54CFD884B2D15F8716EAA84EA01C38_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeType* MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_0_0_0_var;
@@ -279,19 +281,19 @@ struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401  : public RuntimeObject
 	String_t* ___linkText;
 	String_t* ___url;
 };
-struct U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC  : public RuntimeObject
+struct U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
 	ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* ___U3CU3E4__this;
 };
-struct U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4  : public RuntimeObject
+struct U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
 	ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* ___U3CU3E4__this;
 };
-struct U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923  : public RuntimeObject
+struct U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -1317,6 +1319,8 @@ struct HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D  : public MonoBeha
 {
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___bakerHouse;
 	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___particles;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audio;
+	HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16* ___haptics;
 };
 struct MapleGenerator_t7779B2F137A654EB1A60C51EB6DFABAA5958E31A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -1352,6 +1356,7 @@ struct ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E  : public MonoB
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cup1Canvas;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cup2Canvas;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cup3Canvas;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___achievementAudio;
 	bool ___t1Unlocked;
 	bool ___t2Unlocked;
 	bool ___t3Unlocked;
@@ -1363,6 +1368,7 @@ struct ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B  : public MonoBeha
 	int32_t ___yieldAmount;
 	float ___respawnTime;
 	float ___hitCooldown;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___originalRotation;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___fullTreeModel;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cutStumpModel;
 	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___treeAnimator;
@@ -1413,6 +1419,8 @@ struct TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2  : public MonoBeh
 	TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* ___mapleGeneratorTrailGroups;
 	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___upgradeParticles;
 	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___upgradeAudio;
+	int32_t ___oakHouseCost;
+	int32_t ___mapleHouseCost;
 };
 struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -1722,6 +1730,10 @@ struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
 {
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix;
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
 };
 struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
 {
@@ -2133,20 +2145,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInput_SetControllerVibration_m7DE7256047DAAB0F6F5E327250A23B9D7074871E (float ___0_frequency, float ___1_amplitude, int32_t ___2_controllerMask, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline (float ___0_f, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_AddMaple_m2B1A8D11A36247EF6D4BF4A13E36611B3D05F549 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, int32_t ___0_amount, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_UpdateUI_mCE2F6391E147B280050A75025FA5887A644D5397 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_UnlockMapleArea_m0D7D06003137E4049541F1C5FBA2A6FD28D9AF01 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResourceManager_ShowAchievement_mD87CD2164E374954F06E571091733F44F59B0C7C (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowAchievementU3Ed__23__ctor_m8745D6A04C2A4C5C42F96EE2514483CCC3E5FD92 (U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowAchievementU3Ed__24__ctor_mD90BB372EA43CE6D2BA4A63105962B00C8EA7775 (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
 inline Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -2160,11 +2172,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_ResetTree_mF4A1B8952EA0FDC3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_Play_m5565F093F0752D4DD9B451686F71C7A8F23F6744 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, String_t* ___0_stateName, int32_t ___1_layer, float ___2_normalizedTime, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResourceTree_HandleHarvest_m0C1C942AEF99D4430822E3FB2CA9BFF086A11292 (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResourceTree_CooldownTimer_mF58A75A72EBA2F489B6860995423DDC59065582A (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCooldownTimerU3Ed__16__ctor_m59B928D092E2EEADEADB5408CF20D22A378F515E (U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleHarvestU3Ed__17__ctor_m50576CCE8D3207417230A3709C2461AA8E7B0123 (U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCooldownTimerU3Ed__17__ctor_mA7752BEB44727FE9EEA7B460001BBF03A2EF4923 (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleHarvestU3Ed__18__ctor_m88B1831DAA86DC831D8690E391DFFCBC8C2F26C2 (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68 (int32_t ___0_minInclusive, int32_t ___1_maxExclusive, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70 (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, bool ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_AddOak_mBC72CA44802886276AA34147611749E57089FE98 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, int32_t ___0_amount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, String_t* ___0_stateName, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Rotate_m35B44707FE16FF8015D519D8C162C0B4A85D6D1F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_axis, float ___1_angle, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) ;
@@ -2174,6 +2189,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HouseToggler_EnableHouse_m89DFFE96987C4395B3C435D7BCD6261424170B0A (HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1 (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, const RuntimeMethod* method) ;
@@ -2242,7 +2258,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA83
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150461
+// Method Definition Index: 150296
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticInitializer_Awake_mEDF13F7347F6E8381D4CB2CB9193F58989B7559D (HapticInitializer_t605059877E85EF6A13A2E8178AD228D6B63E7B31* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2300,7 +2316,7 @@ IL_002a:
 		return;
 	}
 }
-// Method Definition Index: 150462
+// Method Definition Index: 150297
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticInitializer__ctor_m22D6E71AF9CE18844D5DC3F83D282B65DE31D508 (HapticInitializer_t605059877E85EF6A13A2E8178AD228D6B63E7B31* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2316,7 +2332,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticInitializer__ctor_m22D6E71AF9CE188
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150463
+// Method Definition Index: 150298
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticTrigger_Start_m5FE4CC4EAE8B1CC8CB58A9A166D479B4DA5C1D02 (HapticTrigger_tDEFF29C05D62F279D1A469F722FC37FA2DE03EE4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2324,7 +2340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticTrigger_Start_m5FE4CC4EAE8B1CC8CB5
 		return;
 	}
 }
-// Method Definition Index: 150464
+// Method Definition Index: 150299
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticTrigger_Update_mBB15D6202EC11461E8990DF4DBADEABA78BE69CD (HapticTrigger_tDEFF29C05D62F279D1A469F722FC37FA2DE03EE4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2332,7 +2348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticTrigger_Update_mBB15D6202EC11461E8
 		return;
 	}
 }
-// Method Definition Index: 150465
+// Method Definition Index: 150300
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticTrigger__ctor_mBA50752F1EFD05544AC73AFF6D98C8F0550ED7E2 (HapticTrigger_tDEFF29C05D62F279D1A469F722FC37FA2DE03EE4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2348,7 +2364,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticTrigger__ctor_mBA50752F1EFD05544AC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150466
+// Method Definition Index: 150301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticTest_Start_m657AF8CEC140FC7B7303BCB674AD746BD745658F (HapticTest_t595AC54B4C9EECB63E94D519BD27640C1064DE0F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2386,7 +2402,7 @@ IL_0023:
 		return;
 	}
 }
-// Method Definition Index: 150467
+// Method Definition Index: 150302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticTest__ctor_mD065B3949B87D9D21F226B14E429863EA210FD0D (HapticTest_t595AC54B4C9EECB63E94D519BD27640C1064DE0F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2402,7 +2418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticTest__ctor_mD065B3949B87D9D21F226B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150468
+// Method Definition Index: 150303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxeBehavior_Start_m33ED71BE16D5550D10470F4F07B64687F0248C5D (AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2421,7 +2437,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxeBehavior_Start_m33ED71BE16D5550D10470
 		return;
 	}
 }
-// Method Definition Index: 150469
+// Method Definition Index: 150304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxeBehavior_OnTriggerEnter_m01A4A5877B45AD9DFC2C7D1B64C8C9C3D5844934 (AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2508,7 +2524,7 @@ IL_005d:
 		return;
 	}
 }
-// Method Definition Index: 150470
+// Method Definition Index: 150305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxeBehavior_Update_mC213F1245F9797EAC3F09E838A8573CE7CA6FAAF (AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -2579,7 +2595,7 @@ IL_005e:
 		return;
 	}
 }
-// Method Definition Index: 150471
+// Method Definition Index: 150306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxeBehavior_TriggerHaptics_mB75ECF86B76FE153198CCDDD3CA0BA6E0089F0AC (AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2621,7 +2637,7 @@ IL_002c:
 		return;
 	}
 }
-// Method Definition Index: 150472
+// Method Definition Index: 150307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AxeBehavior_TriggerHapticsRoutine_m56E888C782D9B91E19745A143015C5C0726E6A12 (AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* __this, int32_t ___0_controller, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2644,7 +2660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AxeBehavior_TriggerHapticsRout
 		return L_2;
 	}
 }
-// Method Definition Index: 150473
+// Method Definition Index: 150308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxeBehavior__ctor_m3AB39C436BA7DD27B450361E465383E9F0A2181F (AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2671,7 +2687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxeBehavior__ctor_m3AB39C436BA7DD27B4503
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150474
+// Method Definition Index: 150309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTriggerHapticsRoutineU3Ed__14__ctor_m246BC924CF865F14FEFEDA9787CF92868E91BCEA (U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -2681,14 +2697,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTriggerHapticsRoutineU3Ed__14__ctor_m
 		return;
 	}
 }
-// Method Definition Index: 150475
+// Method Definition Index: 150310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTriggerHapticsRoutineU3Ed__14_System_IDisposable_Dispose_mD6A3B42CD03148844113AEDF9A9A5C91966FDA12 (U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 150476
+// Method Definition Index: 150311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CTriggerHapticsRoutineU3Ed__14_MoveNext_m6306D1548BAD42C286A33D00476CE985CF986290 (U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2758,7 +2774,7 @@ IL_004f:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 150477
+// Method Definition Index: 150312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTriggerHapticsRoutineU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8DB26C178F4CF5C73EF5712971E92E9FF46361BA (U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2766,7 +2782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTriggerHapticsRoutineU3Ed__
 		return L_0;
 	}
 }
-// Method Definition Index: 150478
+// Method Definition Index: 150313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTriggerHapticsRoutineU3Ed__14_System_Collections_IEnumerator_Reset_mC6518F99AC54CFD884B2D15F8716EAA84EA01C38 (U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2775,7 +2791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTriggerHapticsRoutineU3Ed__14_System_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CTriggerHapticsRoutineU3Ed__14_System_Collections_IEnumerator_Reset_mC6518F99AC54CFD884B2D15F8716EAA84EA01C38_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 150479
+// Method Definition Index: 150314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTriggerHapticsRoutineU3Ed__14_System_Collections_IEnumerator_get_Current_m9B2D632EDFCF9AEB488996E56464720ABA6C81ED (U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2791,7 +2807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTriggerHapticsRoutineU3Ed__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150480
+// Method Definition Index: 150315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HouseToggler_EnableHouse_m89DFFE96987C4395B3C435D7BCD6261424170B0A (HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2804,56 +2820,94 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HouseToggler_EnableHouse_m89DFFE96987C43
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:16>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:19>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___bakerHouse;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_1)
 		{
-			goto IL_003e;
+			goto IL_0070;
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:18>
-		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_2 = __this->___particles;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:21>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___bakerHouse;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:22>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_3 = __this->___particles;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_3;
-		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_3)
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
 		{
-			goto IL_0027;
+			goto IL_0033;
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:19>
-		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_4 = __this->___particles;
-		NullCheck(L_4);
-		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_4, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:23>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_5 = __this->___particles;
+		NullCheck(L_5);
+		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_5, NULL);
 	}
 
-IL_0027:
+IL_0033:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:20>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___bakerHouse;
-		NullCheck(L_5);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:21>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:24>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_6 = __this->___audio;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:25>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8 = __this->___audio;
+		NullCheck(L_8);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_8, NULL);
+	}
+
+IL_004c:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:26>
+		HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16* L_9 = __this->___haptics;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_10)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:27>
+		HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16* L_11 = __this->___haptics;
+		NullCheck(L_11);
+		HapticSource_Play_m956B4DE57D591565B2463988F345AC1DC5F90B64(L_11, NULL);
+	}
+
+IL_0065:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:28>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral47AB9F465787A8A4AFB5AFC9D0480948843DA104, NULL);
 		return;
 	}
 
-IL_003e:
+IL_0070:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:25>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:32>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral0B9BC6BA3ABD18DA5658A32344DEC5237043075C, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:27>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 150481
+// Method Definition Index: 150316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HouseToggler_ToggleHouse_mD9F56863CD90A187540E3EC7ACE7FDA8195D4385 (HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2864,7 +2918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HouseToggler_ToggleHouse_mD9F56863CD90A1
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:34>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:41>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___bakerHouse;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2875,7 +2929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HouseToggler_ToggleHouse_mD9F56863CD90A1
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:36>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:43>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_2 = __this->___particles;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -2886,7 +2940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HouseToggler_ToggleHouse_mD9F56863CD90A1
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:37>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:44>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_4 = __this->___particles;
 		NullCheck(L_4);
 		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_4, NULL);
@@ -2894,13 +2948,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HouseToggler_ToggleHouse_mD9F56863CD90A1
 
 IL_0027:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:38>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:45>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___bakerHouse;
 		NullCheck(L_5);
 		bool L_6;
 		L_6 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_5, NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:39>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:46>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___bakerHouse;
 		bool L_8 = V_0;
 		NullCheck(L_7);
@@ -2909,11 +2963,11 @@ IL_0027:
 
 IL_0042:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:41>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:48>
 		return;
 	}
 }
-// Method Definition Index: 150482
+// Method Definition Index: 150317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HouseToggler__ctor_m137F62E698A837E663757EA039B5792D9AE99E14 (HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2929,7 +2983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HouseToggler__ctor_m137F62E698A837E66375
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150483
+// Method Definition Index: 150318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapleGenerator_Update_m212AE339E1B0B443EF356FAE73BEEC851D27464F (MapleGenerator_t7779B2F137A654EB1A60C51EB6DFABAA5958E31A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3008,7 +3062,7 @@ IL_006a:
 		return;
 	}
 }
-// Method Definition Index: 150484
+// Method Definition Index: 150319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapleGenerator__ctor_mB6952A4FFC9FBA1F94924630E1A687A02E525BEE (MapleGenerator_t7779B2F137A654EB1A60C51EB6DFABAA5958E31A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3028,7 +3082,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapleGenerator__ctor_mB6952A4FFC9FBA1F94
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150485
+// Method Definition Index: 150320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleAudioTrigger_PlayAudio_mD5992B62F2DEE9363ECB9439200F74D19D9B7F38 (ParticleAudioTrigger_t76CF4050A344DE09287C6B51E55FA904B6461D60* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3061,7 +3115,7 @@ IL_0019:
 		return;
 	}
 }
-// Method Definition Index: 150486
+// Method Definition Index: 150321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleAudioTrigger_PlayParticles_m48487072AB67220595DFE54395AF09459E1ADC26 (ParticleAudioTrigger_t76CF4050A344DE09287C6B51E55FA904B6461D60* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3094,7 +3148,7 @@ IL_0019:
 		return;
 	}
 }
-// Method Definition Index: 150487
+// Method Definition Index: 150322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleAudioTrigger_PlayHaptic_m9C9C076187B518F42EF53174F4FA5C23E1C0656C (ParticleAudioTrigger_t76CF4050A344DE09287C6B51E55FA904B6461D60* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3127,7 +3181,7 @@ IL_0019:
 		return;
 	}
 }
-// Method Definition Index: 150488
+// Method Definition Index: 150323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleAudioTrigger__ctor_mD1C22BA786CDEA02F172082C8B2CAE155FCE747D (ParticleAudioTrigger_t76CF4050A344DE09287C6B51E55FA904B6461D60* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3143,7 +3197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleAudioTrigger__ctor_mD1C22BA786CD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150489
+// Method Definition Index: 150324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_Awake_m7A881012F7FB77026FD81E63F39F48BBF1131C89 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3154,7 +3208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_Awake_m7A881012F7FB77026
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:40>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:42>
 		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_0 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3165,7 +3219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_Awake_m7A881012F7FB77026
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:40>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:42>
 		((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance), (void*)__this);
 		return;
@@ -3173,16 +3227,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_Awake_m7A881012F7FB77026
 
 IL_0014:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:41>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:43>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:42>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:44>
 		return;
 	}
 }
-// Method Definition Index: 150490
+// Method Definition Index: 150325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_Start_mDC8053F06C65AEF06644C0C862865B1BB6C1E75E (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3192,9 +3246,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_Start_mDC8053F06C65AEF06
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:46>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:48>
 		ResourceManager_UpdateUI_mCE2F6391E147B280050A75025FA5887A644D5397(__this, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:47>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:49>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___achievementPopup;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3205,7 +3259,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_Start_mDC8053F06C65AEF06
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:47>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:49>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___achievementPopup;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
@@ -3213,86 +3267,94 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_Start_mDC8053F06C65AEF06
 
 IL_0020:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:48>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:50>
 		return;
 	}
 }
-// Method Definition Index: 150491
+// Method Definition Index: 150326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_AddOak_mBC72CA44802886276AA34147611749E57089FE98 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, int32_t ___0_amount, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:52>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:54>
 		int32_t L_0 = __this->___oakCount;
 		int32_t L_1 = ___0_amount;
 		__this->___oakCount = ((int32_t)il2cpp_codegen_add(L_0, L_1));
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:53>
-		ResourceManager_UpdateUI_mCE2F6391E147B280050A75025FA5887A644D5397(__this, NULL);
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:55>
+		ResourceManager_UpdateUI_mCE2F6391E147B280050A75025FA5887A644D5397(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:57>
 		bool L_2 = __this->___t1Unlocked;
 		if (L_2)
 		{
-			goto IL_0048;
+			goto IL_0053;
 		}
 	}
 	{
 		int32_t L_3 = __this->___oakCount;
 		if ((((int32_t)L_3) < ((int32_t)((int32_t)500))))
 		{
-			goto IL_0048;
+			goto IL_0053;
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:57>
-		__this->___t1Unlocked = (bool)1;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:58>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___trophy1_Woodcutter;
-		NullCheck(L_4);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:59>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___cup1Canvas;
+		__this->___t1Unlocked = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:60>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = __this->___achievementAudio;
+		NullCheck(L_4);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_4, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:61>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___trophy1_Woodcutter;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:62>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___cup1Canvas;
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
 	}
 
-IL_0048:
+IL_0053:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:64>
-		bool L_6 = __this->___mapleUnlocked;
-		if (L_6)
-		{
-			goto IL_0083;
-		}
-	}
-	{
-		int32_t L_7 = __this->___oakCount;
-		int32_t L_8 = __this->___oakGoal;
-		if ((((int32_t)L_7) < ((int32_t)L_8)))
-		{
-			goto IL_0083;
-		}
-	}
-	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:66>
-		__this->___t2Unlocked = (bool)1;
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:67>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___trophy2_Explorer;
-		NullCheck(L_9);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:68>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___cup2Canvas;
-		NullCheck(L_10);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)1, NULL);
+		bool L_7 = __this->___mapleUnlocked;
+		if (L_7)
+		{
+			goto IL_0099;
+		}
+	}
+	{
+		int32_t L_8 = __this->___oakCount;
+		int32_t L_9 = __this->___oakGoal;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0099;
+		}
+	}
+	{
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:69>
+		__this->___t2Unlocked = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:70>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10 = __this->___achievementAudio;
+		NullCheck(L_10);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_10, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:71>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___trophy2_Explorer;
+		NullCheck(L_11);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:72>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___cup2Canvas;
+		NullCheck(L_12);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:73>
 		ResourceManager_UnlockMapleArea_m0D7D06003137E4049541F1C5FBA2A6FD28D9AF01(__this, NULL);
 	}
 
-IL_0083:
+IL_0099:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:71>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:75>
 		return;
 	}
 }
-// Method Definition Index: 150492
+// Method Definition Index: 150327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_UnlockMapleArea_m0D7D06003137E4049541F1C5FBA2A6FD28D9AF01 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3302,9 +3364,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_UnlockMapleArea_m0D7D060
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:75>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:79>
 		__this->___mapleUnlocked = (bool)1;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:78>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:82>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___mapleBlockerPlane;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3315,7 +3377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_UnlockMapleArea_m0D7D060
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:79>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:83>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___mapleBlockerPlane;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
@@ -3323,7 +3385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_UnlockMapleArea_m0D7D060
 
 IL_0021:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:82>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:86>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___achievementPopup;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -3334,7 +3396,7 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:83>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:87>
 		RuntimeObject* L_5;
 		L_5 = ResourceManager_ShowAchievement_mD87CD2164E374954F06E571091733F44F59B0C7C(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
@@ -3343,73 +3405,77 @@ IL_0021:
 
 IL_003c:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:84>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 150493
+// Method Definition Index: 150328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResourceManager_ShowAchievement_mD87CD2164E374954F06E571091733F44F59B0C7C (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC* L_0 = (U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC*)il2cpp_codegen_object_new(U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC_il2cpp_TypeInfo_var);
-		U3CShowAchievementU3Ed__23__ctor_m8745D6A04C2A4C5C42F96EE2514483CCC3E5FD92(L_0, 0, NULL);
-		U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC* L_1 = L_0;
+		U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* L_0 = (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6*)il2cpp_codegen_object_new(U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6_il2cpp_TypeInfo_var);
+		U3CShowAchievementU3Ed__24__ctor_mD90BB372EA43CE6D2BA4A63105962B00C8EA7775(L_0, 0, NULL);
+		U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
 		return L_1;
 	}
 }
-// Method Definition Index: 150494
+// Method Definition Index: 150329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_AddMaple_m2B1A8D11A36247EF6D4BF4A13E36611B3D05F549 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, int32_t ___0_amount, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:95>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:99>
 		int32_t L_0 = __this->___mapleCount;
 		int32_t L_1 = ___0_amount;
 		__this->___mapleCount = ((int32_t)il2cpp_codegen_add(L_0, L_1));
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:96>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:100>
 		ResourceManager_UpdateUI_mCE2F6391E147B280050A75025FA5887A644D5397(__this, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:98>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:102>
 		bool L_2 = __this->___t3Unlocked;
 		if (L_2)
 		{
-			goto IL_0048;
+			goto IL_0053;
 		}
 	}
 	{
 		int32_t L_3 = __this->___mapleCount;
 		if ((((int32_t)L_3) < ((int32_t)((int32_t)5000))))
 		{
-			goto IL_0048;
+			goto IL_0053;
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:100>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:104>
 		__this->___t3Unlocked = (bool)1;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:101>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___cup3Canvas;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:105>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = __this->___achievementAudio;
 		NullCheck(L_4);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:102>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___trophy3_Tycoon;
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_4, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:106>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___cup3Canvas;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:107>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___trophy3_Tycoon;
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
 	}
 
-IL_0048:
+IL_0053:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:104>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:109>
 		return;
 	}
 }
-// Method Definition Index: 150495
+// Method Definition Index: 150330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_UpdateUI_mCE2F6391E147B280050A75025FA5887A644D5397 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3421,7 +3487,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_UpdateUI_mCE2F6391E147B2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:108>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:113>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___oakText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3432,7 +3498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_UpdateUI_mCE2F6391E147B2
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:108>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:113>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___oakText;
 		int32_t L_3 = __this->___oakCount;
 		int32_t L_4 = L_3;
@@ -3445,7 +3511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_UpdateUI_mCE2F6391E147B2
 
 IL_002e:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:109>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:114>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_7 = __this->___mapleText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -3456,7 +3522,7 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:109>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:114>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = __this->___mapleText;
 		int32_t L_10 = __this->___mapleCount;
 		int32_t L_11 = L_10;
@@ -3469,11 +3535,11 @@ IL_002e:
 
 IL_005c:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:110>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:115>
 		return;
 	}
 }
-// Method Definition Index: 150496
+// Method Definition Index: 150331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager__ctor_m0895A816FF3A70D6BD14077742487BAEF05CC9A3 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3493,8 +3559,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager__ctor_m0895A816FF3A70D6B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150497
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowAchievementU3Ed__23__ctor_m8745D6A04C2A4C5C42F96EE2514483CCC3E5FD92 (U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 150332
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowAchievementU3Ed__24__ctor_mD90BB372EA43CE6D2BA4A63105962B00C8EA7775 (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -3503,15 +3569,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowAchievementU3Ed__23__ctor_m8745D6
 		return;
 	}
 }
-// Method Definition Index: 150498
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowAchievementU3Ed__23_System_IDisposable_Dispose_mA8969F6B389B47FCC2DC863B604F9FC4CC4C605E (U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150333
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowAchievementU3Ed__24_System_IDisposable_Dispose_mC49AD0383556A30DC5A7DB115BEB10E57D5CEA02 (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 150499
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowAchievementU3Ed__23_MoveNext_m23C4C89F6A27FE86BBB33A025A47F3C6DF2E72CF (U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150334
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowAchievementU3Ed__24_MoveNext_m3056952A906086ECC60A13CBE74E49840B7FF316 (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3546,13 +3612,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowAchievementU3Ed__23_MoveNext_m23C
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:88>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:92>
 		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_4 = V_1;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___achievementPopup;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:89>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:93>
 		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_6 = V_1;
 		NullCheck(L_6);
 		float L_7 = L_6->___popupDuration;
@@ -3567,35 +3633,35 @@ IL_0017:
 IL_0044:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:90>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:94>
 		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_9 = V_1;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = L_9->___achievementPopup;
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:91>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:95>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 150500
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowAchievementU3Ed__23_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE4B0F35A7E7EA51384AC9F2EEF27D32F9B0D5E82 (U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150335
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowAchievementU3Ed__24_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2E00BA13DC12BE12FE076636140F7C85072E71C3 (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 150501
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowAchievementU3Ed__23_System_Collections_IEnumerator_Reset_m30B98B89BE182FF54F2D359E684C502ADFB82D5D (U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150336
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowAchievementU3Ed__24_System_Collections_IEnumerator_Reset_m8A4C92B4519F3CB8A14B14064996FD65AA1E862C (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CShowAchievementU3Ed__23_System_Collections_IEnumerator_Reset_m30B98B89BE182FF54F2D359E684C502ADFB82D5D_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CShowAchievementU3Ed__24_System_Collections_IEnumerator_Reset_m8A4C92B4519F3CB8A14B14064996FD65AA1E862C_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 150502
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowAchievementU3Ed__23_System_Collections_IEnumerator_get_Current_m50584839D35C74567A6AF4C61CA223F67BCB1A4A (U3CShowAchievementU3Ed__23_t1B85169D235F41EFB7DC1D888545A002460F61DC* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150337
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowAchievementU3Ed__24_System_Collections_IEnumerator_get_Current_m3FC3AC8D693E43FA5AE5F823DDCFB0BE51B799A8 (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -3610,7 +3676,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowAchievementU3Ed__23_Sys
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150503
+// Method Definition Index: 150338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_Start_m04DA88EF1666FA4EE2EF0D7D03C12E595E937484 (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3622,12 +3688,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_Start_m04DA88EF1666FA4EE2EF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:30>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:31>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0;
 		L_0 = Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14(__this, Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14_RuntimeMethod_var);
 		__this->___treeCollider = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___treeCollider), (void*)L_0);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:31>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:32>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->___treeAnimator;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -3638,7 +3704,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_Start_m04DA88EF1666FA4EE2EF
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:31>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:32>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_3;
 		L_3 = Component_GetComponentInChildren_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_mDB9FC26B94B8EE9CF1F88BFEC75DF06CC2E3A000(__this, Component_GetComponentInChildren_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_mDB9FC26B94B8EE9CF1F88BFEC75DF06CC2E3A000_RuntimeMethod_var);
 		__this->___treeAnimator = L_3;
@@ -3647,13 +3713,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_Start_m04DA88EF1666FA4EE2EF
 
 IL_0026:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:32>
-		ResourceTree_ResetTree_mF4A1B8952EA0FDC3C9979B48C9B93152823EA2D6(__this, NULL);
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:33>
+		ResourceTree_ResetTree_mF4A1B8952EA0FDC3C9979B48C9B93152823EA2D6(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 150504
+// Method Definition Index: 150339
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_GetHit_mCC7A1D2D84448BF6CEA0D9477AA7B200EB83B4DB (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3664,7 +3730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_GetHit_mCC7A1D2D84448BF6CEA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:37>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:38>
 		bool L_0 = __this->___isAvailable;
 		if (!L_0)
 		{
@@ -3681,16 +3747,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_GetHit_mCC7A1D2D84448BF6CEA
 
 IL_0010:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:37>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:38>
 		return;
 	}
 
 IL_0011:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:39>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:40>
 		int32_t L_2 = __this->___hitsRemaining;
 		__this->___hitsRemaining = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:41>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:42>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_3 = __this->___treeAnimator;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -3701,7 +3767,7 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:42>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:43>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = __this->___treeAnimator;
 		NullCheck(L_5);
 		Animator_Play_m5565F093F0752D4DD9B451686F71C7A8F23F6744(L_5, _stringLiteral8269795F36935937B45BA7A25799A3FF073075A6, 0, (0.0f), NULL);
@@ -3709,7 +3775,7 @@ IL_0011:
 
 IL_0043:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:44>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:45>
 		int32_t L_6 = __this->___hitsRemaining;
 		if ((((int32_t)L_6) > ((int32_t)0)))
 		{
@@ -3717,7 +3783,7 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:45>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:46>
 		RuntimeObject* L_7;
 		L_7 = ResourceTree_HandleHarvest_m0C1C942AEF99D4430822E3FB2CA9BFF086A11292(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_8;
@@ -3727,54 +3793,54 @@ IL_0043:
 
 IL_005a:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:47>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:48>
 		RuntimeObject* L_9;
 		L_9 = ResourceTree_CooldownTimer_mF58A75A72EBA2F489B6860995423DDC59065582A(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
 		L_10 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_9, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:48>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:49>
 		return;
 	}
 }
-// Method Definition Index: 150505
+// Method Definition Index: 150340
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResourceTree_CooldownTimer_mF58A75A72EBA2F489B6860995423DDC59065582A (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4* L_0 = (U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4*)il2cpp_codegen_object_new(U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4_il2cpp_TypeInfo_var);
-		U3CCooldownTimerU3Ed__16__ctor_m59B928D092E2EEADEADB5408CF20D22A378F515E(L_0, 0, NULL);
-		U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4* L_1 = L_0;
+		U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* L_0 = (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF*)il2cpp_codegen_object_new(U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF_il2cpp_TypeInfo_var);
+		U3CCooldownTimerU3Ed__17__ctor_mA7752BEB44727FE9EEA7B460001BBF03A2EF4923(L_0, 0, NULL);
+		U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
 		return L_1;
 	}
 }
-// Method Definition Index: 150506
+// Method Definition Index: 150341
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResourceTree_HandleHarvest_m0C1C942AEF99D4430822E3FB2CA9BFF086A11292 (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923* L_0 = (U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923*)il2cpp_codegen_object_new(U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923_il2cpp_TypeInfo_var);
-		U3CHandleHarvestU3Ed__17__ctor_m50576CCE8D3207417230A3709C2461AA8E7B0123(L_0, 0, NULL);
-		U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923* L_1 = L_0;
+		U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* L_0 = (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5*)il2cpp_codegen_object_new(U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5_il2cpp_TypeInfo_var);
+		U3CHandleHarvestU3Ed__18__ctor_m88B1831DAA86DC831D8690E391DFFCBC8C2F26C2(L_0, 0, NULL);
+		U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
 		return L_1;
 	}
 }
-// Method Definition Index: 150507
+// Method Definition Index: 150342
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_ResetTree_mF4A1B8952EA0FDC3C9979B48C9B93152823EA2D6 (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3784,46 +3850,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_ResetTree_mF4A1B8952EA0FDC3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:88>
-		int32_t L_0;
-		L_0 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(3, 6, NULL);
-		__this->___hitsRemaining = L_0;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:89>
-		__this->___isAvailable = (bool)1;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:90>
-		__this->___canBeHit = (bool)1;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:91>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___fullTreeModel;
-		NullCheck(L_1);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:92>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___cutStumpModel;
-		NullCheck(L_2);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___fullTreeModel;
+		NullCheck(L_0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_0, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = __this->___originalRotation;
+		NullCheck(L_1);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_1, L_2, NULL);
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:93>
-		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_3 = __this->___treeCollider;
+		int32_t L_3;
+		L_3 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(3, 6, NULL);
+		__this->___hitsRemaining = L_3;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:94>
+		__this->___isAvailable = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:95>
+		__this->___canBeHit = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:96>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___fullTreeModel;
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:97>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___cutStumpModel;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:98>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_6 = __this->___treeCollider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_4;
-		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_4)
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
 		{
-			goto IL_004d;
+			goto IL_0063;
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:93>
-		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_5 = __this->___treeCollider;
-		NullCheck(L_5);
-		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_5, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:98>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_8 = __this->___treeCollider;
+		NullCheck(L_8);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_8, (bool)1, NULL);
 	}
 
-IL_004d:
+IL_0063:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:94>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:99>
 		return;
 	}
 }
-// Method Definition Index: 150508
+// Method Definition Index: 150343
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree__ctor_mC512FCA39CC17EA31ECA4C83E53FFCFDB23F5AFF (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3833,9 +3907,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree__ctor_mC512FCA39CC17EA31ECA
 		__this->___respawnTime = (10.0f);
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:12>
 		__this->___hitCooldown = (0.5f);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:24>
-		__this->___isAvailable = (bool)1;
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:25>
+		__this->___isAvailable = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:26>
 		__this->___canBeHit = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -3857,8 +3931,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree__ctor_mC512FCA39CC17EA31ECA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150509
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCooldownTimerU3Ed__16__ctor_m59B928D092E2EEADEADB5408CF20D22A378F515E (U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 150344
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCooldownTimerU3Ed__17__ctor_mA7752BEB44727FE9EEA7B460001BBF03A2EF4923 (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -3867,15 +3941,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCooldownTimerU3Ed__16__ctor_m59B928D0
 		return;
 	}
 }
-// Method Definition Index: 150510
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCooldownTimerU3Ed__16_System_IDisposable_Dispose_m7CC2BEF5FE6154E540DE53D9AEC0385D991D9FBF (U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150345
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCooldownTimerU3Ed__17_System_IDisposable_Dispose_mF371208AFEB922FFE035C2544AD2315608C7B3D5 (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 150511
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCooldownTimerU3Ed__16_MoveNext_mC938F5C006AC49771FE18CB60AD462035DC3CA96 (U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150346
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCooldownTimerU3Ed__17_MoveNext_mED7E11F4EC5EDCE39C6A497761457385465C1E68 (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3910,11 +3984,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCooldownTimerU3Ed__16_MoveNext_mC938F
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:52>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:53>
 		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_4 = V_1;
 		NullCheck(L_4);
 		L_4->___canBeHit = (bool)0;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:53>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:54>
 		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_5 = V_1;
 		NullCheck(L_5);
 		float L_6 = L_5->___hitCooldown;
@@ -3929,33 +4003,33 @@ IL_0017:
 IL_003f:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:54>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:55>
 		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_8 = V_1;
 		NullCheck(L_8);
 		L_8->___canBeHit = (bool)1;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:55>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:56>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 150512
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCooldownTimerU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m74D287CB2799A34C4B4AAF88C5044141EA7A1D2F (U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150347
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCooldownTimerU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEE425685E2A573CA6ACBCB89977F455110BC90A4 (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 150513
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCooldownTimerU3Ed__16_System_Collections_IEnumerator_Reset_m2E578314F8335AA410C80318C3B1840AA24D3B3B (U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150348
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCooldownTimerU3Ed__17_System_Collections_IEnumerator_Reset_mD21369B14A09B6658F017F32BD1053F20EEDF632 (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCooldownTimerU3Ed__16_System_Collections_IEnumerator_Reset_m2E578314F8335AA410C80318C3B1840AA24D3B3B_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCooldownTimerU3Ed__17_System_Collections_IEnumerator_Reset_mD21369B14A09B6658F017F32BD1053F20EEDF632_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 150514
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCooldownTimerU3Ed__16_System_Collections_IEnumerator_get_Current_mE3052C4AC7CC049ED901925F9A32EB8353D0A87F (U3CCooldownTimerU3Ed__16_t878160B2AF6DF462491D83BD5CF437784C85C3C4* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150349
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCooldownTimerU3Ed__17_System_Collections_IEnumerator_get_Current_mACFDD729D2F4D7AEA894C708CA654D4A2244FD91 (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -3970,8 +4044,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCooldownTimerU3Ed__16_Syste
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150515
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleHarvestU3Ed__17__ctor_m50576CCE8D3207417230A3709C2461AA8E7B0123 (U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 150350
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleHarvestU3Ed__18__ctor_m88B1831DAA86DC831D8690E391DFFCBC8C2F26C2 (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -3980,15 +4054,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleHarvestU3Ed__17__ctor_m50576CCE
 		return;
 	}
 }
-// Method Definition Index: 150516
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleHarvestU3Ed__17_System_IDisposable_Dispose_mC1C46F51BBFF065DF55BFB586A9C23A010F84C78 (U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150351
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleHarvestU3Ed__18_System_IDisposable_Dispose_m9BF5B33CCF7A5BC1C2FF9177B96D5A2B484D138F (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 150517
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CHandleHarvestU3Ed__17_MoveNext_m1EA1CC04A8F3A318F801C740617B3526848D9D53 (U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150352
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CHandleHarvestU3Ed__18_MoveNext_m8BA385B1209E736D9745A64C0093287F4EE8D53D (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3996,6 +4070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CHandleHarvestU3Ed__17_MoveNext_m1EA1C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral49FDD8CA6955B620A2DC8499142C1D7D1CEFC1EB);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -4006,206 +4081,245 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CHandleHarvestU3Ed__17_MoveNext_m1EA1C
 		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_1 = __this->___U3CU3E4__this;
 		V_1 = L_1;
 		int32_t L_2 = V_0;
-		if (!L_2)
+		switch (L_2)
 		{
-			goto IL_001a;
-		}
-	}
-	{
-		int32_t L_3 = V_0;
-		if ((((int32_t)L_3) == ((int32_t)1)))
-		{
-			goto IL_00e6;
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_00a7;
+			}
+			case 2:
+			{
+				goto IL_012c;
+			}
 		}
 	}
 	{
 		return (bool)0;
 	}
 
-IL_001a:
+IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:59>
-		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_4 = V_1;
-		NullCheck(L_4);
-		L_4->___isAvailable = (bool)0;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:62>
-		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_5 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:60>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_3 = V_1;
+		NullCheck(L_3);
+		L_3->___isAvailable = (bool)0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:63>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_4 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_6;
-		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_6)
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
 		{
-			goto IL_0068;
-		}
-	}
-	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:64>
-		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_7 = V_1;
-		NullCheck(L_7);
-		int32_t L_8 = L_7->___typeOfTree;
-		if (L_8)
-		{
-			goto IL_004f;
+			goto IL_0070;
 		}
 	}
 	{
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:65>
-		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_9 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
-		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_10 = V_1;
-		NullCheck(L_10);
-		int32_t L_11 = L_10->___yieldAmount;
-		NullCheck(L_9);
-		ResourceManager_AddOak_mBC72CA44802886276AA34147611749E57089FE98(L_9, L_11, NULL);
-		goto IL_0068;
-	}
-
-IL_004f:
-	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:66>
-		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_12 = V_1;
-		NullCheck(L_12);
-		int32_t L_13 = L_12->___typeOfTree;
-		if ((!(((uint32_t)L_13) == ((uint32_t)1))))
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_6 = V_1;
+		NullCheck(L_6);
+		int32_t L_7 = L_6->___typeOfTree;
+		if (L_7)
 		{
-			goto IL_0068;
+			goto IL_0057;
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:67>
-		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_14 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
-		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_15 = V_1;
-		NullCheck(L_15);
-		int32_t L_16 = L_15->___yieldAmount;
-		NullCheck(L_14);
-		ResourceManager_AddMaple_m2B1A8D11A36247EF6D4BF4A13E36611B3D05F549(L_14, L_16, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:66>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_8 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_9 = V_1;
+		NullCheck(L_9);
+		int32_t L_10 = L_9->___yieldAmount;
+		NullCheck(L_8);
+		ResourceManager_AddOak_mBC72CA44802886276AA34147611749E57089FE98(L_8, L_10, NULL);
+		goto IL_0070;
 	}
 
-IL_0068:
+IL_0057:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:67>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_11 = V_1;
+		NullCheck(L_11);
+		int32_t L_12 = L_11->___typeOfTree;
+		if ((!(((uint32_t)L_12) == ((uint32_t)1))))
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:68>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_13 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_14 = V_1;
+		NullCheck(L_14);
+		int32_t L_15 = L_14->___yieldAmount;
+		NullCheck(L_13);
+		ResourceManager_AddMaple_m2B1A8D11A36247EF6D4BF4A13E36611B3D05F549(L_13, L_15, NULL);
+	}
+
+IL_0070:
 	{
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:70>
-		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_17 = V_1;
-		NullCheck(L_17);
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_18 = L_17->___FallAudio;
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_16 = V_1;
+		NullCheck(L_16);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_17 = L_16->___treeAnimator;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_19;
-		L_19 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_18, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_19)
+		bool L_18;
+		L_18 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_17, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_18)
 		{
-			goto IL_0081;
+			goto IL_00ae;
 		}
 	}
 	{
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:71>
-		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_20 = V_1;
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_19 = V_1;
+		NullCheck(L_19);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_20 = L_19->___treeAnimator;
 		NullCheck(L_20);
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_21 = L_20->___FallAudio;
-		NullCheck(L_21);
-		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_21, NULL);
+		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_20, _stringLiteral49FDD8CA6955B620A2DC8499142C1D7D1CEFC1EB, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:72>
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_21 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_21, (1.10000002f), NULL);
+		__this->___U3CU3E2__current = L_21;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_21);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
 	}
 
-IL_0081:
+IL_00a7:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_00ae:
 	{
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:74>
 		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_22 = V_1;
 		NullCheck(L_22);
-		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_23 = L_22->___particles;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_23 = L_22->___FallAudio;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_24;
 		L_24 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_23, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_24)
 		{
-			goto IL_009a;
+			goto IL_00c7;
 		}
 	}
 	{
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:75>
 		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_25 = V_1;
 		NullCheck(L_25);
-		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_26 = L_25->___particles;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_26 = L_25->___FallAudio;
 		NullCheck(L_26);
-		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_26, NULL);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_26, NULL);
 	}
 
-IL_009a:
+IL_00c7:
 	{
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:78>
 		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_27 = V_1;
 		NullCheck(L_27);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = L_27->___fullTreeModel;
-		NullCheck(L_28);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_28, (bool)0, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:79>
-		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_29 = V_1;
-		NullCheck(L_29);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = L_29->___cutStumpModel;
-		NullCheck(L_30);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_30, (bool)1, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:80>
-		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_31 = V_1;
-		NullCheck(L_31);
-		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_32 = L_31->___treeCollider;
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_28 = L_27->___particles;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_33;
-		L_33 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_32, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_33)
+		bool L_29;
+		L_29 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_28, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_29)
 		{
-			goto IL_00cc;
+			goto IL_00e0;
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:80>
-		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_34 = V_1;
-		NullCheck(L_34);
-		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_35 = L_34->___treeCollider;
-		NullCheck(L_35);
-		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_35, (bool)0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:79>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_30 = V_1;
+		NullCheck(L_30);
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_31 = L_30->___particles;
+		NullCheck(L_31);
+		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_31, NULL);
 	}
 
-IL_00cc:
+IL_00e0:
 	{
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:82>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_32 = V_1;
+		NullCheck(L_32);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = L_32->___fullTreeModel;
+		NullCheck(L_33);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_33, (bool)0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:83>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_34 = V_1;
+		NullCheck(L_34);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = L_34->___cutStumpModel;
+		NullCheck(L_35);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_35, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:84>
 		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_36 = V_1;
 		NullCheck(L_36);
-		float L_37 = L_36->___respawnTime;
-		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_38 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_38, L_37, NULL);
-		__this->___U3CU3E2__current = L_38;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_38);
-		__this->___U3CU3E1__state = 1;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_37 = L_36->___treeCollider;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_38;
+		L_38 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_37, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_38)
+		{
+			goto IL_0112;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:84>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_39 = V_1;
+		NullCheck(L_39);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_40 = L_39->___treeCollider;
+		NullCheck(L_40);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_40, (bool)0, NULL);
+	}
+
+IL_0112:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:86>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_41 = V_1;
+		NullCheck(L_41);
+		float L_42 = L_41->___respawnTime;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_43 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_43, L_42, NULL);
+		__this->___U3CU3E2__current = L_43;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_43);
+		__this->___U3CU3E1__state = 2;
 		return (bool)1;
 	}
 
-IL_00e6:
+IL_012c:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:83>
-		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_39 = V_1;
-		NullCheck(L_39);
-		ResourceTree_ResetTree_mF4A1B8952EA0FDC3C9979B48C9B93152823EA2D6(L_39, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:84>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:87>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_44 = V_1;
+		NullCheck(L_44);
+		ResourceTree_ResetTree_mF4A1B8952EA0FDC3C9979B48C9B93152823EA2D6(L_44, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:88>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 150518
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHandleHarvestU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2B3D08E9893B521332A78E5CBE57BB0AD19D4351 (U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150353
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHandleHarvestU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m885E5481548BACA4F6AAEC62BBA6F368C82149F2 (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 150519
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleHarvestU3Ed__17_System_Collections_IEnumerator_Reset_m53DC41C7AA9DFF01110EDDF41E1E799BF2C467AF (U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150354
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleHarvestU3Ed__18_System_Collections_IEnumerator_Reset_m84A29AFFB8FD14DD8F6F3C5FF0205552529EC829 (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CHandleHarvestU3Ed__17_System_Collections_IEnumerator_Reset_m53DC41C7AA9DFF01110EDDF41E1E799BF2C467AF_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CHandleHarvestU3Ed__18_System_Collections_IEnumerator_Reset_m84A29AFFB8FD14DD8F6F3C5FF0205552529EC829_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 150520
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHandleHarvestU3Ed__17_System_Collections_IEnumerator_get_Current_mFBF0388DB188C2E9E11F8E92C379AC96B3A13A37 (U3CHandleHarvestU3Ed__17_tA55486076773A64875BE306869D86352E9B79923* __this, const RuntimeMethod* method) 
+// Method Definition Index: 150355
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHandleHarvestU3Ed__18_System_Collections_IEnumerator_get_Current_mF0C2102925F9940388F9882ADAE94A31FC08A0BB (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -4220,7 +4334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHandleHarvestU3Ed__17_Syste
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150521
+// Method Definition Index: 150356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrophyJuice_Update_m98EA9B9C18E9524719782B160ED38A963D095C61 (TrophyJuice_t14C1B76A2B9D3FA9886CAD33FC5791B7316C08D5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4238,7 +4352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrophyJuice_Update_m98EA9B9C18E952471978
 		return;
 	}
 }
-// Method Definition Index: 150522
+// Method Definition Index: 150357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrophyJuice__ctor_m161C02BEDDA214099001F16C5E87B14EB165ED7F (TrophyJuice_t14C1B76A2B9D3FA9886CAD33FC5791B7316C08D5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4256,7 +4370,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrophyJuice__ctor_m161C02BEDDA214099001F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150523
+// Method Definition Index: 150358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrailGroup__ctor_m6C686BEA8F4AC23190495838F57582590FB3A75A (TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4272,7 +4386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrailGroup__ctor_m6C686BEA8F4AC231904958
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150524
+// Method Definition Index: 150359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_Awake_m06E4FF8381CC6AD40FAEC2AF297910C672064A9B (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4283,7 +4397,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_Awake_m06E4FF8381CC6AD40FA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:48>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:52>
 		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_0 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4294,7 +4408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_Awake_m06E4FF8381CC6AD40FA
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:48>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:52>
 		((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance), (void*)__this);
 		return;
@@ -4302,34 +4416,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_Awake_m06E4FF8381CC6AD40FA
 
 IL_0014:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:49>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:53>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:50>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 150525
+// Method Definition Index: 150360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_Start_m9AFD9D05FBE895420E3F47BC399DA71CC1D02B9B (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:54>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:58>
 		TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577(__this, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:56>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:60>
 		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_0 = __this->___oakGeneratorTrailGroups;
 		float L_1 = __this->___oakProductionMultiplier;
 		TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205(__this, L_0, L_1, (bool)0, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:57>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:61>
 		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_2 = __this->___mapleGeneratorTrailGroups;
 		float L_3 = __this->___mapleProductionMultiplier;
 		TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205(__this, L_2, L_3, (bool)0, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:58>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:62>
 		return;
 	}
 }
-// Method Definition Index: 150526
+// Method Definition Index: 150361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_BuyOakGenerator_mDFAE8D4AF8F3D8FE7CD8E52C09E50D67EF62C573 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4340,13 +4454,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_BuyOakGenerator_mDFAE8D4AF
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:64>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:68>
 		int32_t L_0 = __this->___oakGenBaseCost;
 		int32_t L_1 = __this->___oakGenCount;
 		int32_t L_2;
 		L_2 = TycoonManager_GetExponentialCost_m844EBA14BF3E7FB48DFB6AFE15858A4C3F414A19(__this, L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:65>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:69>
 		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_3 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_3);
 		int32_t L_4 = L_3->___oakCount;
@@ -4364,12 +4478,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_BuyOakGenerator_mDFAE8D4AF
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:67>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:71>
 		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_7 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
 		int32_t L_8 = V_0;
 		NullCheck(L_7);
 		ResourceManager_AddOak_mBC72CA44802886276AA34147611749E57089FE98(L_7, ((-L_8)), NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:68>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:72>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_9 = __this->___oakGenModels;
 		int32_t L_10 = __this->___oakGenCount;
 		NullCheck(L_9);
@@ -4377,24 +4491,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_BuyOakGenerator_mDFAE8D4AF
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:69>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:73>
 		int32_t L_13 = __this->___oakGenCount;
 		__this->___oakGenCount = ((int32_t)il2cpp_codegen_add(L_13, 1));
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:72>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:76>
 		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_14 = __this->___oakGeneratorTrailGroups;
 		float L_15 = __this->___oakProductionMultiplier;
 		TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205(__this, L_14, L_15, (bool)0, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:73>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:77>
 		TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577(__this, NULL);
 	}
 
 IL_006f:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:75>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:79>
 		return;
 	}
 }
-// Method Definition Index: 150527
+// Method Definition Index: 150362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpgradeOakMultiplier_m39EC94BEF2F8FF02E7EA594566165CD95CA4F9B3 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4405,13 +4519,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpgradeOakMultiplier_m39EC
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:79>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:83>
 		float L_0 = __this->___oakProductionMultiplier;
 		int32_t L_1;
 		L_1 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(L_0, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:80>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:84>
 		V_0 = ((int32_t)il2cpp_codegen_multiply(L_1, ((int32_t)100)));
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:82>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:86>
 		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_2 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___oakCount;
@@ -4429,29 +4543,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpgradeOakMultiplier_m39EC
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:84>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:88>
 		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_6 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
 		int32_t L_7 = V_0;
 		NullCheck(L_6);
 		ResourceManager_AddOak_mBC72CA44802886276AA34147611749E57089FE98(L_6, ((-L_7)), NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:85>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:89>
 		float L_8 = __this->___oakProductionMultiplier;
 		__this->___oakProductionMultiplier = ((float)il2cpp_codegen_add(L_8, (1.0f)));
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:88>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:92>
 		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_9 = __this->___oakGeneratorTrailGroups;
 		float L_10 = __this->___oakProductionMultiplier;
 		TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205(__this, L_9, L_10, (bool)1, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:89>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:93>
 		TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577(__this, NULL);
 	}
 
 IL_0060:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:91>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:95>
 		return;
 	}
 }
-// Method Definition Index: 150528
+// Method Definition Index: 150363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_BuyMapleGenerator_m65DC72FF0DB9EE0C18A05B3777075102CD8989B0 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4462,13 +4576,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_BuyMapleGenerator_m65DC72F
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:97>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:101>
 		int32_t L_0 = __this->___mapleGenBaseCost;
 		int32_t L_1 = __this->___mapleGenCount;
 		int32_t L_2;
 		L_2 = TycoonManager_GetExponentialCost_m844EBA14BF3E7FB48DFB6AFE15858A4C3F414A19(__this, L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:98>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:102>
 		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_3 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_3);
 		int32_t L_4 = L_3->___mapleCount;
@@ -4486,12 +4600,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_BuyMapleGenerator_m65DC72F
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:100>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:104>
 		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_7 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
 		int32_t L_8 = V_0;
 		NullCheck(L_7);
 		ResourceManager_AddMaple_m2B1A8D11A36247EF6D4BF4A13E36611B3D05F549(L_7, ((-L_8)), NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:101>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:105>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_9 = __this->___mapleGenModels;
 		int32_t L_10 = __this->___mapleGenCount;
 		NullCheck(L_9);
@@ -4499,24 +4613,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_BuyMapleGenerator_m65DC72F
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:102>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:106>
 		int32_t L_13 = __this->___mapleGenCount;
 		__this->___mapleGenCount = ((int32_t)il2cpp_codegen_add(L_13, 1));
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:104>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:108>
 		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_14 = __this->___mapleGeneratorTrailGroups;
 		float L_15 = __this->___mapleProductionMultiplier;
 		TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205(__this, L_14, L_15, (bool)0, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:105>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:109>
 		TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577(__this, NULL);
 	}
 
 IL_006f:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:107>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:111>
 		return;
 	}
 }
-// Method Definition Index: 150529
+// Method Definition Index: 150364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpgradeMapleMultiplier_m52012D735D6966CC5E2168351E3E6E726528A5A6 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4527,13 +4641,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpgradeMapleMultiplier_m52
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:111>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:115>
 		float L_0 = __this->___mapleProductionMultiplier;
 		int32_t L_1;
 		L_1 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(L_0, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:112>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:116>
 		V_0 = ((int32_t)il2cpp_codegen_multiply(L_1, ((int32_t)100)));
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:114>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:118>
 		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_2 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___mapleCount;
@@ -4551,29 +4665,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpgradeMapleMultiplier_m52
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:116>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:120>
 		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_6 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
 		int32_t L_7 = V_0;
 		NullCheck(L_6);
 		ResourceManager_AddMaple_m2B1A8D11A36247EF6D4BF4A13E36611B3D05F549(L_6, ((-L_7)), NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:117>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:121>
 		float L_8 = __this->___mapleProductionMultiplier;
 		__this->___mapleProductionMultiplier = ((float)il2cpp_codegen_add(L_8, (1.0f)));
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:119>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:123>
 		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_9 = __this->___mapleGeneratorTrailGroups;
 		float L_10 = __this->___mapleProductionMultiplier;
 		TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205(__this, L_9, L_10, (bool)1, NULL);
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:120>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:124>
 		TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577(__this, NULL);
 	}
 
 IL_0060:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:122>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:126>
 		return;
 	}
 }
-// Method Definition Index: 150530
+// Method Definition Index: 150365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* ___0_groups, float ___1_multiplierValue, bool ___2_playEffects, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4589,7 +4703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpdateAllTrailVisuals_m008
 	TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* V_3 = NULL;
 	int32_t V_4 = 0;
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:128>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:132>
 		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_0 = ___0_groups;
 		if (L_0)
 		{
@@ -4597,18 +4711,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpdateAllTrailVisuals_m008
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:128>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:132>
 		return;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:130>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:134>
 		float L_1 = ___1_multiplierValue;
 		int32_t L_2;
 		L_2 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(L_1, NULL);
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:133>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:137>
 		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_3 = ___0_groups;
 		V_1 = L_3;
 		V_2 = 0;
@@ -4617,14 +4731,14 @@ IL_0004:
 
 IL_0013:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:133>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:137>
 		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_4 = V_1;
 		int32_t L_5 = V_2;
 		NullCheck(L_4);
 		int32_t L_6 = L_5;
 		TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 		V_3 = L_7;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:135>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:139>
 		TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* L_8 = V_3;
 		NullCheck(L_8);
 		TrailU5BU5D_t037D9521EB28FE1A7303144D3D27C96AF5428B49* L_9 = L_8->___trails;
@@ -4634,14 +4748,14 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:138>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:142>
 		V_4 = 0;
 		goto IL_004e;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:140>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:144>
 		TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* L_10 = V_3;
 		NullCheck(L_10);
 		TrailU5BU5D_t037D9521EB28FE1A7303144D3D27C96AF5428B49* L_11 = L_10->___trails;
@@ -4658,7 +4772,7 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:142>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:146>
 		TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* L_16 = V_3;
 		NullCheck(L_16);
 		TrailU5BU5D_t037D9521EB28FE1A7303144D3D27C96AF5428B49* L_17 = L_16->___trails;
@@ -4674,14 +4788,14 @@ IL_0024:
 
 IL_0048:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:138>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:142>
 		int32_t L_23 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_23, 1));
 	}
 
 IL_004e:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:138>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:142>
 		int32_t L_24 = V_4;
 		TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* L_25 = V_3;
 		NullCheck(L_25);
@@ -4701,7 +4815,7 @@ IL_005a:
 
 IL_005e:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:133>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:137>
 		int32_t L_28 = V_2;
 		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_29 = V_1;
 		NullCheck(L_29);
@@ -4711,7 +4825,7 @@ IL_005e:
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:147>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:151>
 		bool L_30 = ___2_playEffects;
 		if (!L_30)
 		{
@@ -4728,7 +4842,7 @@ IL_005e:
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:149>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:153>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_32 = __this->___upgradeAudio;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_33;
@@ -4739,7 +4853,7 @@ IL_005e:
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:149>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:153>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_34 = __this->___upgradeAudio;
 		NullCheck(L_34);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_34, NULL);
@@ -4747,7 +4861,7 @@ IL_005e:
 
 IL_0087:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:150>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:154>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_35 = __this->___upgradeParticles;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_36;
@@ -4758,7 +4872,7 @@ IL_0087:
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:150>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:154>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_37 = __this->___upgradeParticles;
 		NullCheck(L_37);
 		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_37, NULL);
@@ -4766,15 +4880,15 @@ IL_0087:
 
 IL_00a0:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:152>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:156>
 		return;
 	}
 }
-// Method Definition Index: 150531
+// Method Definition Index: 150366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TycoonManager_GetExponentialCost_m844EBA14BF3E7FB48DFB6AFE15858A4C3F414A19 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, int32_t ___0_baseCost, int32_t ___1_ownedCount, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:156>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:160>
 		int32_t L_0 = ___0_baseCost;
 		float L_1 = __this->___priceMultiplier;
 		int32_t L_2 = ___1_ownedCount;
@@ -4785,7 +4899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TycoonManager_GetExponentialCost_m844
 		return L_4;
 	}
 }
-// Method Definition Index: 150532
+// Method Definition Index: 150367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4812,7 +4926,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpdateTycoonUI_mEC54075E35
 	String_t* G_B14_0 = NULL;
 	String_t* G_B19_0 = NULL;
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:162>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:166>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___oakGenCostText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4823,7 +4937,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpdateTycoonUI_mEC54075E35
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:163>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:167>
 		int32_t L_2 = __this->___oakGenCount;
 		if ((((int32_t)L_2) >= ((int32_t)4)))
 		{
@@ -4851,7 +4965,7 @@ IL_003a:
 IL_003f:
 	{
 		V_0 = G_B4_0;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:164>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:168>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = __this->___oakGenCostText;
 		String_t* L_10 = V_0;
 		String_t* L_11;
@@ -4862,7 +4976,7 @@ IL_003f:
 
 IL_0056:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:166>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:170>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = __this->___oakMultText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -4873,12 +4987,12 @@ IL_0056:
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:167>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:171>
 		float L_14 = __this->___oakProductionMultiplier;
 		int32_t L_15;
 		L_15 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(L_14, NULL);
 		V_1 = ((float)((int32_t)il2cpp_codegen_multiply(L_15, ((int32_t)100))));
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:168>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:172>
 		float L_16 = __this->___oakProductionMultiplier;
 		if ((((float)L_16) >= ((float)(5.0f))))
 		{
@@ -4903,7 +5017,7 @@ IL_0093:
 IL_0098:
 	{
 		V_2 = G_B9_0;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:169>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:173>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_21 = __this->___oakMultText;
 		String_t* L_22 = V_2;
 		float L_23 = __this->___oakProductionMultiplier;
@@ -4917,7 +5031,7 @@ IL_0098:
 
 IL_00ba:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:173>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:177>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_27 = __this->___mapleGenCostText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_28;
@@ -4928,7 +5042,7 @@ IL_00ba:
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:174>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:178>
 		int32_t L_29 = __this->___mapleGenCount;
 		if ((((int32_t)L_29) >= ((int32_t)4)))
 		{
@@ -4956,7 +5070,7 @@ IL_00f4:
 IL_00f9:
 	{
 		V_3 = G_B14_0;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:175>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:179>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_36 = __this->___mapleGenCostText;
 		String_t* L_37 = V_3;
 		String_t* L_38;
@@ -4967,7 +5081,7 @@ IL_00f9:
 
 IL_0110:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:177>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:181>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_39 = __this->___mapleMultText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_40;
@@ -4978,12 +5092,12 @@ IL_0110:
 		}
 	}
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:178>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:182>
 		float L_41 = __this->___mapleProductionMultiplier;
 		int32_t L_42;
 		L_42 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(L_41, NULL);
 		V_4 = ((float)((int32_t)il2cpp_codegen_multiply(L_42, ((int32_t)100))));
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:179>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:183>
 		float L_43 = __this->___mapleProductionMultiplier;
 		if ((((float)L_43) >= ((float)(5.0f))))
 		{
@@ -5008,7 +5122,7 @@ IL_014f:
 IL_0154:
 	{
 		V_5 = G_B19_0;
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:180>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:184>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_48 = __this->___mapleMultText;
 		String_t* L_49 = V_5;
 		float L_50 = __this->___mapleProductionMultiplier;
@@ -5022,11 +5136,99 @@ IL_0154:
 
 IL_0178:
 	{
-		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:182>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:186>
 		return;
 	}
 }
-// Method Definition Index: 150533
+// Method Definition Index: 150368
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_TryPurchaseOakHouse_m6E5EFB91545573806EA6541ADD05588BB032A290 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* ___0_toggler, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral67AC01D23967737E26112B8442FBD99E6005CA09);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:190>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_0 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->___oakCount;
+		int32_t L_2 = __this->___oakHouseCost;
+		if ((((int32_t)L_1) < ((int32_t)L_2)))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:192>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_3 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		int32_t L_4 = __this->___oakHouseCost;
+		NullCheck(L_3);
+		ResourceManager_AddOak_mBC72CA44802886276AA34147611749E57089FE98(L_3, ((-L_4)), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:193>
+		HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* L_5 = ___0_toggler;
+		NullCheck(L_5);
+		HouseToggler_EnableHouse_m89DFFE96987C4395B3C435D7BCD6261424170B0A(L_5, NULL);
+		return;
+	}
+
+IL_002a:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:197>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral67AC01D23967737E26112B8442FBD99E6005CA09, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:199>
+		return;
+	}
+}
+// Method Definition Index: 150369
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_TryPurchaseMapleHouse_mECE044D0D6F4BF39B39A7FADF8B6724E0816EDED (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* ___0_toggler, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral67AC01D23967737E26112B8442FBD99E6005CA09);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:203>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_0 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->___mapleCount;
+		int32_t L_2 = __this->___mapleHouseCost;
+		if ((((int32_t)L_1) < ((int32_t)L_2)))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:205>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_3 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		int32_t L_4 = __this->___mapleHouseCost;
+		NullCheck(L_3);
+		ResourceManager_AddMaple_m2B1A8D11A36247EF6D4BF4A13E36611B3D05F549(L_3, ((-L_4)), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:206>
+		HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* L_5 = ___0_toggler;
+		NullCheck(L_5);
+		HouseToggler_EnableHouse_m89DFFE96987C4395B3C435D7BCD6261424170B0A(L_5, NULL);
+		return;
+	}
+
+IL_002a:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:210>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral67AC01D23967737E26112B8442FBD99E6005CA09, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:212>
+		return;
+	}
+}
+// Method Definition Index: 150370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager__ctor_m691AF408B63265AA471EEED80E2D5FECCCFF4F26 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5040,6 +5242,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager__ctor_m691AF408B63265AA471
 		__this->___mapleGenBaseCost = ((int32_t)50);
 		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:34>
 		__this->___mapleProductionMultiplier = (1.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:47>
+		__this->___oakHouseCost = ((int32_t)5000);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:48>
+		__this->___mapleHouseCost = ((int32_t)5000);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -5052,7 +5258,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager__ctor_m691AF408B63265AA471
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150534
+// Method Definition Index: 150371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OakGenerator_Update_mDE2EA1A0F9E3FB6F05FFB1C536427D62540150E0 (OakGenerator_t88C9C272F601F14868272351C8F0E6C3BC1C9C7F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5131,7 +5337,7 @@ IL_006a:
 		return;
 	}
 }
-// Method Definition Index: 150535
+// Method Definition Index: 150372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OakGenerator__ctor_mFD769E4E6C098111E3EC889840297E314A1DBA8C (OakGenerator_t88C9C272F601F14868272351C8F0E6C3BC1C9C7F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5151,7 +5357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OakGenerator__ctor_mFD769E4E6C098111E3EC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150536
+// Method Definition Index: 150373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5167,7 +5373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150537
+// Method Definition Index: 150374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5183,7 +5389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150538
+// Method Definition Index: 150375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5217,7 +5423,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC
 		return L_6;
 	}
 }
-// Method Definition Index: 150539
+// Method Definition Index: 150376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5303,7 +5509,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150540
+// Method Definition Index: 150377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* Trail_get_Points_m308228726E79789505D69E943B2310AA18B36E92 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5312,7 +5518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443
 		return L_0;
 	}
 }
-// Method Definition Index: 150541
+// Method Definition Index: 150378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_set_Points_m61AFA4720C55BF311594A7B724A377C8AEA08186 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -5324,7 +5530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_set_Points_m61AFA4720C55BF311594A7
 		return;
 	}
 }
-// Method Definition Index: 150542
+// Method Definition Index: 150379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Trail_get_Loop_mCEDE91351271055CCAD3F4F00CE7213ABEB84CD2 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5346,7 +5552,7 @@ IL_0017:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 150543
+// Method Definition Index: 150380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_Clear_mE953F6A275D7108CDDFAC1490AC781341D4EB986 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5418,7 +5624,7 @@ IL_0033:
 		return;
 	}
 }
-// Method Definition Index: 150544
+// Method Definition Index: 150381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_Start_m708A7F0D90C3287659FBE0DC8D0612EC4E0F8547 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5522,7 +5728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_Start_m708A7F0D90C3287659FBE0DC8D0
 		return;
 	}
 }
-// Method Definition Index: 150545
+// Method Definition Index: 150382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_OnDestroy_m3E3310823A332ECDE7B7B2703AB31E5E92D2A307 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5580,7 +5786,7 @@ IL_0039:
 		return;
 	}
 }
-// Method Definition Index: 150546
+// Method Definition Index: 150383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_OnEnable_m4B38E62CE40DE011286D5E3069D4E1AFD0F63704 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5620,7 +5826,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 150547
+// Method Definition Index: 150384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_OnDisable_m72DC0A5A7215E679C0171404934F8C8828980925 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5671,7 +5877,7 @@ IL_002d:
 		return;
 	}
 }
-// Method Definition Index: 150548
+// Method Definition Index: 150385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_SetVerticesAndCorner_mC2982F5F431189429650982EC51A823A276E736F (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -5825,7 +6031,7 @@ IL_00f6:
 		return;
 	}
 }
-// Method Definition Index: 150549
+// Method Definition Index: 150386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_SetVertices_mD496D871550256959B71199651F71ADC33CC446B (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5843,7 +6049,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_SetVertices_mD496D871550256959B711
 		return;
 	}
 }
-// Method Definition Index: 150550
+// Method Definition Index: 150387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Trail_PhysicsUpdate_mE362F1BB517BFEEEA4AE6D4C68AC2550F7BCB6B1 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5862,7 +6068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Trail_PhysicsUpdate_mE362F1BB5
 		return L_1;
 	}
 }
-// Method Definition Index: 150551
+// Method Definition Index: 150388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_LateUpdate_mE3DB6F5B9FC7AF4BF18CA4A67F732C09996F6734 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5896,7 +6102,7 @@ IL_0013:
 		return;
 	}
 }
-// Method Definition Index: 150552
+// Method Definition Index: 150389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_TransformVertices_mCD3A970146EC2BE618FAB3C3606A1B075D5234D5 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
 {
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_0;
@@ -5947,7 +6153,7 @@ IL_002f:
 		return;
 	}
 }
-// Method Definition Index: 150553
+// Method Definition Index: 150390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_ClearVertices_mCBC4D612D4E24C5541D90E43AD4D359957D80787 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -5990,7 +6196,7 @@ IL_0031:
 		return;
 	}
 }
-// Method Definition Index: 150554
+// Method Definition Index: 150391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_Initialize_mD6D19FD649BB0F2EB34DAB64C80727164967E0F9 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, int32_t ___0_segment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6480,7 +6686,7 @@ IL_0253:
 		return;
 	}
 }
-// Method Definition Index: 150555
+// Method Definition Index: 150392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Trail_CatmullRomSpline_m2418B6C31CC2210DC8C4F90A6057A0004D278E34 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_p0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_p1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_p2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_p3, float ___4_t, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -6556,7 +6762,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_39;
 	}
 }
-// Method Definition Index: 150556
+// Method Definition Index: 150393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail__ctor_m361AA7E260DEB110310D62E00415F2520F5328B4 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6604,7 +6810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail__ctor_m361AA7E260DEB110310D62E0041
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 150557
+// Method Definition Index: 150394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPhysicsUpdateU3Ed__26__ctor_mD1A954AEC1CD22C5F8E29B20BB1462EA7562C239 (U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -6614,14 +6820,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPhysicsUpdateU3Ed__26__ctor_mD1A954AE
 		return;
 	}
 }
-// Method Definition Index: 150558
+// Method Definition Index: 150395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPhysicsUpdateU3Ed__26_System_IDisposable_Dispose_mF366062C1C1A06EEE1F5F0D49E2A0F524224E6B2 (U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 150559
+// Method Definition Index: 150396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CPhysicsUpdateU3Ed__26_MoveNext_m432DA2081F49F41AABD02F9EB68AFDC4783896E4 (U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6732,7 +6938,7 @@ IL_0067:
 		goto IL_0052;
 	}
 }
-// Method Definition Index: 150560
+// Method Definition Index: 150397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPhysicsUpdateU3Ed__26_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m26F88D20FD08359017063FCB29FDD904AE099059 (U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6740,7 +6946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPhysicsUpdateU3Ed__26_Syste
 		return L_0;
 	}
 }
-// Method Definition Index: 150561
+// Method Definition Index: 150398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPhysicsUpdateU3Ed__26_System_Collections_IEnumerator_Reset_m352E9CF47534E705848906FF0CDEB0A5F5D8D8CD (U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6749,7 +6955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPhysicsUpdateU3Ed__26_System_Collecti
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CPhysicsUpdateU3Ed__26_System_Collections_IEnumerator_Reset_m352E9CF47534E705848906FF0CDEB0A5F5D8D8CD_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 150562
+// Method Definition Index: 150399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPhysicsUpdateU3Ed__26_System_Collections_IEnumerator_get_Current_m4931459AA71CC21681619ED73A4438F50D1D7400 (U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* __this, const RuntimeMethod* method) 
 {
 	{
