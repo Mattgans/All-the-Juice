@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using Tiny; // Required for the Trail script
 
+
 // This class allows us to see a list of Trails for EACH generator in the Inspector
 [System.Serializable]
 public class TrailGroup
@@ -13,6 +14,8 @@ public class TrailGroup
 public class TycoonManager : MonoBehaviour
 {
     public static TycoonManager Instance;
+    public EyeSurprise eyeSurprise;
+    public EyeSurprise eyeSurprise2;
 
     [Header("Global Settings")]
     public float priceMultiplier = 1.5f;
@@ -75,6 +78,9 @@ public class TycoonManager : MonoBehaviour
             // Ensure the newly bought generator has the correct trail color active
             UpdateAllTrailVisuals(oakGeneratorTrailGroups, oakProductionMultiplier, false);
             UpdateTycoonUI();
+            eyeSurprise.TriggerSurprise();
+            eyeSurprise2.TriggerSurprise();
+            
         }
     }
 
@@ -91,6 +97,9 @@ public class TycoonManager : MonoBehaviour
             // This updates EVERY generator's trail color at once
             UpdateAllTrailVisuals(oakGeneratorTrailGroups, oakProductionMultiplier, true);
             UpdateTycoonUI();
+            eyeSurprise.TriggerSurprise();
+            eyeSurprise2.TriggerSurprise();
+            
         }
     }
 
@@ -107,7 +116,11 @@ public class TycoonManager : MonoBehaviour
             
             UpdateAllTrailVisuals(mapleGeneratorTrailGroups, mapleProductionMultiplier, false);
             UpdateTycoonUI();
+            eyeSurprise.TriggerSurprise();
+            eyeSurprise2.TriggerSurprise();
+            
         }
+        
     }
 
     public void UpgradeMapleMultiplier()
@@ -122,7 +135,11 @@ public class TycoonManager : MonoBehaviour
             
             UpdateAllTrailVisuals(mapleGeneratorTrailGroups, mapleProductionMultiplier, true);
             UpdateTycoonUI();
+            eyeSurprise.TriggerSurprise();
+            eyeSurprise2.TriggerSurprise();
+            
         }
+        
     }
 
     // --- LOGIC FOR MULTIPLE GROUPS ---
@@ -191,6 +208,8 @@ public class TycoonManager : MonoBehaviour
         {
             ResourceManager.Instance.AddOak(-oakHouseCost);
             toggler.EnableHouse();
+            eyeSurprise.TriggerSurprise();
+            eyeSurprise2.TriggerSurprise();
         }
         else
         {
@@ -204,6 +223,8 @@ public class TycoonManager : MonoBehaviour
         {
             ResourceManager.Instance.AddMaple(-mapleHouseCost);
             toggler.EnableHouse();
+            eyeSurprise.TriggerSurprise();
+            eyeSurprise2.TriggerSurprise();
         }
         else
         {
