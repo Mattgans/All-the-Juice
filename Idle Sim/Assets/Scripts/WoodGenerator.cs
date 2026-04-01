@@ -16,8 +16,17 @@ public class OakGenerator : MonoBehaviour
             {
                 // Multiply the base rate by the current Tycoon multiplier
                 float multiplier = TycoonManager.Instance.oakProductionMultiplier;
+
+                // Apply prestige multiplier
+                if (PrestigeManager.Instance != null)
+                    multiplier *= PrestigeManager.Instance.GetPrestigeMultiplier();
+
+                // Apply surprise surge multiplier
+                if (SurpriseSurge.Instance != null)
+                    multiplier *= SurpriseSurge.Instance.GetSurgeMultiplier();
+
                 int totalProduced = Mathf.RoundToInt(baseOakPerTick * multiplier);
-                
+
                 ResourceManager.Instance.AddOak(totalProduced);
             }
             timer = 0f;

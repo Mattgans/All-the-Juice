@@ -53,13 +53,16 @@ public class ResourceManager : MonoBehaviour
     {
         oakCount += amount;
         UpdateUI();
+
         // Achievement 1: 500 Oak
         if (!t1Unlocked && oakCount >= 500)
         {
             t1Unlocked = true;
             achievementAudio.Play();
             trophy1_Woodcutter.SetActive(true);
+            EaseIn(trophy1_Woodcutter);
             cup1Canvas.SetActive(true);
+            EaseIn(cup1Canvas);
         }
 
         // Check for the unlock goal
@@ -69,7 +72,9 @@ public class ResourceManager : MonoBehaviour
             t2Unlocked = true;               // Mark the trophy as unlocked
             achievementAudio.Play();
             trophy2_Explorer.SetActive(true); // Show the physical trophy
+            EaseIn(trophy2_Explorer);
             cup2Canvas.SetActive(true);
+            EaseIn(cup2Canvas);
             UnlockMapleArea();               // Clear the planes/blockers
         }
     }
@@ -104,13 +109,57 @@ public class ResourceManager : MonoBehaviour
             t3Unlocked = true;
             achievementAudio.Play();
             cup3Canvas.SetActive(true);
+            EaseIn(cup3Canvas);
             trophy3_Tycoon.SetActive(true);
+            EaseIn(trophy3_Tycoon);
         }
     }
 
-    void UpdateUI()
+    void EaseIn(GameObject target)
+    {
+        if (target == null) return;
+        var ease = target.GetComponent<ScriptedEase>();
+        if (ease == null) ease = target.AddComponent<ScriptedEase>();
+        ease.TriggerEase();
+    }
+
+    public void UpdateUI()
     {
         if (oakText != null) oakText.text = $"Oak: {oakCount}";
         if (mapleText != null) mapleText.text = $"Maple: {mapleCount}";
+    }
+
+    /// <summary>
+    /// Resets all resource counts, achievement flags, trophies, and unlocks.
+    /// Called by PrestigeManager on prestige.
+    /// </summary>
+    public void ResetAll()
+    {
+        oakCount = 0;
+        mapleCount = 0;
+
+        // Reset achievement flags so they can re-trigger
+        t1Unlocked = false;
+        t2Unlocked = false;
+        t3Unlocked = false;
+        mapleUnlocked = false;
+
+        // Hide trophies
+        if (trophy1_Woodcutter != null) trophy1_Woodcutter.SetActive(false);
+        if (trophy2_Explorer != null) trophy2_Explorer.SetActive(false);
+        if (trophy3_Tycoon != null) trophy3_Tycoon.SetActive(false);
+
+        // Hide trophy canvases
+        if (cup1Canvas != null) cup1Canvas.SetActive(false);
+        if (cup2Canvas != null) cup2Canvas.SetActive(false);
+        if (cup3Canvas != null) cup3Canvas.SetActive(false);
+
+        // Re-enable the maple blocker
+        if (mapleBlockerPlane != null) mapleBlockerPlane.SetActive(true);
+
+        // Hide achievement popup
+        if (achievementPopup != null) achievementPopup.SetActive(false);
+
+        UpdateUI();
     }
 }
