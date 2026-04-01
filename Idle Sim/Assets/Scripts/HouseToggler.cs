@@ -19,10 +19,6 @@ public class HouseToggler : MonoBehaviour
         if (bakerHouse != null)
         {
             bakerHouse.SetActive(true);
-            // Ease the house in with a scripted scale animation
-            var ease = bakerHouse.GetComponent<ScriptedEase>();
-            if (ease == null) ease = bakerHouse.AddComponent<ScriptedEase>();
-            ease.TriggerEase();
             if (particles != null)
                 particles.Play();
             if (audio != null)

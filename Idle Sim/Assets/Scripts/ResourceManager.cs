@@ -60,9 +60,7 @@ public class ResourceManager : MonoBehaviour
             t1Unlocked = true;
             achievementAudio.Play();
             trophy1_Woodcutter.SetActive(true);
-            EaseIn(trophy1_Woodcutter);
             cup1Canvas.SetActive(true);
-            EaseIn(cup1Canvas);
         }
 
         // Check for the unlock goal
@@ -72,9 +70,7 @@ public class ResourceManager : MonoBehaviour
             t2Unlocked = true;               // Mark the trophy as unlocked
             achievementAudio.Play();
             trophy2_Explorer.SetActive(true); // Show the physical trophy
-            EaseIn(trophy2_Explorer);
             cup2Canvas.SetActive(true);
-            EaseIn(cup2Canvas);
             UnlockMapleArea();               // Clear the planes/blockers
         }
     }
@@ -109,18 +105,8 @@ public class ResourceManager : MonoBehaviour
             t3Unlocked = true;
             achievementAudio.Play();
             cup3Canvas.SetActive(true);
-            EaseIn(cup3Canvas);
             trophy3_Tycoon.SetActive(true);
-            EaseIn(trophy3_Tycoon);
         }
-    }
-
-    void EaseIn(GameObject target)
-    {
-        if (target == null) return;
-        var ease = target.GetComponent<ScriptedEase>();
-        if (ease == null) ease = target.AddComponent<ScriptedEase>();
-        ease.TriggerEase();
     }
 
     public void UpdateUI()

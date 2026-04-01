@@ -73,10 +73,6 @@ public class TycoonManager : MonoBehaviour
         {
             ResourceManager.Instance.AddOak(-currentCost);
             oakGenModels[oakGenCount].SetActive(true);
-            // Ease the generator in with a scripted scale ease
-            var ease = oakGenModels[oakGenCount].GetComponent<ScriptedEase>();
-            if (ease == null) ease = oakGenModels[oakGenCount].AddComponent<ScriptedEase>();
-            ease.TriggerEase();
             oakGenCount++;
             
             // Ensure the newly bought generator has the correct trail color active
@@ -116,10 +112,6 @@ public class TycoonManager : MonoBehaviour
         {
             ResourceManager.Instance.AddMaple(-currentCost);
             mapleGenModels[mapleGenCount].SetActive(true);
-            // Ease the generator in with a scripted scale ease
-            var ease = mapleGenModels[mapleGenCount].GetComponent<ScriptedEase>();
-            if (ease == null) ease = mapleGenModels[mapleGenCount].AddComponent<ScriptedEase>();
-            ease.TriggerEase();
             mapleGenCount++;
             
             UpdateAllTrailVisuals(mapleGeneratorTrailGroups, mapleProductionMultiplier, false);
