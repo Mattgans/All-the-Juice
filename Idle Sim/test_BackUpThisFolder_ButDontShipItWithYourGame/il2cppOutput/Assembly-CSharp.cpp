@@ -1,0 +1,11214 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1;
+struct Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180;
+struct Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C;
+struct Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5;
+struct List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
+struct DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622;
+struct HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D;
+struct MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2;
+struct ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6;
+struct RichTextTagAttributeU5BU5D_t5816316EFD8F59DBC30B9F88E15828C564E47B6D;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99;
+struct TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A;
+struct TMP_SubMeshUIU5BU5D_tC77B263183A59A75345C26152457207EAC3BBF29;
+struct TrailU5BU5D_t037D9521EB28FE1A7303144D3D27C96AF5428B49;
+struct TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A;
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9;
+struct SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4;
+struct TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113;
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883;
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299;
+struct AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct Exception_t;
+struct EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct GooglyEye_t2738CFA9C65D606758B72076B53754AFEC41AD9B;
+struct GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887;
+struct HapticClip_tF8BCD1E73DCA942D4445DA6E85D0A3492D2799B6;
+struct HapticClipPlayer_t52676339D3F2A8BEC736EAE3EB17AEBF18BD3349;
+struct HapticInitializer_t605059877E85EF6A13A2E8178AD228D6B63E7B31;
+struct HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16;
+struct HapticTest_t595AC54B4C9EECB63E94D519BD27640C1064DE0F;
+struct HapticTrigger_tDEFF29C05D62F279D1A469F722FC37FA2DE03EE4;
+struct Haptics_t93216D86CF0A99726A61DDED24C12CAFBACE5F7B;
+struct HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
+struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
+struct MapleGenerator_t7779B2F137A654EB1A60C51EB6DFABAA5958E31A;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5;
+struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct OakGenerator_t88C9C272F601F14868272351C8F0E6C3BC1C9C7F;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct ParticleAudioTrigger_t76CF4050A344DE09287C6B51E55FA904B6461D60;
+struct ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1;
+struct PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F;
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+struct ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E;
+struct ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B;
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+struct ScriptedEase_t114A3A33FBDB552243E4E8AB6F8C367B8F83B510;
+struct String_t;
+struct SurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4;
+struct SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6;
+struct SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0;
+struct TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35;
+struct TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB;
+struct TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160;
+struct TMP_SpriteAnimator_t2E0F016A61CA343E3222FF51E7CF0E53F9F256E4;
+struct TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39;
+struct TMP_Style_tA9E5B1B35EBFE24EF980CEA03251B638282E120C;
+struct TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859;
+struct TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5;
+struct TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D;
+struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C;
+struct TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct TrophyJuice_t14C1B76A2B9D3FA9886CAD33FC5791B7316C08D5;
+struct TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2;
+struct Type_t;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7;
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D;
+struct U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2;
+struct U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6;
+struct U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+struct U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D;
+struct U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2;
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
+struct U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6;
+struct U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF;
+struct U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5;
+struct U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479;
+struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
+struct U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____0FBD29DBDAE9B1CDB5E4BCA58E5AE14C5D32D9807E273A110443973E2C00F7B6_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____FD3002C28C944C22331B79ECC0215BBCE7AC1E659A31F3107681861A02E87E11_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral095CB91923316199A123635C90CED7CA55C155F3;
+IL2CPP_EXTERN_C String_t* _stringLiteral0B9BC6BA3ABD18DA5658A32344DEC5237043075C;
+IL2CPP_EXTERN_C String_t* _stringLiteral1518B6992D898349F92A935FD7A382A2AD4B9D77;
+IL2CPP_EXTERN_C String_t* _stringLiteral192AB71FCA5773A8031A7F4CDE0CFF6E3A586948;
+IL2CPP_EXTERN_C String_t* _stringLiteral2EBB1981626A4B361E1B4A16283E97FD7AD5C4F6;
+IL2CPP_EXTERN_C String_t* _stringLiteral2F94F4742528BDF9EB11E79D6B1AA693BB9912DF;
+IL2CPP_EXTERN_C String_t* _stringLiteral3084D70A4D8DB6724E5CC528F4BA6F3AF15128A3;
+IL2CPP_EXTERN_C String_t* _stringLiteral47AB9F465787A8A4AFB5AFC9D0480948843DA104;
+IL2CPP_EXTERN_C String_t* _stringLiteral49FDD8CA6955B620A2DC8499142C1D7D1CEFC1EB;
+IL2CPP_EXTERN_C String_t* _stringLiteral5B044319176CF6DDBAB9F80C6E423EBF80702786;
+IL2CPP_EXTERN_C String_t* _stringLiteral67AC01D23967737E26112B8442FBD99E6005CA09;
+IL2CPP_EXTERN_C String_t* _stringLiteral6AA6FB022477208867BE47054924EBB41498E37F;
+IL2CPP_EXTERN_C String_t* _stringLiteral6D773582DD8BDC916E42DD9D078777AA5B8F0547;
+IL2CPP_EXTERN_C String_t* _stringLiteral7ED0961CB02548464DF74A594D714C18B6E38A9A;
+IL2CPP_EXTERN_C String_t* _stringLiteral8269795F36935937B45BA7A25799A3FF073075A6;
+IL2CPP_EXTERN_C String_t* _stringLiteral84776BAA9E332E9A5B4427021595C78441B38948;
+IL2CPP_EXTERN_C String_t* _stringLiteral8D6227421E4213BC37252E8FD990245DFC8445E7;
+IL2CPP_EXTERN_C String_t* _stringLiteral98C74595D5A83FE66358BE209491FCFC5D1D0347;
+IL2CPP_EXTERN_C String_t* _stringLiteralA388989D9DF8742156F786F59DB4CC6F661306F2;
+IL2CPP_EXTERN_C String_t* _stringLiteralBBE69C24A7FEA8BAB64D4C2805A3DC3AA9C3E3AE;
+IL2CPP_EXTERN_C String_t* _stringLiteralC13495CD8AC9F322544775E87BD24887E8863844;
+IL2CPP_EXTERN_C String_t* _stringLiteralC61C0E70ADA8201D42C9C13CA1A8E878C2E8FD87;
+IL2CPP_EXTERN_C String_t* _stringLiteralCE7DB4634F256015DFF876919389CA921B4BFED8;
+IL2CPP_EXTERN_C String_t* _stringLiteralCF152C7F841FE823A9D70B62DCAEED89CB2FF860;
+IL2CPP_EXTERN_C String_t* _stringLiteralD8A460B57C708AAE5B3FE032970AB4EB08FDAB9B;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralE0C329365A7D7A13E3A1FBA3604E1AB77097B8B3;
+IL2CPP_EXTERN_C String_t* _stringLiteralE3730FAB74F10FB4D596B408FFAA85142E1A2E50;
+IL2CPP_EXTERN_C String_t* _stringLiteralEA311EB6C2A9D088CF63DD43FF0FFEE4E1B27B4A;
+IL2CPP_EXTERN_C String_t* _stringLiteralEDED3810C5FA56FEEDF865886DC3C419440F4E6B;
+IL2CPP_EXTERN_C String_t* _stringLiteralF26B5DDABB07812EF8D39B917D1DD7AAF2F0D1A0;
+IL2CPP_EXTERN_C String_t* _stringLiteralF9E672F804B595FC7D8FDE21502E69319A8ACD21;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_mDB9FC26B94B8EE9CF1F88BFEC75DF06CC2E3A000_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B_mB4E5480916F0B604291D558B4127620FF4AE0BD1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mDF6525BCE37B444313BE0AA2305BDF4EB8B92FE8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisSurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4_m7F3B055849E1CD73237C3E57CCC6F315111309DA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Trail_SetVerticesAndCorner_mC2982F5F431189429650982EC51A823A276E736F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Trail_SetVertices_mD496D871550256959B71199651F71ADC33CC446B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CBlinkLoopU3Ed__6_System_Collections_IEnumerator_Reset_mBE1D8D24A02D38FC2ACCDFC595BF5F4892BF9D2D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCooldownTimerU3Ed__17_System_Collections_IEnumerator_Reset_mD21369B14A09B6658F017F32BD1053F20EEDF632_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CDisableAfterDelayU3Ed__31_System_Collections_IEnumerator_Reset_mDF40E528AF3A71630F43DCA08544E79867AD5366_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CDoPrestigeU3Ed__17_System_Collections_IEnumerator_Reset_mB442DB627500A543F90881B1EE31FA53C817E410_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CFlashScreenU3Ed__19_System_Collections_IEnumerator_Reset_m6BAA5F4FFC08CC0B3FDD45808FB37852A5FA46F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CHandleHarvestU3Ed__18_System_Collections_IEnumerator_Reset_m84A29AFFB8FD14DD8F6F3C5FF0205552529EC829_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CPhysicsUpdateU3Ed__26_System_Collections_IEnumerator_Reset_m352E9CF47534E705848906FF0CDEB0A5F5D8D8CD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CShowAchievementU3Ed__24_System_Collections_IEnumerator_Reset_m8A4C92B4519F3CB8A14B14064996FD65AA1E862C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CSurpriseEffectU3Ed__7_System_Collections_IEnumerator_Reset_mE1828706CED6B001E334E982F9F2045415A8AB13_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CTriggerHapticsRoutineU3Ed__14_System_Collections_IEnumerator_Reset_mC6518F99AC54CFD884B2D15F8716EAA84EA01C38_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_0_0_0_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6;
+struct TrailU5BU5D_t037D9521EB28FE1A7303144D3D27C96AF5428B49;
+struct TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A;
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B 
+{
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
+{
+};
+struct Haptics_t93216D86CF0A99726A61DDED24C12CAFBACE5F7B  : public RuntimeObject
+{
+};
+struct MemberInfo_t  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141  : public RuntimeObject
+{
+	String_t* ___generatorName;
+	TrailU5BU5D_t037D9521EB28FE1A7303144D3D27C96AF5428B49* ___trails;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+struct U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887* ___U3CU3E4__this;
+};
+struct U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* ___U3CU3E4__this;
+};
+struct U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* ___U3CU3E4__this;
+	float ___U3ChalfDurationU3E5__2;
+	float ___U3CtimerU3E5__3;
+};
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401  : public RuntimeObject
+{
+	String_t* ___heading;
+	String_t* ___text;
+	String_t* ___linkText;
+	String_t* ___url;
+};
+struct U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* ___U3CU3E4__this;
+};
+struct U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* ___U3CU3E4__this;
+};
+struct U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* ___U3CU3E4__this;
+};
+struct U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	float ___delay;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj;
+};
+struct U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* ___U3CU3E4__this;
+	YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D* ___U3CwaitU3E5__2;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___U3CactionU3E5__3;
+};
+struct TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C 
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___itemStack;
+	int32_t ___index;
+	float ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C 
+{
+	TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A* ___itemStack;
+	int32_t ___index;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___rgba;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___rgba_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			uint8_t ___r;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___r_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___g_OffsetPadding[1];
+			uint8_t ___g;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___g_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___g_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___b_OffsetPadding[2];
+			uint8_t ___b;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___b_OffsetPadding_forAlignmentOnly[2];
+			uint8_t ___b_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___a_OffsetPadding[3];
+			uint8_t ___a;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___a_OffsetPadding_forAlignmentOnly[3];
+			uint8_t ___a_forAlignmentOnly;
+		};
+	};
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B 
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	bool ___isDefaultMaterial;
+	bool ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_marshaled_pinvoke
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___isDefaultMaterial;
+	int32_t ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_marshaled_com
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___isDefaultMaterial;
+	int32_t ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 
+{
+	float ___m00;
+	float ___m10;
+	float ___m20;
+	float ___m30;
+	float ___m01;
+	float ___m11;
+	float ___m21;
+	float ___m31;
+	float ___m02;
+	float ___m12;
+	float ___m22;
+	float ___m32;
+	float ___m03;
+	float ___m13;
+	float ___m23;
+	float ___m33;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D 
+{
+	float ___m_XMin;
+	float ___m_YMin;
+	float ___m_Width;
+	float ___m_Height;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC 
+{
+	uint8_t ___bold;
+	uint8_t ___italic;
+	uint8_t ___underline;
+	uint8_t ___strikethrough;
+	uint8_t ___highlight;
+	uint8_t ___superscript;
+	uint8_t ___subscript;
+	uint8_t ___uppercase;
+	uint8_t ___lowercase;
+	uint8_t ___smallcaps;
+};
+struct TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 
+{
+	float ___m_Left;
+	float ___m_Right;
+	float ___m_Top;
+	float ___m_Bottom;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	float ___m_Seconds;
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D426_tE318DBF3B00D6C85AAEE3473D35C3EE1B75DFCA1 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D426_tE318DBF3B00D6C85AAEE3473D35C3EE1B75DFCA1__padding[426];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D808_tF0448958BA8219D2D13AAC3EB5B830B13E5C0C94 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D808_tF0448958BA8219D2D13AAC3EB5B830B13E5C0C94__padding[808];
+	};
+};
+#pragma pack(pop, tp)
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777_marshaled_pinvoke
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777_marshaled_com
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361 
+{
+	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___m_Array;
+	int32_t ___m_Index;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___m_Array;
+	int32_t ___m_Index;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361_marshaled_com
+{
+	Il2CppSafeArray* ___m_Array;
+	int32_t ___m_Index;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 
+{
+	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* ___itemStack;
+	int32_t ___index;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 
+{
+	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* ___itemStack;
+	int32_t ___index;
+	MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct ColorMode_tA7A815AAB9F175EFBA0AE0814E55728432A880BF 
+{
+	int32_t ___value__;
+};
+struct Controller_t1D1A89BC4E15A9E62E085897508A866454C7185D 
+{
+	int32_t ___value__;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___min;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___max;
+};
+struct FontStyles_t9E611EE6BBE6E192A73EAFF7872596517C527FF5 
+{
+	int32_t ___value__;
+};
+struct FontWeight_tA2585C0A73B70D31CE71E7843149098A5E16BC80 
+{
+	int32_t ___value__;
+};
+struct HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B 
+{
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___color;
+	TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 ___padding;
+};
+struct HorizontalAlignmentOptions_tCC21260E9FBEC656BA7783643ED5F44AFF7955A1 
+{
+	int32_t ___value__;
+};
+struct MeshTopology_t815FF5CF04D62195A23E2DF8A5C0A071F11FBCBF 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
+{
+	intptr_t ___m_Ptr;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	intptr_t ___value;
+};
+struct ShadowCastingMode_tF30806698B37CF120A1A506BD7549EAF308E7C6D 
+{
+	int32_t ___value__;
+};
+struct TMP_TextElementType_t51EE6662436732F22C6B599F5757B7F35F706342 
+{
+	int32_t ___value__;
+};
+struct TextAlignmentOptions_tF3FA9020F7E2AF1A48660044540254009A22EF01 
+{
+	int32_t ___value__;
+};
+struct TextOverflowModes_t7DCCD00C16E3223CE50CDDCC53F785C0405BE203 
+{
+	int32_t ___value__;
+};
+struct TextRenderFlags_tE023FF398ECFE57A1DBC6FD2A1AF4AE9620F6E1C 
+{
+	int32_t ___value__;
+};
+struct TextWrappingModes_t982BC65D6DA703E73C04B99286285ECD3DDF207E 
+{
+	int32_t ___value__;
+};
+struct TextureMappingOptions_t0E1A47C529DEB45A875486256E7026E97C940DAE 
+{
+	int32_t ___value__;
+};
+struct VertexGradient_t2C057B53C0EA6E987C2B7BAB0305E686DA1C9A8F 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___topLeft;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___topRight;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___bottomLeft;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___bottomRight;
+};
+struct VertexSortingOrder_t95B7AEDBDCAACC3459B6476E5CCC594A6422FFA8 
+{
+	int32_t ___value__;
+};
+struct VerticalAlignmentOptions_tCEF70AF60282B71AEEE14D51253CE6A61E72D855 
+{
+	int32_t ___value__;
+};
+struct U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* ___U3CU3E4__this;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CtargetScaleU3E5__2;
+	float ___U3CgrowTimeU3E5__3;
+	float ___U3CtU3E5__4;
+	float ___U3CshrinkTimeU3E5__5;
+};
+struct Controller_tBCAA59EAD9BFE2381E974A48B203D044B6CE1ECB 
+{
+	int32_t ___value__;
+};
+struct TreeType_t05D4FBADF106A8F0A0E6BCC79011DE27ECFA4B20 
+{
+	int32_t ___value__;
+};
+struct TextInputSources_t41387D6C9CB16E60390F47A15AEB8185BE966D26 
+{
+	int32_t ___value__;
+};
+struct TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 
+{
+	FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D 
+{
+	HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622* ___itemStack;
+	int32_t ___index;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 
+{
+	HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 
+{
+	int32_t ___controlCharacterCount;
+	int32_t ___characterCount;
+	int32_t ___visibleCharacterCount;
+	int32_t ___spaceCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___wordCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharacterIndex;
+	float ___length;
+	float ___lineHeight;
+	float ___ascender;
+	float ___baseline;
+	float ___descender;
+	float ___maxAdvance;
+	float ___width;
+	float ___marginLeft;
+	float ___marginRight;
+	int32_t ___alignment;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___lineExtents;
+};
+struct Type_t  : public MemberInfo_t
+{
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* ___U3CU3E4__this;
+	int32_t ___controller;
+};
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___icon;
+	String_t* ___title;
+	SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4* ___sections;
+	bool ___loadedLayout;
+};
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A 
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	bool ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	bool ___tagNoParsing;
+	bool ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_marshaled_pinvoke
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	int32_t ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	int32_t ___tagNoParsing;
+	int32_t ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_marshaled_com
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	int32_t ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	int32_t ___tagNoParsing;
+	int32_t ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F 
+{
+	WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9* ___itemStack;
+	int32_t ___index;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299  : public AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941
+{
+};
+struct AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___velocityThreshold;
+	String_t* ___treeTag;
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___rb;
+	float ___duration;
+	float ___amplitude;
+	float ___frequency;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___leftHand;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___rightHand;
+	bool ___isHeldLeft;
+	bool ___isHeldRight;
+};
+struct EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___eyeball;
+	float ___scaleMultiplier;
+	float ___duration;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___originalScale;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___currentRoutine;
+};
+struct GooglyEye_t2738CFA9C65D606758B72076B53754AFEC41AD9B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___target;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___pupil;
+	float ___moveAmount;
+	float ___speed;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___startLocalPos;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___originalScale;
+};
+struct GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___eyeball;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___eyeball2;
+	float ___minBlinkDelay;
+	float ___maxBlinkDelay;
+	float ___blinkDuration;
+};
+struct HapticInitializer_t605059877E85EF6A13A2E8178AD228D6B63E7B31  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	HapticClipPlayer_t52676339D3F2A8BEC736EAE3EB17AEBF18BD3349* ____player;
+	HapticClip_tF8BCD1E73DCA942D4445DA6E85D0A3492D2799B6* ____clip;
+	int32_t ____controller;
+	bool ____loop;
+	float ____amplitude;
+	float ____frequencyShift;
+	uint32_t ____priority;
+};
+struct HapticTest_t595AC54B4C9EECB63E94D519BD27640C1064DE0F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16* ___hapticSource;
+};
+struct HapticTrigger_tDEFF29C05D62F279D1A469F722FC37FA2DE03EE4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___bakerHouse;
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___particles;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audio;
+	HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16* ___haptics;
+};
+struct MapleGenerator_t7779B2F137A654EB1A60C51EB6DFABAA5958E31A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___baseMaplePerTick;
+	float ___tickInterval;
+	float ___timer;
+};
+struct OakGenerator_t88C9C272F601F14868272351C8F0E6C3BC1C9C7F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___baseOakPerTick;
+	float ___tickInterval;
+	float ___timer;
+};
+struct ParticleAudioTrigger_t76CF4050A344DE09287C6B51E55FA904B6461D60  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audioSource;
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___particles;
+	HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16* ___haptics;
+};
+struct PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___prestigeThreshold;
+	int32_t ___prestigeCount;
+	float ___prestigeMultiplierBonus;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___prestigeButtonText;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___prestigeInfoText;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prestigePanel;
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___prestigeParticles;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___prestigeAudio;
+	ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* ___sceneWideParticles;
+	CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___flashOverlay;
+	float ___flashDuration;
+};
+struct ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___oakCount;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___oakText;
+	int32_t ___oakGoal;
+	int32_t ___mapleCount;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___mapleText;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___mapleBlockerPlane;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___achievementPopup;
+	float ___popupDuration;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___trophy1_Woodcutter;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___trophy2_Explorer;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___trophy3_Tycoon;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cup1Canvas;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cup2Canvas;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cup3Canvas;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___achievementAudio;
+	bool ___t1Unlocked;
+	bool ___t2Unlocked;
+	bool ___t3Unlocked;
+	bool ___mapleUnlocked;
+};
+struct ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___typeOfTree;
+	int32_t ___yieldAmount;
+	float ___respawnTime;
+	float ___hitCooldown;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___originalRotation;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___fullTreeModel;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cutStumpModel;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___treeAnimator;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___FallAudio;
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___particles;
+	int32_t ___hitsRemaining;
+	bool ___isAvailable;
+	bool ___canBeHit;
+	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___treeCollider;
+};
+struct ScriptedEase_t114A3A33FBDB552243E4E8AB6F8C367B8F83B510  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___easeSpeed;
+	float ___overshootAmount;
+	float ___snapThreshold;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___goalScale;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___currentScale;
+	bool ___isEasing;
+	bool ___hasOvershot;
+};
+struct SurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___handTag;
+	float ___grabGracePeriod;
+	float ___spawnTime;
+};
+struct SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___minSpawnInterval;
+	float ___maxSpawnInterval;
+	float ___surgeDuration;
+	float ___surgeMultiplier;
+	float ___boostDuration;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___surgeObject;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___surgeStatusText;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___spawnParticleObject;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___spawnAudio;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___grabParticleObject;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___grabAudio;
+	float ___easeSpeed;
+	bool ___surgeActive;
+	bool ___boostActive;
+	float ___currentBoostMultiplier;
+	float ___spawnTimer;
+	float ___surgeTimer;
+	float ___boostTimer;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___surgeOriginalScale;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___surgeSpawnPosition;
+	float ___pulsePhase;
+};
+struct Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	float ___duration;
+	int32_t ___corner;
+	bool ___loop;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___points;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___trailGo;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___mesh;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___vertices;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___cacheTM;
+	int32_t ___lastSegmentCount;
+	int32_t ___lastCorner;
+	int32_t ___pointCount;
+	float ___toCornerT;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___update;
+};
+struct TrophyJuice_t14C1B76A2B9D3FA9886CAD33FC5791B7316C08D5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___rotationSpeed;
+};
+struct TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* ___eyeSurprise;
+	EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* ___eyeSurprise2;
+	float ___priceMultiplier;
+	int32_t ___oakGenBaseCost;
+	int32_t ___oakGenCount;
+	float ___oakProductionMultiplier;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___oakGenCostText;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___oakMultText;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___oakGenModels;
+	TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* ___oakGeneratorTrailGroups;
+	int32_t ___mapleGenBaseCost;
+	int32_t ___mapleGenCount;
+	float ___mapleProductionMultiplier;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___mapleGenCostText;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___mapleMultText;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___mapleGenModels;
+	TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* ___mapleGeneratorTrailGroups;
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___upgradeParticles;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___upgradeAudio;
+	int32_t ___oakHouseCost;
+	int32_t ___mapleHouseCost;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	String_t* ___m_text;
+	bool ___m_IsTextBackingStringDirty;
+	RuntimeObject* ___m_TextPreprocessor;
+	bool ___m_isRightToLeft;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___m_fontAsset;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___m_currentFontAsset;
+	bool ___m_isSDFShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_sharedMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_currentMaterial;
+	int32_t ___m_currentMaterialIndex;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___m_fontSharedMaterials;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_fontMaterial;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___m_fontMaterials;
+	bool ___m_isMaterialDirty;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_fontColor32;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_fontColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___m_HighlightState;
+	bool ___m_ConvertToLinearSpace;
+	bool ___m_enableVertexGradient;
+	int32_t ___m_colorMode;
+	VertexGradient_t2C057B53C0EA6E987C2B7BAB0305E686DA1C9A8F ___m_fontColorGradient;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_fontColorGradientPreset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_spriteAsset;
+	bool ___m_tintAllSprites;
+	bool ___m_tintSprite;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_spriteColor;
+	TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859* ___m_StyleSheet;
+	TMP_Style_tA9E5B1B35EBFE24EF980CEA03251B638282E120C* ___m_TextStyle;
+	int32_t ___m_TextStyleHashCode;
+	bool ___m_overrideHtmlColors;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_faceColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_outlineColor;
+	float ___m_outlineWidth;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_currentEnvMapRotation;
+	bool ___m_hasEnvMapProperty;
+	float ___m_fontSize;
+	float ___m_currentFontSize;
+	float ___m_fontSizeBase;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_sizeStack;
+	int32_t ___m_fontWeight;
+	int32_t ___m_FontWeightInternal;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___m_FontWeightStack;
+	bool ___m_enableAutoSizing;
+	float ___m_maxFontSize;
+	float ___m_minFontSize;
+	int32_t ___m_AutoSizeIterationCount;
+	int32_t ___m_AutoSizeMaxIterationCount;
+	bool ___m_IsAutoSizePointSizeSet;
+	float ___m_fontSizeMin;
+	float ___m_fontSizeMax;
+	int32_t ___m_fontStyle;
+	int32_t ___m_FontStyleInternal;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___m_fontStyleStack;
+	bool ___m_isUsingBold;
+	int32_t ___m_HorizontalAlignment;
+	int32_t ___m_VerticalAlignment;
+	int32_t ___m_textAlignment;
+	int32_t ___m_lineJustification;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___m_lineJustificationStack;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_textContainerLocalCorners;
+	float ___m_characterSpacing;
+	float ___m_cSpacing;
+	float ___m_monoSpacing;
+	bool ___m_duoSpace;
+	float ___m_characterHorizontalScale;
+	float ___m_wordSpacing;
+	float ___m_lineSpacing;
+	float ___m_lineSpacingDelta;
+	float ___m_lineHeight;
+	bool ___m_IsDrivenLineSpacing;
+	float ___m_lineSpacingMax;
+	float ___m_paragraphSpacing;
+	float ___m_charWidthMaxAdj;
+	float ___m_charWidthAdjDelta;
+	int32_t ___m_TextWrappingMode;
+	bool ___m_isCharacterWrappingEnabled;
+	bool ___m_isNonBreakingSpace;
+	bool ___m_isIgnoringAlignment;
+	float ___m_wordWrappingRatios;
+	int32_t ___m_overflowMode;
+	int32_t ___m_firstOverflowCharacterIndex;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___m_linkedTextComponent;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___parentLinkedComponent;
+	bool ___m_isTextTruncated;
+	bool ___m_enableKerning;
+	int32_t ___m_LastBaseGlyphIndex;
+	List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607* ___m_ActiveFontFeatures;
+	bool ___m_enableExtraPadding;
+	bool ___checkPaddingRequired;
+	bool ___m_isRichText;
+	bool ___m_EmojiFallbackSupport;
+	bool ___m_parseCtrlCharacters;
+	bool ___m_isOverlay;
+	bool ___m_isOrthographic;
+	bool ___m_isCullingEnabled;
+	bool ___m_isMaskingEnabled;
+	bool ___isMaskUpdateRequired;
+	bool ___m_ignoreCulling;
+	int32_t ___m_horizontalMapping;
+	int32_t ___m_verticalMapping;
+	float ___m_uvLineOffset;
+	int32_t ___m_renderMode;
+	int32_t ___m_geometrySortingOrder;
+	bool ___m_IsTextObjectScaleStatic;
+	bool ___m_VertexBufferAutoSizeReduction;
+	int32_t ___m_firstVisibleCharacter;
+	int32_t ___m_maxVisibleCharacters;
+	int32_t ___m_maxVisibleWords;
+	int32_t ___m_maxVisibleLines;
+	bool ___m_useMaxVisibleDescender;
+	int32_t ___m_pageToDisplay;
+	bool ___m_isNewPage;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_margin;
+	float ___m_marginLeft;
+	float ___m_marginRight;
+	float ___m_marginWidth;
+	float ___m_marginHeight;
+	float ___m_width;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___m_textInfo;
+	bool ___m_havePropertiesChanged;
+	bool ___m_isUsingLegacyAnimationComponent;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_transform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_rectTransform;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PreviousRectTransformSize;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PreviousPivotPosition;
+	bool ___U3CautoSizeTextContainerU3Ek__BackingField;
+	bool ___m_autoSizeTextContainer;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_mesh;
+	bool ___m_isVolumetricText;
+	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* ___OnPreRenderText;
+	TMP_SpriteAnimator_t2E0F016A61CA343E3222FF51E7CF0E53F9F256E4* ___m_spriteAnimator;
+	float ___m_flexibleHeight;
+	float ___m_flexibleWidth;
+	float ___m_minWidth;
+	float ___m_minHeight;
+	float ___m_maxWidth;
+	float ___m_maxHeight;
+	LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* ___m_LayoutElement;
+	float ___m_preferredWidth;
+	float ___m_RenderedWidth;
+	bool ___m_isPreferredWidthDirty;
+	float ___m_preferredHeight;
+	float ___m_RenderedHeight;
+	bool ___m_isPreferredHeightDirty;
+	bool ___m_isCalculatingPreferredValues;
+	int32_t ___m_layoutPriority;
+	bool ___m_isLayoutDirty;
+	bool ___m_isAwake;
+	bool ___m_isWaitingOnResourceLoad;
+	int32_t ___m_inputSource;
+	float ___m_fontScaleMultiplier;
+	float ___tag_LineIndent;
+	float ___tag_Indent;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_indentStack;
+	bool ___tag_NoParsing;
+	bool ___m_isTextLayoutPhase;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_FXRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_FXScale;
+	TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113* ___m_TextProcessingArray;
+	int32_t ___m_InternalTextProcessingArraySize;
+	TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* ___m_internalCharacterInfo;
+	int32_t ___m_totalCharacterCount;
+	int32_t ___m_characterCount;
+	int32_t ___m_firstCharacterOfLine;
+	int32_t ___m_firstVisibleCharacterOfLine;
+	int32_t ___m_lastCharacterOfLine;
+	int32_t ___m_lastVisibleCharacterOfLine;
+	int32_t ___m_lineNumber;
+	int32_t ___m_lineVisibleCharacterCount;
+	int32_t ___m_lineVisibleSpaceCount;
+	int32_t ___m_pageNumber;
+	float ___m_PageAscender;
+	float ___m_maxTextAscender;
+	float ___m_maxCapHeight;
+	float ___m_ElementAscender;
+	float ___m_ElementDescender;
+	float ___m_maxLineAscender;
+	float ___m_maxLineDescender;
+	float ___m_startOfLineAscender;
+	float ___m_startOfLineDescender;
+	float ___m_lineOffset;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___m_meshExtents;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_htmlColor;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_strikethroughColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___m_HighlightStateStack;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_colorGradientPreset;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___m_colorGradientStack;
+	bool ___m_colorGradientPresetIsTinted;
+	float ___m_tabSpacing;
+	float ___m_spacing;
+	TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2* ___m_TextStyleStacks;
+	int32_t ___m_TextStyleStackDepth;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___m_ItalicAngleStack;
+	int32_t ___m_ItalicAngle;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___m_actionStack;
+	float ___m_padding;
+	float ___m_baselineOffset;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_baselineOffsetStack;
+	float ___m_xAdvance;
+	int32_t ___m_textElementType;
+	TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* ___m_cached_TextElement;
+	SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 ___m_Ellipsis;
+	SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 ___m_Underline;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_defaultSpriteAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_currentSpriteAsset;
+	int32_t ___m_spriteCount;
+	int32_t ___m_spriteIndex;
+	int32_t ___m_spriteAnimationID;
+	bool ___m_ignoreActiveState;
+	TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361 ___m_TextBackingArray;
+	DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615* ___k_Power;
+};
+struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957  : public TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9
+{
+	bool ___m_isRebuildingLayout;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___m_DelayedGraphicRebuild;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___m_DelayedMaterialRebuild;
+	bool ___m_ShouldUpdateCulling;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___m_ClipRect;
+	bool ___m_ValidRect;
+	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* ___OnPreRenderText;
+	bool ___m_hasFontAssetChanged;
+	TMP_SubMeshUIU5BU5D_tC77B263183A59A75345C26152457207EAC3BBF29* ___m_subTextObjects;
+	float ___m_previousLossyScaleY;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_RectTransformCorners;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_canvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_canvas;
+	float ___m_CanvasScaleFactor;
+	bool ___m_isFirstAllocation;
+	int32_t ___m_max_characters;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_baseMaterial;
+	bool ___m_isScrollRegionSet;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_maskOffset;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___m_EnvMapMatrix;
+	bool ___m_isRegisteredForEvents;
+	Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180* ___materialIndexPairs;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D426_tE318DBF3B00D6C85AAEE3473D35C3EE1B75DFCA1 ___0FBD29DBDAE9B1CDB5E4BCA58E5AE14C5D32D9807E273A110443973E2C00F7B6;
+	__StaticArrayInitTypeSizeU3D808_tF0448958BA8219D2D13AAC3EB5B830B13E5C0C94 ___FD3002C28C944C22331B79ECC0215BBCE7AC1E659A31F3107681861A02E87E11;
+};
+struct Haptics_t93216D86CF0A99726A61DDED24C12CAFBACE5F7B_StaticFields
+{
+	Haptics_t93216D86CF0A99726A61DDED24C12CAFBACE5F7B* ___instance;
+	SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* ___syncContext;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
+{
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_StaticFields
+{
+	int32_t ___k_ColorId;
+	int32_t ___k_MainTexId;
+};
+struct Type_t_StaticFields
+{
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder;
+	Il2CppChar ___Delimiter;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes;
+	RuntimeObject* ___Missing;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+struct PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_StaticFields
+{
+	PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* ___Instance;
+};
+struct ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields
+{
+	ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* ___Instance;
+};
+struct SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_StaticFields
+{
+	SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* ___Instance;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___HIDDEN_POSITION;
+};
+struct TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields
+{
+	TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* ___Instance;
+};
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields
+{
+	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* ___m_materialReferences;
+	Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180* ___m_materialReferenceIndexLookup;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___m_materialReferenceStack;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___s_colorWhite;
+	Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C* ___OnFontAssetRequest;
+	Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5* ___OnSpriteAssetRequest;
+	MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6* ___OnMissingCharacter;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___m_htmlTag;
+	RichTextTagAttributeU5BU5D_t5816316EFD8F59DBC30B9F88E15828C564E47B6D* ___m_xmlAttribute;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___m_attributeParameterValues;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedWordWrapState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedLineState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedEllipsisState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedLastValidState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedSoftLineBreakState;
+	TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F ___m_EllipsisInsertionCandidateStack;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ParseTextMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_InsertNewLineMarker;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___k_LargePositiveVector2;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___k_LargeNegativeVector2;
+	float ___k_LargePositiveFloat;
+	float ___k_LargeNegativeFloat;
+	int32_t ___k_LargePositiveInt;
+	int32_t ___k_LargeNegativeInt;
+};
+struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_StaticFields
+{
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SetArraySizesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ParseMarkupTextMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_CharacterLookupMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleGPOSFeaturesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_CalculateVerticesPositionMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ComputeTextMetricsMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleVisibleCharacterMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleWhiteSpacesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleHorizontalLineBreakingMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleVerticalLineBreakingMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SaveGlyphVertexDataMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ComputeCharacterAdvanceMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleCarriageReturnMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_HandleLineTerminationMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SavePageInfoMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SaveTextExtentMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_SaveProcessingStatesMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIIMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_GenerateTextPhaseIIIMarker;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF  : public RuntimeArray
+{
+	ALIGN_FIELD (8) GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* m_Items[1];
+
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6  : public RuntimeArray
+{
+	ALIGN_FIELD (8) ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* m_Items[1];
+
+	inline ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A  : public RuntimeArray
+{
+	ALIGN_FIELD (8) TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* m_Items[1];
+
+	inline TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct TrailU5BU5D_t037D9521EB28FE1A7303144D3D27C96AF5428B49  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* m_Items[1];
+
+	inline Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 m_Items[1];
+
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Type_t* m_Items[1];
+
+	inline Type_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Type_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Type_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Type_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Type_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Type_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 m_Items[1];
+
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Haptics_t93216D86CF0A99726A61DDED24C12CAFBACE5F7B* Haptics_get_Instance_m949CEF3AA5651088AC4B3991580137E0EAA1D819 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EyeSurprise_SurpriseEffect_mA58C59DD5A6C00295FEB21C7FDAC6112C69E30B5 (EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSurpriseEffectU3Ed__7__ctor_mF9345ADDF5E29447931AA39E1FAABA8E64EB0023 (U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_InverseTransformDirection_m69C077B881A98B08C7F231EFC49429C906FBC575 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GooglyEyeBlink_BlinkLoop_m5199AFF8CDDEF37556EF63F63AC9FDAFC32F681C (GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBlinkLoopU3Ed__6__ctor_m6C5418285AE5421C929CE5EEC2FB04D0E78A061F (U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494 (float ___0_minInclusive, float ___1_maxInclusive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticSource_Play_m956B4DE57D591565B2463988F345AC1DC5F90B64 (HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16* __this, const RuntimeMethod* method) ;
+inline Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, String_t* ___0_tag, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+inline ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* Component_GetComponentInParent_TisResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B_mB4E5480916F0B604291D558B4127620FF4AE0BD1 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_GetHit_mCC7A1D2D84448BF6CEA0D9477AA7B200EB83B4DB (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxeBehavior_TriggerHaptics_mB75ECF86B76FE153198CCDDD3CA0BA6E0089F0AC (AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AxeBehavior_TriggerHapticsRoutine_m56E888C782D9B91E19745A143015C5C0726E6A12 (AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* __this, int32_t ___0_controller, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTriggerHapticsRoutineU3Ed__14__ctor_m246BC924CF865F14FEFEDA9787CF92868E91BCEA (U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRInput_SetControllerVibration_m7DE7256047DAAB0F6F5E327250A23B9D7074871E (float ___0_frequency, float ___1_amplitude, int32_t ___2_controllerMask, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PrestigeManager_GetPrestigeMultiplier_m363026183C95ABBB5A37F3165C0ED53867BF2D0B (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float SurpriseSurge_GetSurgeMultiplier_m436797457DEC58BA73EE0638944AB537FF732AA0_inline (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_AddMaple_m2B1A8D11A36247EF6D4BF4A13E36611B3D05F549 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, int32_t ___0_amount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrestigeManager_UpdatePrestigeUI_m6BC6632ED8C019EFCFBD87797AF461C21205FD59 (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PrestigeManager_GetCurrentMaple_mD0A0FD9A423098F9631A976C8E56D62A8E151BDC (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PrestigeManager_DoPrestige_m09761BAB70294122AB79B3442EDDE054592C8CC8 (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoPrestigeU3Ed__17__ctor_m86920C4A99D4FE97F3A006E449974143CB689DDF (U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_ResetAll_mD42463E8987164EA8D269D126C35C4C2B73E9150 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashScreenU3Ed__19__ctor_m84D632E9E50EB8663A0C310257F411D26D8028B1 (U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PrestigeManager_FlashScreen_m1A23E429646FE44425A9972A9F41F8ED4D4EEF92 (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrestigeManager_ResetGameState_m8E7ED442DF96F8506D971BAC4AB575340951AB7D (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_UpdateUI_mCE2F6391E147B280050A75025FA5887A644D5397 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_UnlockMapleArea_m0D7D06003137E4049541F1C5FBA2A6FD28D9AF01 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResourceManager_ShowAchievement_mD87CD2164E374954F06E571091733F44F59B0C7C (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowAchievementU3Ed__24__ctor_mD90BB372EA43CE6D2BA4A63105962B00C8EA7775 (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
+inline Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+inline Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* Component_GetComponentInChildren_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_mDB9FC26B94B8EE9CF1F88BFEC75DF06CC2E3A000 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_ResetTree_mF4A1B8952EA0FDC3C9979B48C9B93152823EA2D6 (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_Play_m5565F093F0752D4DD9B451686F71C7A8F23F6744 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, String_t* ___0_stateName, int32_t ___1_layer, float ___2_normalizedTime, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResourceTree_HandleHarvest_m0C1C942AEF99D4430822E3FB2CA9BFF086A11292 (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResourceTree_CooldownTimer_mF58A75A72EBA2F489B6860995423DDC59065582A (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCooldownTimerU3Ed__17__ctor_mA7752BEB44727FE9EEA7B460001BBF03A2EF4923 (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleHarvestU3Ed__18__ctor_m88B1831DAA86DC831D8690E391DFFCBC8C2F26C2 (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68 (int32_t ___0_minInclusive, int32_t ___1_maxExclusive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70 (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_AddOak_mBC72CA44802886276AA34147611749E57089FE98 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, int32_t ___0_amount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, String_t* ___0_stateName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptedEase_TriggerEase_m5FD8EA443F11D219371FCD352AE70FF79ED67A26 (ScriptedEase_t114A3A33FBDB552243E4E8AB6F8C367B8F83B510* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_GrabSurge_mA68C0A877C26C1E71089DAE5021857C9B0BD6ADD (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_ResetSpawnTimer_m1558DD7BCAD237A1BDCCED838A29AB2FE8CB61FB (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_UpdateStatusText_mA17809E18B204FA481D544164669A807213E7718 (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_SpawnSurge_m5C54B5F6C912328CDC39E52DED875FCFBB666DE6 (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_DespawnSurge_m257A4A728DDE6991278D44BC3F5968BAB7664932 (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_EndBoost_mBD2D1F517E91A420512DDC9B8F76BE4DE4541CCA (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) ;
+inline SurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4* GameObject_GetComponent_TisSurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4_m7F3B055849E1CD73237C3E57CCC6F315111309DA (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  SurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurgeGrabTrigger_OnSurgeSpawned_m110CCD33850B80C761BD68973C367A23DDE48270 (SurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SurpriseSurge_DisableAfterDelay_m409FF410D88A62EE42A5FBA1AEC97AD93BC26733 (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_obj, float ___1_delay, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_StartBoost_m97AB106A801C5802DB65EF974F35A15B9D1E5460 (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDisableAfterDelayU3Ed__31__ctor_mD7910B5A4D3FBC42E5D058502C712E17D05413DC (U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Rotate_m35B44707FE16FF8015D519D8C162C0B4A85D6D1F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_axis, float ___1_angle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* ___0_groups, float ___1_multiplierValue, bool ___2_playEffects, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TycoonManager_GetExponentialCost_m844EBA14BF3E7FB48DFB6AFE15858A4C3F414A19 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, int32_t ___0_baseCost, int32_t ___1_ownedCount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EyeSurprise_TriggerSurprise_m794930C97781BECAE4726603ADB60E88A401CC50 (EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HouseToggler_EnableHouse_m89DFFE96987C4395B3C435D7BCD6261424170B0A (HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1 (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_ClearVertices_mCBC4D612D4E24C5541D90E43AD4D359957D80787 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Trail_PhysicsUpdate_mE362F1BB517BFEEEA4AE6D4C68AC2550F7BCB6B1 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___0_name, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___1_components, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_MarkDynamic_m718089940F240AFE625D6DC9DA4E6F20229CC322 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
+inline MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* GameObject_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mDF6525BCE37B444313BE0AA2305BDF4EB8B92FE8 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshFilter_set_sharedMesh_m946F7E3F583761982642BDA4753784AF1DF6E16F (MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GameObject_get_layer_m108902B9C89E9F837CE06B9942AA42307450FEAF (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_set_layer_m6E1AF478A2CC86BD222B96317BEB78B7D89B18D0 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+inline MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_set_shadowCastingMode_mB0CD3D153E43044388AEFF7AEFDA93E80EB36D11 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_Initialize_mD6D19FD649BB0F2EB34DAB64C80727164967E0F9 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, int32_t ___0_segment, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41 (RuntimeArray* ___0_sourceArray, int32_t ___1_sourceIndex, RuntimeArray* ___2_destinationArray, int32_t ___3_destinationIndex, int32_t ___4_length, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_TransformVertices_mCD3A970146EC2BE618FAB3C3606A1B075D5234D5 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Trail_CatmullRomSpline_m2418B6C31CC2210DC8C4F90A6057A0004D278E34 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_p0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_p1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_p2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_p3, float ___4_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPhysicsUpdateU3Ed__26__ctor_mD1A954AEC1CD22C5F8E29B20BB1462EA7562C239 (U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Transform_get_hasChanged_m570B3328E80AA338FF074A5C208500E98E440795 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_RecalculateBounds_mA9B293F57C6CD298AE2D2DB19061FC23B05AB90B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Transform_get_localToWorldMatrix_m5D35188766856338DD21DE756F42277C21719E6D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_point, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_Clear_m0F95397EA143D31AD0B4D332E8C6FA25A7957BC0 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Trail_get_Loop_mCEDE91351271055CCAD3F4F00CE7213ABEB84CD2 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetIndices_m2AE7ED76A6C77D218C37C011DDB948589FD45B97 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_indices, int32_t ___1_topology, int32_t ___2_submesh, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForFixedUpdate__ctor_m28D22FD61960FCD538753493FAC080DA5EC7A9E7 (WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_hasChanged_mCE980898F6D52F81E7E6B772DCA89E13A15870AE (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_m1DE89849FE2019B6AA0031306896F3B800849399_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149250
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticInitializer_Awake_mEDF13F7347F6E8381D4CB2CB9193F58989B7559D (HapticInitializer_t605059877E85EF6A13A2E8178AD228D6B63E7B31* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral095CB91923316199A123635C90CED7CA55C155F3);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* V_0 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	try
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Awake.cs:12>
+		Haptics_t93216D86CF0A99726A61DDED24C12CAFBACE5F7B* L_0;
+		L_0 = Haptics_get_Instance_m949CEF3AA5651088AC4B3991580137E0EAA1D819(NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Awake.cs:13>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral095CB91923316199A123635C90CED7CA55C155F3, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Awake.cs:14>
+		goto IL_002a;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0012;
+		}
+		throw e;
+	}
+
+CATCH_0012:
+	{
+		Exception_t* L_1 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Awake.cs:15>
+		V_0 = L_1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Awake.cs:17>
+		Exception_t* L_2 = V_0;
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_2);
+		String_t* L_4;
+		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralEA311EB6C2A9D088CF63DD43FF0FFEE4E1B27B4A)), L_3, NULL);
+		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_4, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Awake.cs:18>
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_002a;
+	}
+
+IL_002a:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Awake.cs:19>
+		return;
+	}
+}
+// Method Definition Index: 149251
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticInitializer__ctor_m22D6E71AF9CE18844D5DC3F83D282B65DE31D508 (HapticInitializer_t605059877E85EF6A13A2E8178AD228D6B63E7B31* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149252
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticTrigger_Start_m5FE4CC4EAE8B1CC8CB58A9A166D479B4DA5C1D02 (HapticTrigger_tDEFF29C05D62F279D1A469F722FC37FA2DE03EE4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EffectsAnimations/HapticTrigger.cs:9>
+		return;
+	}
+}
+// Method Definition Index: 149253
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticTrigger_Update_mBB15D6202EC11461E8990DF4DBADEABA78BE69CD (HapticTrigger_tDEFF29C05D62F279D1A469F722FC37FA2DE03EE4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EffectsAnimations/HapticTrigger.cs:15>
+		return;
+	}
+}
+// Method Definition Index: 149254
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticTrigger__ctor_mBA50752F1EFD05544AC73AFF6D98C8F0550ED7E2 (HapticTrigger_tDEFF29C05D62F279D1A469F722FC37FA2DE03EE4* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149255
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EyeSurprise_Start_m0D1D2B92A97E0FCC413507707407E4B4F6C48E4F (EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:15>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___eyeball;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:16>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___eyeball;
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_2, NULL);
+		__this->___originalScale = L_3;
+	}
+
+IL_001f:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:17>
+		return;
+	}
+}
+// Method Definition Index: 149256
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EyeSurprise_TriggerSurprise_m794930C97781BECAE4726603ADB60E88A401CC50 (EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:22>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___currentRoutine;
+		if (!L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:23>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1 = __this->___currentRoutine;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_1, NULL);
+	}
+
+IL_0014:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:25>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___eyeball;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:26>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___eyeball;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = __this->___originalScale;
+		NullCheck(L_4);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_4, L_5, NULL);
+	}
+
+IL_0033:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:28>
+		RuntimeObject* L_6;
+		L_6 = EyeSurprise_SurpriseEffect_mA58C59DD5A6C00295FEB21C7FDAC6112C69E30B5(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_7;
+		L_7 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_6, NULL);
+		__this->___currentRoutine = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentRoutine), (void*)L_7);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:29>
+		return;
+	}
+}
+// Method Definition Index: 149257
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EyeSurprise_SurpriseEffect_mA58C59DD5A6C00295FEB21C7FDAC6112C69E30B5 (EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6* L_0 = (U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6*)il2cpp_codegen_object_new(U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6_il2cpp_TypeInfo_var);
+		U3CSurpriseEffectU3Ed__7__ctor_mF9345ADDF5E29447931AA39E1FAABA8E64EB0023(L_0, 0, NULL);
+		U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 149258
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EyeSurprise__ctor_m242192F76F5E63A1BCA0F4A51CA201DF6936F581 (EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:7>
+		__this->___scaleMultiplier = (1.29999995f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:8>
+		__this->___duration = (1.5f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149259
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSurpriseEffectU3Ed__7__ctor_mF9345ADDF5E29447931AA39E1FAABA8E64EB0023 (U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 149260
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSurpriseEffectU3Ed__7_System_IDisposable_Dispose_mD9807363F2E11CA7D6648ED06C07BB76125143DE (U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 149261
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSurpriseEffectU3Ed__7_MoveNext_mA539284E7EEEA83B751215776557821D8D3EE17A (U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0026;
+			}
+			case 1:
+			{
+				goto IL_00b7;
+			}
+			case 2:
+			{
+				goto IL_00f6;
+			}
+			case 3:
+			{
+				goto IL_0160;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0026:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:33>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_3 = V_1;
+		NullCheck(L_3);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = L_3->___eyeball;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:34>
+		return (bool)0;
+	}
+
+IL_003d:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:36>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_6 = V_1;
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = L_6->___originalScale;
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_8 = V_1;
+		NullCheck(L_8);
+		float L_9 = L_8->___scaleMultiplier;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_7, L_9, NULL);
+		__this->___U3CtargetScaleU3E5__2 = L_10;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:39>
+		__this->___U3CgrowTimeU3E5__3 = (0.200000003f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:40>
+		__this->___U3CtU3E5__4 = (0.0f);
+		goto IL_00be;
+	}
+
+IL_006c:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:43>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_11 = V_1;
+		NullCheck(L_11);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = L_11->___eyeball;
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_13 = V_1;
+		NullCheck(L_13);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = L_13->___originalScale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = __this->___U3CtargetScaleU3E5__2;
+		float L_16 = __this->___U3CtU3E5__4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_14, L_15, L_16, NULL);
+		NullCheck(L_12);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_12, L_17, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:44>
+		float L_18 = __this->___U3CtU3E5__4;
+		float L_19;
+		L_19 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_20 = __this->___U3CgrowTimeU3E5__3;
+		__this->___U3CtU3E5__4 = ((float)il2cpp_codegen_add(L_18, ((float)(L_19/L_20))));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:45>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_00b7:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_00be:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:41>
+		float L_21 = __this->___U3CtU3E5__4;
+		if ((((float)L_21) < ((float)(1.0f))))
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:47>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_22 = V_1;
+		NullCheck(L_22);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23 = L_22->___eyeball;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = __this->___U3CtargetScaleU3E5__2;
+		NullCheck(L_23);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_23, L_24, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:50>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_25 = V_1;
+		NullCheck(L_25);
+		float L_26 = L_25->___duration;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_27 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_27, L_26, NULL);
+		__this->___U3CU3E2__current = L_27;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_27);
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_00f6:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:53>
+		__this->___U3CshrinkTimeU3E5__5 = (0.200000003f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:54>
+		__this->___U3CtU3E5__4 = (0.0f);
+		goto IL_0167;
+	}
+
+IL_0115:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:57>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_28 = V_1;
+		NullCheck(L_28);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = L_28->___eyeball;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = __this->___U3CtargetScaleU3E5__2;
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_31 = V_1;
+		NullCheck(L_31);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = L_31->___originalScale;
+		float L_33 = __this->___U3CtU3E5__4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
+		L_34 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_30, L_32, L_33, NULL);
+		NullCheck(L_29);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_29, L_34, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:58>
+		float L_35 = __this->___U3CtU3E5__4;
+		float L_36;
+		L_36 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_37 = __this->___U3CshrinkTimeU3E5__5;
+		__this->___U3CtU3E5__4 = ((float)il2cpp_codegen_add(L_35, ((float)(L_36/L_37))));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:59>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 3;
+		return (bool)1;
+	}
+
+IL_0160:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_0167:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:55>
+		float L_38 = __this->___U3CtU3E5__4;
+		if ((((float)L_38) < ((float)(1.0f))))
+		{
+			goto IL_0115;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:61>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_39 = V_1;
+		NullCheck(L_39);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_40 = L_39->___eyeball;
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_41 = V_1;
+		NullCheck(L_41);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = L_41->___originalScale;
+		NullCheck(L_40);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_40, L_42, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:63>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_43 = V_1;
+		NullCheck(L_43);
+		L_43->___currentRoutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&L_43->___currentRoutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/EyeSurprise.cs:64>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 149262
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSurpriseEffectU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAB041F80A49E756A9C5113ABB52A8381AAC3313E (U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 149263
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSurpriseEffectU3Ed__7_System_Collections_IEnumerator_Reset_mE1828706CED6B001E334E982F9F2045415A8AB13 (U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSurpriseEffectU3Ed__7_System_Collections_IEnumerator_Reset_mE1828706CED6B001E334E982F9F2045415A8AB13_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 149264
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSurpriseEffectU3Ed__7_System_Collections_IEnumerator_get_Current_mB40EE2A4FD9675BC89CB1BA8CBA2A00A0CD04E64 (U3CSurpriseEffectU3Ed__7_t11726EA50E2F1020D001E758FFDE4A816C8159F6* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149265
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglyEye_Start_mA677714D6B91F494572777A798EB651EF0451706 (GooglyEye_t2738CFA9C65D606758B72076B53754AFEC41AD9B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:21>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___pupil;
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_0, NULL);
+		__this->___startLocalPos = L_1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:22>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_2, NULL);
+		__this->___originalScale = L_3;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 149266
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglyEye_Update_m9E8003CAD1B6463F8EAC94964DF1E973D56E5F95 (GooglyEye_t2738CFA9C65D606758B72076B53754AFEC41AD9B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:28>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___target;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___pupil;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:28>
+		return;
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:31>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___target;
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_5, L_7, NULL);
+		V_0 = L_8;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:34>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		NullCheck(L_9);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Transform_InverseTransformDirection_m69C077B881A98B08C7F231EFC49429C906FBC575(L_9, L_10, NULL);
+		V_1 = L_11;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:37>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_1), NULL);
+		V_1 = L_12;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:40>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_1;
+		float L_14 = L_13.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_1;
+		float L_16 = L_15.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_17), L_14, L_16, (0.0f), NULL);
+		float L_18 = __this->___moveAmount;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		L_19 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_17, L_18, NULL);
+		V_2 = L_19;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:43>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:44>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:45>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:46>
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:47>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20 = __this->___pupil;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21 = __this->___pupil;
+		NullCheck(L_21);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_21, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = __this->___startLocalPos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
+		L_25 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_23, L_24, NULL);
+		float L_26;
+		L_26 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_27 = __this->___speed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_22, L_25, ((float)il2cpp_codegen_multiply(L_26, L_27)), NULL);
+		NullCheck(L_20);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_20, L_28, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:48>
+		return;
+	}
+}
+// Method Definition Index: 149267
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglyEye__ctor_m6049456D588372548DE5D7E8A0CE63B0FB92797B (GooglyEye_t2738CFA9C65D606758B72076B53754AFEC41AD9B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:11>
+		__this->___moveAmount = (0.100000001f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEye.cs:12>
+		__this->___speed = (5.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149268
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglyEyeBlink_Start_mEA5D3D38D2271654B2092B53117E91924A47B7C3 (GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEyeBlink.cs:14>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___eyeball;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEyeBlink.cs:15>
+		RuntimeObject* L_2;
+		L_2 = GooglyEyeBlink_BlinkLoop_m5199AFF8CDDEF37556EF63F63AC9FDAFC32F681C(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3;
+		L_3 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_2, NULL);
+	}
+
+IL_001b:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEyeBlink.cs:16>
+		return;
+	}
+}
+// Method Definition Index: 149269
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GooglyEyeBlink_BlinkLoop_m5199AFF8CDDEF37556EF63F63AC9FDAFC32F681C (GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2* L_0 = (U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2*)il2cpp_codegen_object_new(U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2_il2cpp_TypeInfo_var);
+		U3CBlinkLoopU3Ed__6__ctor_m6C5418285AE5421C929CE5EEC2FB04D0E78A061F(L_0, 0, NULL);
+		U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 149270
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GooglyEyeBlink__ctor_m24CBD35F56D7CCF8D2D474F05DBF235B86E9ACE4 (GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEyeBlink.cs:8>
+		__this->___minBlinkDelay = (2.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEyeBlink.cs:9>
+		__this->___maxBlinkDelay = (5.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEyeBlink.cs:10>
+		__this->___blinkDuration = (0.100000001f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149271
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBlinkLoopU3Ed__6__ctor_m6C5418285AE5421C929CE5EEC2FB04D0E78A061F (U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 149272
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBlinkLoopU3Ed__6_System_IDisposable_Dispose_m7537AF2915F1785D6EC96D98A31A6F306D5D1CEE (U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 149273
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CBlinkLoopU3Ed__6_MoveNext_m87CE1E973DC04ADF9B07C13226A6EF18B699CBD0 (U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887* V_1 = NULL;
+	float V_2 = 0.0f;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_0050;
+			}
+			case 2:
+			{
+				goto IL_0089;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_0029:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEyeBlink.cs:23>
+		GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887* L_3 = V_1;
+		NullCheck(L_3);
+		float L_4 = L_3->___minBlinkDelay;
+		GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887* L_5 = V_1;
+		NullCheck(L_5);
+		float L_6 = L_5->___maxBlinkDelay;
+		float L_7;
+		L_7 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_4, L_6, NULL);
+		V_2 = L_7;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEyeBlink.cs:24>
+		float L_8 = V_2;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_9 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_9, L_8, NULL);
+		__this->___U3CU3E2__current = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_9);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0050:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEyeBlink.cs:27>
+		GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887* L_10 = V_1;
+		NullCheck(L_10);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = L_10->___eyeball;
+		NullCheck(L_11);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEyeBlink.cs:28>
+		GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887* L_12 = V_1;
+		NullCheck(L_12);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = L_12->___eyeball2;
+		NullCheck(L_13);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEyeBlink.cs:29>
+		GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887* L_14 = V_1;
+		NullCheck(L_14);
+		float L_15 = L_14->___blinkDuration;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_16 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_16, L_15, NULL);
+		__this->___U3CU3E2__current = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_16);
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_0089:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEyeBlink.cs:32>
+		GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887* L_17 = V_1;
+		NullCheck(L_17);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = L_17->___eyeball;
+		NullCheck(L_18);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEyeBlink.cs:33>
+		GooglyEyeBlink_tB9BEAE27C82AC9424BE301B6092EBE05B6759887* L_19 = V_1;
+		NullCheck(L_19);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = L_19->___eyeball2;
+		NullCheck(L_20);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/GooglyEyeBlink.cs:20>
+		goto IL_0029;
+	}
+}
+// Method Definition Index: 149274
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CBlinkLoopU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m58DE56346B8527B543E276BB3A8122102B3D29D3 (U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 149275
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBlinkLoopU3Ed__6_System_Collections_IEnumerator_Reset_mBE1D8D24A02D38FC2ACCDFC595BF5F4892BF9D2D (U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CBlinkLoopU3Ed__6_System_Collections_IEnumerator_Reset_mBE1D8D24A02D38FC2ACCDFC595BF5F4892BF9D2D_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 149276
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CBlinkLoopU3Ed__6_System_Collections_IEnumerator_get_Current_m862E5519340E8ABA8BCF514C181C562A3162955A (U3CBlinkLoopU3Ed__6_tB2DCDAB992FD36A4FFD36C7C2753C696D8BA7AF2* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149277
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticTest_Start_m657AF8CEC140FC7B7303BCB674AD746BD745658F (HapticTest_t595AC54B4C9EECB63E94D519BD27640C1064DE0F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6D773582DD8BDC916E42DD9D078777AA5B8F0547);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/HapticTest.cs:11>
+		HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16* L_0 = __this->___hapticSource;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/HapticTest.cs:14>
+		HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16* L_2 = __this->___hapticSource;
+		NullCheck(L_2);
+		HapticSource_Play_m956B4DE57D591565B2463988F345AC1DC5F90B64(L_2, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/HapticTest.cs:15>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral6D773582DD8BDC916E42DD9D078777AA5B8F0547, NULL);
+	}
+
+IL_0023:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/HapticTest.cs:17>
+		return;
+	}
+}
+// Method Definition Index: 149278
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticTest__ctor_mD065B3949B87D9D21F226B14E429863EA210FD0D (HapticTest_t595AC54B4C9EECB63E94D519BD27640C1064DE0F* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149279
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxeBehavior_Start_m33ED71BE16D5550D10470F4F07B64687F0248C5D (AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:20>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0;
+		L_0 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
+		__this->___rb = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___rb), (void*)L_0);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:21>
+		return;
+	}
+}
+// Method Definition Index: 149280
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxeBehavior_OnTriggerEnter_m01A4A5877B45AD9DFC2C7D1B64C8C9C3D5844934 (AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B_mB4E5480916F0B604291D558B4127620FF4AE0BD1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEDED3810C5FA56FEEDF865886DC3C419440F4E6B);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* V_1 = NULL;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:24>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_other;
+		String_t* L_1 = __this->___treeTag;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_0, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:26>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = __this->___rb;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5 = __this->___rb;
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C(L_5, NULL);
+		V_0 = L_6;
+		float L_7;
+		L_7 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_0), NULL);
+		float L_8 = __this->___velocityThreshold;
+		if ((!(((float)L_7) > ((float)L_8))))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:28>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_9 = ___0_other;
+		NullCheck(L_9);
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_10;
+		L_10 = Component_GetComponentInParent_TisResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B_mB4E5480916F0B604291D558B4127620FF4AE0BD1(L_9, Component_GetComponentInParent_TisResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B_mB4E5480916F0B604291D558B4127620FF4AE0BD1_RuntimeMethod_var);
+		V_1 = L_10;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:29>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_11 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_12)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:31>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_13 = V_1;
+		NullCheck(L_13);
+		ResourceTree_GetHit_mCC7A1D2D84448BF6CEA0D9477AA7B200EB83B4DB(L_13, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:32>
+		AxeBehavior_TriggerHaptics_mB75ECF86B76FE153198CCDDD3CA0BA6E0089F0AC(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:33>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralEDED3810C5FA56FEEDF865886DC3C419440F4E6B, NULL);
+	}
+
+IL_005d:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:37>
+		return;
+	}
+}
+// Method Definition Index: 149281
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxeBehavior_Update_mC213F1245F9797EAC3F09E838A8573CE7CA6FAAF (AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:48>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___leftHand;
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		float L_4;
+		L_4 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_1, L_3, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:49>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->___rightHand;
+		NullCheck(L_7);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_7, NULL);
+		float L_9;
+		L_9 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_6, L_8, NULL);
+		V_0 = L_9;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:51>
+		if ((!(((float)L_4) < ((float)(0.200000003f)))))
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:52>
+		__this->___isHeldLeft = (bool)1;
+		goto IL_004e;
+	}
+
+IL_0047:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:54>
+		__this->___isHeldLeft = (bool)0;
+	}
+
+IL_004e:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:56>
+		float L_10 = V_0;
+		if ((!(((float)L_10) < ((float)(0.200000003f)))))
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:57>
+		__this->___isHeldRight = (bool)1;
+		return;
+	}
+
+IL_005e:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:59>
+		__this->___isHeldRight = (bool)0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:60>
+		return;
+	}
+}
+// Method Definition Index: 149282
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxeBehavior_TriggerHaptics_mB75ECF86B76FE153198CCDDD3CA0BA6E0089F0AC (AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:64>
+		bool L_0 = __this->___isHeldRight;
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:66>
+		RuntimeObject* L_1;
+		L_1 = AxeBehavior_TriggerHapticsRoutine_m56E888C782D9B91E19745A143015C5C0726E6A12(__this, 2, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
+		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
+	}
+
+IL_0016:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:68>
+		bool L_3 = __this->___isHeldLeft;
+		if (!L_3)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:69>
+		RuntimeObject* L_4;
+		L_4 = AxeBehavior_TriggerHapticsRoutine_m56E888C782D9B91E19745A143015C5C0726E6A12(__this, 1, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
+		L_5 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_4, NULL);
+	}
+
+IL_002c:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:70>
+		return;
+	}
+}
+// Method Definition Index: 149283
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AxeBehavior_TriggerHapticsRoutine_m56E888C782D9B91E19745A143015C5C0726E6A12 (AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* __this, int32_t ___0_controller, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* L_0 = (U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2*)il2cpp_codegen_object_new(U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2_il2cpp_TypeInfo_var);
+		U3CTriggerHapticsRoutineU3Ed__14__ctor_m246BC924CF865F14FEFEDA9787CF92868E91BCEA(L_0, 0, NULL);
+		U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* L_2 = L_1;
+		int32_t L_3 = ___0_controller;
+		NullCheck(L_2);
+		L_2->___controller = L_3;
+		return L_2;
+	}
+}
+// Method Definition Index: 149284
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxeBehavior__ctor_m3AB39C436BA7DD27B450361E465383E9F0A2181F (AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2F94F4742528BDF9EB11E79D6B1AA693BB9912DF);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:9>
+		__this->___velocityThreshold = (1.20000005f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:10>
+		__this->___treeTag = _stringLiteral2F94F4742528BDF9EB11E79D6B1AA693BB9912DF;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___treeTag), (void*)_stringLiteral2F94F4742528BDF9EB11E79D6B1AA693BB9912DF);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149285
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTriggerHapticsRoutineU3Ed__14__ctor_m246BC924CF865F14FEFEDA9787CF92868E91BCEA (U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 149286
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTriggerHapticsRoutineU3Ed__14_System_IDisposable_Dispose_mD6A3B42CD03148844113AEDF9A9A5C91966FDA12 (U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 149287
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CTriggerHapticsRoutineU3Ed__14_MoveNext_m6306D1548BAD42C286A33D00476CE985CF986290 (U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:74>
+		AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* L_4 = V_1;
+		NullCheck(L_4);
+		float L_5 = L_4->___frequency;
+		AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* L_6 = V_1;
+		NullCheck(L_6);
+		float L_7 = L_6->___amplitude;
+		int32_t L_8 = __this->___controller;
+		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		OVRInput_SetControllerVibration_m7DE7256047DAAB0F6F5E327250A23B9D7074871E(L_5, L_7, L_8, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:75>
+		AxeBehavior_tD4E20CA3B37F17EA8F53FAABCB62AD802C00A835* L_9 = V_1;
+		NullCheck(L_9);
+		float L_10 = L_9->___duration;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_11 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_11, L_10, NULL);
+		__this->___U3CU3E2__current = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_11);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_004f:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:76>
+		int32_t L_12 = __this->___controller;
+		il2cpp_codegen_runtime_class_init_inline(OVRInput_t759D9CC8F14D8539AD78A0375A2306C39D77100A_il2cpp_TypeInfo_var);
+		OVRInput_SetControllerVibration_m7DE7256047DAAB0F6F5E327250A23B9D7074871E((0.0f), (0.0f), L_12, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/AxeBehavior.cs:77>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 149288
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTriggerHapticsRoutineU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8DB26C178F4CF5C73EF5712971E92E9FF46361BA (U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 149289
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CTriggerHapticsRoutineU3Ed__14_System_Collections_IEnumerator_Reset_mC6518F99AC54CFD884B2D15F8716EAA84EA01C38 (U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CTriggerHapticsRoutineU3Ed__14_System_Collections_IEnumerator_Reset_mC6518F99AC54CFD884B2D15F8716EAA84EA01C38_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 149290
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CTriggerHapticsRoutineU3Ed__14_System_Collections_IEnumerator_get_Current_m9B2D632EDFCF9AEB488996E56464720ABA6C81ED (U3CTriggerHapticsRoutineU3Ed__14_tFD15A5EF2EADE8FB65EE8D76D3AD528A50D835A2* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149291
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HouseToggler_EnableHouse_m89DFFE96987C4395B3C435D7BCD6261424170B0A (HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0B9BC6BA3ABD18DA5658A32344DEC5237043075C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral47AB9F465787A8A4AFB5AFC9D0480948843DA104);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:19>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___bakerHouse;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:21>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___bakerHouse;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:22>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_3 = __this->___particles;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:23>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_5 = __this->___particles;
+		NullCheck(L_5);
+		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_5, NULL);
+	}
+
+IL_0033:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:24>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_6 = __this->___audio;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:25>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8 = __this->___audio;
+		NullCheck(L_8);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_8, NULL);
+	}
+
+IL_004c:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:26>
+		HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16* L_9 = __this->___haptics;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_10)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:27>
+		HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16* L_11 = __this->___haptics;
+		NullCheck(L_11);
+		HapticSource_Play_m956B4DE57D591565B2463988F345AC1DC5F90B64(L_11, NULL);
+	}
+
+IL_0065:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:28>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral47AB9F465787A8A4AFB5AFC9D0480948843DA104, NULL);
+		return;
+	}
+
+IL_0070:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:32>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral0B9BC6BA3ABD18DA5658A32344DEC5237043075C, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:34>
+		return;
+	}
+}
+// Method Definition Index: 149292
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HouseToggler_ToggleHouse_mD9F56863CD90A187540E3EC7ACE7FDA8195D4385 (HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:41>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___bakerHouse;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:43>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_2 = __this->___particles;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:44>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_4 = __this->___particles;
+		NullCheck(L_4);
+		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_4, NULL);
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:45>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___bakerHouse;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_5, NULL);
+		V_0 = L_6;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:46>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___bakerHouse;
+		bool L_8 = V_0;
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)((((int32_t)L_8) == ((int32_t)0))? 1 : 0), NULL);
+	}
+
+IL_0042:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/HouseToggler.cs:48>
+		return;
+	}
+}
+// Method Definition Index: 149293
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HouseToggler__ctor_m137F62E698A837E663757EA039B5792D9AE99E14 (HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149294
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapleGenerator_Update_m212AE339E1B0B443EF356FAE73BEEC851D27464F (MapleGenerator_t7779B2F137A654EB1A60C51EB6DFABAA5958E31A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/MapleGenerator.cs:11>
+		float L_0 = __this->___timer;
+		float L_1;
+		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___timer = ((float)il2cpp_codegen_add(L_0, L_1));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/MapleGenerator.cs:13>
+		float L_2 = __this->___timer;
+		float L_3 = __this->___tickInterval;
+		if ((!(((float)L_2) >= ((float)L_3))))
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/MapleGenerator.cs:15>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_4 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_6 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/MapleGenerator.cs:18>
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_8 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_8);
+		float L_9 = L_8->___mapleProductionMultiplier;
+		V_0 = L_9;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/MapleGenerator.cs:21>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_10 = ((PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_StaticFields*)il2cpp_codegen_static_fields_for(PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_11)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/MapleGenerator.cs:22>
+		float L_12 = V_0;
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_13 = ((PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_StaticFields*)il2cpp_codegen_static_fields_for(PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_13);
+		float L_14;
+		L_14 = PrestigeManager_GetPrestigeMultiplier_m363026183C95ABBB5A37F3165C0ED53867BF2D0B(L_13, NULL);
+		V_0 = ((float)il2cpp_codegen_multiply(L_12, L_14));
+	}
+
+IL_005f:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/MapleGenerator.cs:25>
+		il2cpp_codegen_runtime_class_init_inline(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* L_15 = ((SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_StaticFields*)il2cpp_codegen_static_fields_for(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_16;
+		L_16 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_16)
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/MapleGenerator.cs:26>
+		float L_17 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* L_18 = ((SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_StaticFields*)il2cpp_codegen_static_fields_for(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_18);
+		float L_19;
+		L_19 = SurpriseSurge_GetSurgeMultiplier_m436797457DEC58BA73EE0638944AB537FF732AA0_inline(L_18, NULL);
+		V_0 = ((float)il2cpp_codegen_multiply(L_17, L_19));
+	}
+
+IL_0079:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/MapleGenerator.cs:28>
+		int32_t L_20 = __this->___baseMaplePerTick;
+		float L_21 = V_0;
+		int32_t L_22;
+		L_22 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(((float)il2cpp_codegen_multiply(((float)L_20), L_21)), NULL);
+		V_1 = L_22;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/MapleGenerator.cs:30>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_23 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		int32_t L_24 = V_1;
+		NullCheck(L_23);
+		ResourceManager_AddMaple_m2B1A8D11A36247EF6D4BF4A13E36611B3D05F549(L_23, L_24, NULL);
+	}
+
+IL_0093:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/MapleGenerator.cs:32>
+		__this->___timer = (0.0f);
+	}
+
+IL_009e:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/MapleGenerator.cs:34>
+		return;
+	}
+}
+// Method Definition Index: 149295
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapleGenerator__ctor_mB6952A4FFC9FBA1F94924630E1A687A02E525BEE (MapleGenerator_t7779B2F137A654EB1A60C51EB6DFABAA5958E31A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/MapleGenerator.cs:5>
+		__this->___baseMaplePerTick = ((int32_t)10);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/MapleGenerator.cs:6>
+		__this->___tickInterval = (5.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149296
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleAudioTrigger_PlayAudio_mD5992B62F2DEE9363ECB9439200F74D19D9B7F38 (ParticleAudioTrigger_t76CF4050A344DE09287C6B51E55FA904B6461D60* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ParticleAudioTrigger.cs:12>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___audioSource;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ParticleAudioTrigger.cs:13>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->___audioSource;
+		NullCheck(L_2);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_2, NULL);
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ParticleAudioTrigger.cs:14>
+		return;
+	}
+}
+// Method Definition Index: 149297
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleAudioTrigger_PlayParticles_m48487072AB67220595DFE54395AF09459E1ADC26 (ParticleAudioTrigger_t76CF4050A344DE09287C6B51E55FA904B6461D60* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ParticleAudioTrigger.cs:18>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_0 = __this->___particles;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ParticleAudioTrigger.cs:20>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_2 = __this->___particles;
+		NullCheck(L_2);
+		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_2, NULL);
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ParticleAudioTrigger.cs:22>
+		return;
+	}
+}
+// Method Definition Index: 149298
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleAudioTrigger_PlayHaptic_m9C9C076187B518F42EF53174F4FA5C23E1C0656C (ParticleAudioTrigger_t76CF4050A344DE09287C6B51E55FA904B6461D60* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ParticleAudioTrigger.cs:26>
+		HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16* L_0 = __this->___haptics;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ParticleAudioTrigger.cs:28>
+		HapticSource_t537CDA65AEE32CF5B92E4A22ED2907A2E9EF0B16* L_2 = __this->___haptics;
+		NullCheck(L_2);
+		HapticSource_Play_m956B4DE57D591565B2463988F345AC1DC5F90B64(L_2, NULL);
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ParticleAudioTrigger.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 149299
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleAudioTrigger__ctor_mD1C22BA786CDEA02F172082C8B2CAE155FCE747D (ParticleAudioTrigger_t76CF4050A344DE09287C6B51E55FA904B6461D60* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149300
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrestigeManager_Awake_m00A2CA6746D05478F648C644A95EA9F4A5FA8D3D (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:38>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_0 = ((PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_StaticFields*)il2cpp_codegen_static_fields_for(PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:38>
+		((PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_StaticFields*)il2cpp_codegen_static_fields_for(PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_il2cpp_TypeInfo_var))->___Instance = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&((PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_StaticFields*)il2cpp_codegen_static_fields_for(PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_il2cpp_TypeInfo_var))->___Instance), (void*)__this);
+		return;
+	}
+
+IL_0014:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:39>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:40>
+		return;
+	}
+}
+// Method Definition Index: 149301
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrestigeManager_Start_m9BA8F8E0946CC7BBBB81BA78F6C30CC0FA4CF83E (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:44>
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___flashOverlay;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:45>
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_2 = __this->___flashOverlay;
+		NullCheck(L_2);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_2, (0.0f), NULL);
+	}
+
+IL_001e:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:46>
+		PrestigeManager_UpdatePrestigeUI_m6BC6632ED8C019EFCFBD87797AF461C21205FD59(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:47>
+		return;
+	}
+}
+// Method Definition Index: 149302
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PrestigeManager_GetPrestigeMultiplier_m363026183C95ABBB5A37F3165C0ED53867BF2D0B (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:55>
+		int32_t L_0 = __this->___prestigeCount;
+		float L_1 = __this->___prestigeMultiplierBonus;
+		return ((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply(((float)L_0), L_1))));
+	}
+}
+// Method Definition Index: 149303
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PrestigeManager_GetCurrentMaple_mD0A0FD9A423098F9631A976C8E56D62A8E151BDC (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:63>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_0 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:64>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_2 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_2);
+		int32_t L_3 = L_2->___mapleCount;
+		return L_3;
+	}
+
+IL_0018:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:65>
+		return 0;
+	}
+}
+// Method Definition Index: 149304
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrestigeManager_TryPrestige_mE98F51155C8BA448C7EE0952255015846797D334 (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF152C7F841FE823A9D70B62DCAEED89CB2FF860);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:73>
+		int32_t L_0;
+		L_0 = PrestigeManager_GetCurrentMaple_mD0A0FD9A423098F9631A976C8E56D62A8E151BDC(__this, NULL);
+		V_0 = L_0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:74>
+		int32_t L_1 = V_0;
+		int32_t L_2 = __this->___prestigeThreshold;
+		if ((((int32_t)L_1) >= ((int32_t)L_2)))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:76>
+		int32_t L_3 = __this->___prestigeThreshold;
+		int32_t L_4 = L_3;
+		RuntimeObject* L_5 = Box(il2cpp_defaults.int32_class, &L_4);
+		int32_t L_6 = V_0;
+		int32_t L_7 = L_6;
+		RuntimeObject* L_8 = Box(il2cpp_defaults.int32_class, &L_7);
+		String_t* L_9;
+		L_9 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralCF152C7F841FE823A9D70B62DCAEED89CB2FF860, L_5, L_8, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:77>
+		return;
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:80>
+		RuntimeObject* L_10;
+		L_10 = PrestigeManager_DoPrestige_m09761BAB70294122AB79B3442EDDE054592C8CC8(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
+		L_11 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_10, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:81>
+		return;
+	}
+}
+// Method Definition Index: 149305
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PrestigeManager_DoPrestige_m09761BAB70294122AB79B3442EDDE054592C8CC8 (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D* L_0 = (U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D*)il2cpp_codegen_object_new(U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D_il2cpp_TypeInfo_var);
+		U3CDoPrestigeU3Ed__17__ctor_m86920C4A99D4FE97F3A006E449974143CB689DDF(L_0, 0, NULL);
+		U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 149306
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrestigeManager_ResetGameState_m8E7ED442DF96F8506D971BAC4AB575340951AB7D (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* V_0 = NULL;
+	int32_t V_1 = 0;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_2 = NULL;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_3 = NULL;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:120>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_0 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:122>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_2 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_2);
+		ResourceManager_ResetAll_mD42463E8987164EA8D269D126C35C4C2B73E9150(L_2, NULL);
+	}
+
+IL_0017:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:126>
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_3 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:128>
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_5 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_5);
+		L_5->___oakGenCount = 0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:129>
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_6 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_6);
+		L_6->___oakProductionMultiplier = (1.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:130>
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_7 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_7);
+		L_7->___mapleGenCount = 0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:131>
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_8 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_8);
+		L_8->___mapleProductionMultiplier = (1.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:134>
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_9 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_9);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_10 = L_9->___oakGenModels;
+		V_0 = L_10;
+		V_1 = 0;
+		goto IL_0082;
+	}
+
+IL_006a:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:134>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_11 = V_0;
+		int32_t L_12 = V_1;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		V_2 = L_14;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:136>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_16;
+		L_16 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_16)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:136>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = V_2;
+		NullCheck(L_17);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
+	}
+
+IL_007e:
+	{
+		int32_t L_18 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_18, 1));
+	}
+
+IL_0082:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:134>
+		int32_t L_19 = V_1;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_20 = V_0;
+		NullCheck(L_20);
+		if ((((int32_t)L_19) < ((int32_t)((int32_t)(((RuntimeArray*)L_20)->max_length)))))
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:138>
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_21 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_21);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_22 = L_21->___mapleGenModels;
+		V_0 = L_22;
+		V_1 = 0;
+		goto IL_00af;
+	}
+
+IL_0097:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:138>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_23 = V_0;
+		int32_t L_24 = V_1;
+		NullCheck(L_23);
+		int32_t L_25 = L_24;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+		V_3 = L_26;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:140>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_28;
+		L_28 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_27, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_28)
+		{
+			goto IL_00ab;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:140>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = V_3;
+		NullCheck(L_29);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_29, (bool)0, NULL);
+	}
+
+IL_00ab:
+	{
+		int32_t L_30 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_30, 1));
+	}
+
+IL_00af:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:138>
+		int32_t L_31 = V_1;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_32 = V_0;
+		NullCheck(L_32);
+		if ((((int32_t)L_31) < ((int32_t)((int32_t)(((RuntimeArray*)L_32)->max_length)))))
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:144>
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_33 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_33);
+		TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577(L_33, NULL);
+	}
+
+IL_00bf:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:146>
+		return;
+	}
+}
+// Method Definition Index: 149307
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PrestigeManager_FlashScreen_m1A23E429646FE44425A9972A9F41F8ED4D4EEF92 (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2* L_0 = (U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2*)il2cpp_codegen_object_new(U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2_il2cpp_TypeInfo_var);
+		U3CFlashScreenU3Ed__19__ctor_m84D632E9E50EB8663A0C310257F411D26D8028B1(L_0, 0, NULL);
+		U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 149308
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrestigeManager_UpdatePrestigeUI_m6BC6632ED8C019EFCFBD87797AF461C21205FD59 (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2EBB1981626A4B361E1B4A16283E97FD7AD5C4F6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC13495CD8AC9F322544775E87BD24887E8863844);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE0C329365A7D7A13E3A1FBA3604E1AB77097B8B3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF9E672F804B595FC7D8FDE21502E69319A8ACD21);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:173>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___prestigeButtonText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:175>
+		int32_t L_2;
+		L_2 = PrestigeManager_GetCurrentMaple_mD0A0FD9A423098F9631A976C8E56D62A8E151BDC(__this, NULL);
+		V_0 = L_2;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:176>
+		int32_t L_3 = V_0;
+		int32_t L_4 = __this->___prestigeThreshold;
+		if ((((int32_t)L_3) < ((int32_t)L_4)))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:177>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5 = __this->___prestigeButtonText;
+		NullCheck(L_5);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, _stringLiteral2EBB1981626A4B361E1B4A16283E97FD7AD5C4F6);
+		goto IL_0056;
+	}
+
+IL_0030:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:179>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_6 = __this->___prestigeButtonText;
+		int32_t L_7 = V_0;
+		int32_t L_8 = L_7;
+		RuntimeObject* L_9 = Box(il2cpp_defaults.int32_class, &L_8);
+		int32_t L_10 = __this->___prestigeThreshold;
+		int32_t L_11 = L_10;
+		RuntimeObject* L_12 = Box(il2cpp_defaults.int32_class, &L_11);
+		String_t* L_13;
+		L_13 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralE0C329365A7D7A13E3A1FBA3604E1AB77097B8B3, L_9, L_12, NULL);
+		NullCheck(L_6);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, L_13);
+	}
+
+IL_0056:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:182>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_14 = __this->___prestigeInfoText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_15;
+		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_15)
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:184>
+		int32_t L_16 = __this->___prestigeCount;
+		if ((((int32_t)L_16) <= ((int32_t)0)))
+		{
+			goto IL_0099;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:185>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_17 = __this->___prestigeInfoText;
+		int32_t L_18 = __this->___prestigeCount;
+		int32_t L_19 = L_18;
+		RuntimeObject* L_20 = Box(il2cpp_defaults.int32_class, &L_19);
+		float L_21;
+		L_21 = PrestigeManager_GetPrestigeMultiplier_m363026183C95ABBB5A37F3165C0ED53867BF2D0B(__this, NULL);
+		float L_22 = L_21;
+		RuntimeObject* L_23 = Box(il2cpp_defaults.single_class, &L_22);
+		String_t* L_24;
+		L_24 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralF9E672F804B595FC7D8FDE21502E69319A8ACD21, L_20, L_23, NULL);
+		NullCheck(L_17);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_17, L_24);
+		return;
+	}
+
+IL_0099:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:187>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_25 = __this->___prestigeInfoText;
+		NullCheck(L_25);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, _stringLiteralC13495CD8AC9F322544775E87BD24887E8863844);
+	}
+
+IL_00a9:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:189>
+		return;
+	}
+}
+// Method Definition Index: 149309
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrestigeManager_Update_mA7DE6A1E23043E7F1FF960ACD119107EB57BA37A (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:193>
+		PrestigeManager_UpdatePrestigeUI_m6BC6632ED8C019EFCFBD87797AF461C21205FD59(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:194>
+		return;
+	}
+}
+// Method Definition Index: 149310
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrestigeManager__ctor_mF60989D0A27FFA2C41B470CF0A4DDA91196F4545 (PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:16>
+		__this->___prestigeThreshold = ((int32_t)5000);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:19>
+		__this->___prestigeMultiplierBonus = (0.5f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:34>
+		__this->___flashDuration = (1.5f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149311
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoPrestigeU3Ed__17__ctor_m86920C4A99D4FE97F3A006E449974143CB689DDF (U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 149312
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoPrestigeU3Ed__17_System_IDisposable_Dispose_mF423558790D84F447DF5F841C529B61F05E7BB58 (U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 149313
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDoPrestigeU3Ed__17_MoveNext_mB8C051606322DF0BB8C955294B6286E8023AEC8C (U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1518B6992D898349F92A935FD7A382A2AD4B9D77);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* V_1 = NULL;
+	ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* V_2 = NULL;
+	int32_t V_3 = 0;
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* V_4 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001a:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:85>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_4 = V_1;
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_5 = V_1;
+		NullCheck(L_5);
+		int32_t L_6 = L_5->___prestigeCount;
+		NullCheck(L_4);
+		L_4->___prestigeCount = ((int32_t)il2cpp_codegen_add(L_6, 1));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:88>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_7 = V_1;
+		NullCheck(L_7);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8 = L_7->___prestigeAudio;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:89>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_10 = V_1;
+		NullCheck(L_10);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_11 = L_10->___prestigeAudio;
+		NullCheck(L_11);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_11, NULL);
+	}
+
+IL_0048:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:91>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_12 = V_1;
+		NullCheck(L_12);
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_13 = L_12->___prestigeParticles;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_14)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:92>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_15 = V_1;
+		NullCheck(L_15);
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_16 = L_15->___prestigeParticles;
+		NullCheck(L_16);
+		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_16, NULL);
+	}
+
+IL_0061:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:94>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_17 = V_1;
+		NullCheck(L_17);
+		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_18 = L_17->___sceneWideParticles;
+		if (!L_18)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:96>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_19 = V_1;
+		NullCheck(L_19);
+		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_20 = L_19->___sceneWideParticles;
+		V_2 = L_20;
+		V_3 = 0;
+		goto IL_008e;
+	}
+
+IL_0074:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:96>
+		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_21 = V_2;
+		int32_t L_22 = V_3;
+		NullCheck(L_21);
+		int32_t L_23 = L_22;
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		V_4 = L_24;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:98>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_25 = V_4;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_26;
+		L_26 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_25, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_26)
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:98>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_27 = V_4;
+		NullCheck(L_27);
+		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_27, NULL);
+	}
+
+IL_008a:
+	{
+		int32_t L_28 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+	}
+
+IL_008e:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:96>
+		int32_t L_29 = V_3;
+		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_30 = V_2;
+		NullCheck(L_30);
+		if ((((int32_t)L_29) < ((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length)))))
+		{
+			goto IL_0074;
+		}
+	}
+
+IL_0094:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:102>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_31 = V_1;
+		NullCheck(L_31);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_32 = L_31->___flashOverlay;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_33;
+		L_33 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_32, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_33)
+		{
+			goto IL_00c4;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:104>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_34 = V_1;
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_35 = V_1;
+		NullCheck(L_35);
+		RuntimeObject* L_36;
+		L_36 = PrestigeManager_FlashScreen_m1A23E429646FE44425A9972A9F41F8ED4D4EEF92(L_35, NULL);
+		NullCheck(L_34);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_37;
+		L_37 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_34, L_36, NULL);
+		__this->___U3CU3E2__current = L_37;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_37);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_00bd:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_00c4:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:108>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_38 = V_1;
+		NullCheck(L_38);
+		PrestigeManager_ResetGameState_m8E7ED442DF96F8506D971BAC4AB575340951AB7D(L_38, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:110>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_39 = V_1;
+		NullCheck(L_39);
+		PrestigeManager_UpdatePrestigeUI_m6BC6632ED8C019EFCFBD87797AF461C21205FD59(L_39, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:111>
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_40 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_41;
+		L_41 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_40, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_41)
+		{
+			goto IL_00e7;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:112>
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_42 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_42);
+		TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577(L_42, NULL);
+	}
+
+IL_00e7:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:114>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_43 = V_1;
+		NullCheck(L_43);
+		int32_t L_44 = L_43->___prestigeCount;
+		int32_t L_45 = L_44;
+		RuntimeObject* L_46 = Box(il2cpp_defaults.int32_class, &L_45);
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_47 = V_1;
+		NullCheck(L_47);
+		float L_48;
+		L_48 = PrestigeManager_GetPrestigeMultiplier_m363026183C95ABBB5A37F3165C0ED53867BF2D0B(L_47, NULL);
+		float L_49 = L_48;
+		RuntimeObject* L_50 = Box(il2cpp_defaults.single_class, &L_49);
+		String_t* L_51;
+		L_51 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral1518B6992D898349F92A935FD7A382A2AD4B9D77, L_46, L_50, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_51, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:115>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 149314
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDoPrestigeU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE793D0C9A1E3B60BB13F55D2798DAF61F240BD04 (U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 149315
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoPrestigeU3Ed__17_System_Collections_IEnumerator_Reset_mB442DB627500A543F90881B1EE31FA53C817E410 (U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDoPrestigeU3Ed__17_System_Collections_IEnumerator_Reset_mB442DB627500A543F90881B1EE31FA53C817E410_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 149316
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDoPrestigeU3Ed__17_System_Collections_IEnumerator_get_Current_m4DCD828DA532C476541CD318B2B478ECF87BC3CD (U3CDoPrestigeU3Ed__17_t23E5D45D9F2F5D8BB5E8E3589C9A112C29E6487D* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149317
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashScreenU3Ed__19__ctor_m84D632E9E50EB8663A0C310257F411D26D8028B1 (U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 149318
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashScreenU3Ed__19_System_IDisposable_Dispose_m64022BD355DD9B6B884FEF1D645ABEBEE995679D (U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 149319
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFlashScreenU3Ed__19_MoveNext_m82C8CC43AFFA4F4EFC1B2018369C869CF51F6B9C (U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_0099;
+			}
+			case 2:
+			{
+				goto IL_011c;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:150>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_3 = V_1;
+		NullCheck(L_3);
+		float L_4 = L_3->___flashDuration;
+		__this->___U3ChalfDurationU3E5__2 = ((float)(L_4/(2.0f)));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:151>
+		__this->___U3CtimerU3E5__3 = (0.0f);
+		goto IL_00a0;
+	}
+
+IL_0048:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:155>
+		float L_5 = __this->___U3CtimerU3E5__3;
+		float L_6;
+		L_6 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___U3CtimerU3E5__3 = ((float)il2cpp_codegen_add(L_5, L_6));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:156>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_7 = V_1;
+		NullCheck(L_7);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_8 = L_7->___flashOverlay;
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_9 = L_8;
+		NullCheck(L_9);
+		float L_10;
+		L_10 = CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF(L_9, NULL);
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_11 = V_1;
+		NullCheck(L_11);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_12 = L_11->___flashOverlay;
+		NullCheck(L_12);
+		float L_13;
+		L_13 = CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF(L_12, NULL);
+		float L_14;
+		L_14 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		NullCheck(L_9);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_9, ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((8.0f), ((float)il2cpp_codegen_subtract((1.0f), L_13)))), L_14)))), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:157>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0099:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_00a0:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:153>
+		float L_15 = __this->___U3CtimerU3E5__3;
+		float L_16 = __this->___U3ChalfDurationU3E5__2;
+		if ((((float)L_15) < ((float)L_16)))
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:159>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_17 = V_1;
+		NullCheck(L_17);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_18 = L_17->___flashOverlay;
+		NullCheck(L_18);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_18, (1.0f), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:161>
+		__this->___U3CtimerU3E5__3 = (0.0f);
+		goto IL_0123;
+	}
+
+IL_00cb:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:164>
+		float L_19 = __this->___U3CtimerU3E5__3;
+		float L_20;
+		L_20 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___U3CtimerU3E5__3 = ((float)il2cpp_codegen_add(L_19, L_20));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:165>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_21 = V_1;
+		NullCheck(L_21);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_22 = L_21->___flashOverlay;
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_23 = L_22;
+		NullCheck(L_23);
+		float L_24;
+		L_24 = CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF(L_23, NULL);
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_25 = V_1;
+		NullCheck(L_25);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_26 = L_25->___flashOverlay;
+		NullCheck(L_26);
+		float L_27;
+		L_27 = CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF(L_26, NULL);
+		float L_28;
+		L_28 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		NullCheck(L_23);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_23, ((float)il2cpp_codegen_add(L_24, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((6.0f), ((float)il2cpp_codegen_subtract((0.0f), L_27)))), L_28)))), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:166>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_011c:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_0123:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:162>
+		float L_29 = __this->___U3CtimerU3E5__3;
+		float L_30 = __this->___U3ChalfDurationU3E5__2;
+		if ((((float)L_29) < ((float)L_30)))
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:168>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_31 = V_1;
+		NullCheck(L_31);
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_32 = L_31->___flashOverlay;
+		NullCheck(L_32);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_32, (0.0f), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/PrestigeManager.cs:169>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 149320
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFlashScreenU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m28B1049A3696FF4C06E7B8995C19B51C0ADE0C2A (U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 149321
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashScreenU3Ed__19_System_Collections_IEnumerator_Reset_m6BAA5F4FFC08CC0B3FDD45808FB37852A5FA46F8 (U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CFlashScreenU3Ed__19_System_Collections_IEnumerator_Reset_m6BAA5F4FFC08CC0B3FDD45808FB37852A5FA46F8_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 149322
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFlashScreenU3Ed__19_System_Collections_IEnumerator_get_Current_m148DEAD49C10A9601E17C880D9921EB6621878A1 (U3CFlashScreenU3Ed__19_tC309F120AF9E1B08D53EAC958037F5BDA928E7E2* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149323
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_Awake_m7A881012F7FB77026FD81E63F39F48BBF1131C89 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:42>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_0 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:42>
+		((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance), (void*)__this);
+		return;
+	}
+
+IL_0014:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:43>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 149324
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_Start_mDC8053F06C65AEF06644C0C862865B1BB6C1E75E (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:48>
+		ResourceManager_UpdateUI_mCE2F6391E147B280050A75025FA5887A644D5397(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:49>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___achievementPopup;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:49>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___achievementPopup;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+	}
+
+IL_0020:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:50>
+		return;
+	}
+}
+// Method Definition Index: 149325
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_AddOak_mBC72CA44802886276AA34147611749E57089FE98 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, int32_t ___0_amount, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:54>
+		int32_t L_0 = __this->___oakCount;
+		int32_t L_1 = ___0_amount;
+		__this->___oakCount = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:55>
+		ResourceManager_UpdateUI_mCE2F6391E147B280050A75025FA5887A644D5397(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:58>
+		bool L_2 = __this->___t1Unlocked;
+		if (L_2)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		int32_t L_3 = __this->___oakCount;
+		if ((((int32_t)L_3) < ((int32_t)((int32_t)500))))
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:60>
+		__this->___t1Unlocked = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:61>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = __this->___achievementAudio;
+		NullCheck(L_4);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_4, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:62>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___trophy1_Woodcutter;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:63>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___cup1Canvas;
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
+	}
+
+IL_0053:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:68>
+		bool L_7 = __this->___mapleUnlocked;
+		if (L_7)
+		{
+			goto IL_0099;
+		}
+	}
+	{
+		int32_t L_8 = __this->___oakCount;
+		int32_t L_9 = __this->___oakGoal;
+		if ((((int32_t)L_8) < ((int32_t)L_9)))
+		{
+			goto IL_0099;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:70>
+		__this->___t2Unlocked = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:71>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10 = __this->___achievementAudio;
+		NullCheck(L_10);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_10, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:72>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___trophy2_Explorer;
+		NullCheck(L_11);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:73>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___cup2Canvas;
+		NullCheck(L_12);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:74>
+		ResourceManager_UnlockMapleArea_m0D7D06003137E4049541F1C5FBA2A6FD28D9AF01(__this, NULL);
+	}
+
+IL_0099:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:76>
+		return;
+	}
+}
+// Method Definition Index: 149326
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_UnlockMapleArea_m0D7D06003137E4049541F1C5FBA2A6FD28D9AF01 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:80>
+		__this->___mapleUnlocked = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:83>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___mapleBlockerPlane;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:84>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___mapleBlockerPlane;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+	}
+
+IL_0021:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:87>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___achievementPopup;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:88>
+		RuntimeObject* L_5;
+		L_5 = ResourceManager_ShowAchievement_mD87CD2164E374954F06E571091733F44F59B0C7C(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
+		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
+	}
+
+IL_003c:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:89>
+		return;
+	}
+}
+// Method Definition Index: 149327
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResourceManager_ShowAchievement_mD87CD2164E374954F06E571091733F44F59B0C7C (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* L_0 = (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6*)il2cpp_codegen_object_new(U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6_il2cpp_TypeInfo_var);
+		U3CShowAchievementU3Ed__24__ctor_mD90BB372EA43CE6D2BA4A63105962B00C8EA7775(L_0, 0, NULL);
+		U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 149328
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_AddMaple_m2B1A8D11A36247EF6D4BF4A13E36611B3D05F549 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, int32_t ___0_amount, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:100>
+		int32_t L_0 = __this->___mapleCount;
+		int32_t L_1 = ___0_amount;
+		__this->___mapleCount = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:101>
+		ResourceManager_UpdateUI_mCE2F6391E147B280050A75025FA5887A644D5397(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:103>
+		bool L_2 = __this->___t3Unlocked;
+		if (L_2)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		int32_t L_3 = __this->___mapleCount;
+		if ((((int32_t)L_3) < ((int32_t)((int32_t)5000))))
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:105>
+		__this->___t3Unlocked = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:106>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = __this->___achievementAudio;
+		NullCheck(L_4);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_4, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:107>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___cup3Canvas;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:108>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___trophy3_Tycoon;
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
+	}
+
+IL_0053:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:110>
+		return;
+	}
+}
+// Method Definition Index: 149329
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_UpdateUI_mCE2F6391E147B280050A75025FA5887A644D5397 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral192AB71FCA5773A8031A7F4CDE0CFF6E3A586948);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3084D70A4D8DB6724E5CC528F4BA6F3AF15128A3);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:114>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___oakText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:114>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___oakText;
+		int32_t L_3 = __this->___oakCount;
+		int32_t L_4 = L_3;
+		RuntimeObject* L_5 = Box(il2cpp_defaults.int32_class, &L_4);
+		String_t* L_6;
+		L_6 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral192AB71FCA5773A8031A7F4CDE0CFF6E3A586948, L_5, NULL);
+		NullCheck(L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, L_6);
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:115>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_7 = __this->___mapleText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_8)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:115>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = __this->___mapleText;
+		int32_t L_10 = __this->___mapleCount;
+		int32_t L_11 = L_10;
+		RuntimeObject* L_12 = Box(il2cpp_defaults.int32_class, &L_11);
+		String_t* L_13;
+		L_13 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral3084D70A4D8DB6724E5CC528F4BA6F3AF15128A3, L_12, NULL);
+		NullCheck(L_9);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_9, L_13);
+	}
+
+IL_005c:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:116>
+		return;
+	}
+}
+// Method Definition Index: 149330
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager_ResetAll_mD42463E8987164EA8D269D126C35C4C2B73E9150 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:124>
+		__this->___oakCount = 0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:125>
+		__this->___mapleCount = 0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:128>
+		__this->___t1Unlocked = (bool)0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:129>
+		__this->___t2Unlocked = (bool)0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:130>
+		__this->___t3Unlocked = (bool)0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:131>
+		__this->___mapleUnlocked = (bool)0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:134>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___trophy1_Woodcutter;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:134>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___trophy1_Woodcutter;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+	}
+
+IL_0044:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:135>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___trophy2_Explorer;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:135>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___trophy2_Explorer;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+	}
+
+IL_005e:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:136>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___trophy3_Tycoon;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:136>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___trophy3_Tycoon;
+		NullCheck(L_8);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)0, NULL);
+	}
+
+IL_0078:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:139>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___cup1Canvas;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_10)
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:139>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___cup1Canvas;
+		NullCheck(L_11);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)0, NULL);
+	}
+
+IL_0092:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:140>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___cup2Canvas;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_13;
+		L_13 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_13)
+		{
+			goto IL_00ac;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:140>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___cup2Canvas;
+		NullCheck(L_14);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)0, NULL);
+	}
+
+IL_00ac:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:141>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___cup3Canvas;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_16;
+		L_16 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_16)
+		{
+			goto IL_00c6;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:141>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___cup3Canvas;
+		NullCheck(L_17);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
+	}
+
+IL_00c6:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:144>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___mapleBlockerPlane;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_19;
+		L_19 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_18, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_19)
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:144>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___mapleBlockerPlane;
+		NullCheck(L_20);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)1, NULL);
+	}
+
+IL_00e0:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:147>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___achievementPopup;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_22;
+		L_22 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_21, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_22)
+		{
+			goto IL_00fa;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:147>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___achievementPopup;
+		NullCheck(L_23);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_23, (bool)0, NULL);
+	}
+
+IL_00fa:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:149>
+		ResourceManager_UpdateUI_mCE2F6391E147B280050A75025FA5887A644D5397(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:150>
+		return;
+	}
+}
+// Method Definition Index: 149331
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceManager__ctor_m0895A816FF3A70D6BD14077742487BAEF05CC9A3 (ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:12>
+		__this->___oakGoal = ((int32_t)1000);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:21>
+		__this->___popupDuration = (3.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149332
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowAchievementU3Ed__24__ctor_mD90BB372EA43CE6D2BA4A63105962B00C8EA7775 (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 149333
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowAchievementU3Ed__24_System_IDisposable_Dispose_mC49AD0383556A30DC5A7DB115BEB10E57D5CEA02 (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 149334
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowAchievementU3Ed__24_MoveNext_m3056952A906086ECC60A13CBE74E49840B7FF316 (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:93>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_4 = V_1;
+		NullCheck(L_4);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___achievementPopup;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:94>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_6 = V_1;
+		NullCheck(L_6);
+		float L_7 = L_6->___popupDuration;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_8 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_8, L_7, NULL);
+		__this->___U3CU3E2__current = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_8);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0044:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:95>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_9 = V_1;
+		NullCheck(L_9);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = L_9->___achievementPopup;
+		NullCheck(L_10);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceManager.cs:96>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 149335
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowAchievementU3Ed__24_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2E00BA13DC12BE12FE076636140F7C85072E71C3 (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 149336
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowAchievementU3Ed__24_System_Collections_IEnumerator_Reset_m8A4C92B4519F3CB8A14B14064996FD65AA1E862C (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CShowAchievementU3Ed__24_System_Collections_IEnumerator_Reset_m8A4C92B4519F3CB8A14B14064996FD65AA1E862C_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 149337
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowAchievementU3Ed__24_System_Collections_IEnumerator_get_Current_m3FC3AC8D693E43FA5AE5F823DDCFB0BE51B799A8 (U3CShowAchievementU3Ed__24_t2A94947840BE9B00928BBE25D6C73978FD636DA6* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149338
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_Start_m04DA88EF1666FA4EE2EF0D7D03C12E595E937484 (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInChildren_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_mDB9FC26B94B8EE9CF1F88BFEC75DF06CC2E3A000_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:31>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0;
+		L_0 = Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14(__this, Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14_RuntimeMethod_var);
+		__this->___treeCollider = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___treeCollider), (void*)L_0);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:32>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->___treeAnimator;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:32>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_3;
+		L_3 = Component_GetComponentInChildren_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_mDB9FC26B94B8EE9CF1F88BFEC75DF06CC2E3A000(__this, Component_GetComponentInChildren_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_mDB9FC26B94B8EE9CF1F88BFEC75DF06CC2E3A000_RuntimeMethod_var);
+		__this->___treeAnimator = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___treeAnimator), (void*)L_3);
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:33>
+		ResourceTree_ResetTree_mF4A1B8952EA0FDC3C9979B48C9B93152823EA2D6(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:34>
+		return;
+	}
+}
+// Method Definition Index: 149339
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_GetHit_mCC7A1D2D84448BF6CEA0D9477AA7B200EB83B4DB (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8269795F36935937B45BA7A25799A3FF073075A6);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:38>
+		bool L_0 = __this->___isAvailable;
+		if (!L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		bool L_1 = __this->___canBeHit;
+		if (L_1)
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:38>
+		return;
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:40>
+		int32_t L_2 = __this->___hitsRemaining;
+		__this->___hitsRemaining = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:42>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_3 = __this->___treeAnimator;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:43>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = __this->___treeAnimator;
+		NullCheck(L_5);
+		Animator_Play_m5565F093F0752D4DD9B451686F71C7A8F23F6744(L_5, _stringLiteral8269795F36935937B45BA7A25799A3FF073075A6, 0, (0.0f), NULL);
+	}
+
+IL_0043:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:45>
+		int32_t L_6 = __this->___hitsRemaining;
+		if ((((int32_t)L_6) > ((int32_t)0)))
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:46>
+		RuntimeObject* L_7;
+		L_7 = ResourceTree_HandleHarvest_m0C1C942AEF99D4430822E3FB2CA9BFF086A11292(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_8;
+		L_8 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_7, NULL);
+		return;
+	}
+
+IL_005a:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:48>
+		RuntimeObject* L_9;
+		L_9 = ResourceTree_CooldownTimer_mF58A75A72EBA2F489B6860995423DDC59065582A(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
+		L_10 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_9, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:49>
+		return;
+	}
+}
+// Method Definition Index: 149340
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResourceTree_CooldownTimer_mF58A75A72EBA2F489B6860995423DDC59065582A (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* L_0 = (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF*)il2cpp_codegen_object_new(U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF_il2cpp_TypeInfo_var);
+		U3CCooldownTimerU3Ed__17__ctor_mA7752BEB44727FE9EEA7B460001BBF03A2EF4923(L_0, 0, NULL);
+		U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 149341
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResourceTree_HandleHarvest_m0C1C942AEF99D4430822E3FB2CA9BFF086A11292 (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* L_0 = (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5*)il2cpp_codegen_object_new(U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5_il2cpp_TypeInfo_var);
+		U3CHandleHarvestU3Ed__18__ctor_m88B1831DAA86DC831D8690E391DFFCBC8C2F26C2(L_0, 0, NULL);
+		U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 149342
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree_ResetTree_mF4A1B8952EA0FDC3C9979B48C9B93152823EA2D6 (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:92>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___fullTreeModel;
+		NullCheck(L_0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_0, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = __this->___originalRotation;
+		NullCheck(L_1);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_1, L_2, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:93>
+		int32_t L_3;
+		L_3 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(3, 6, NULL);
+		__this->___hitsRemaining = L_3;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:94>
+		__this->___isAvailable = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:95>
+		__this->___canBeHit = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:96>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___fullTreeModel;
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:97>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___cutStumpModel;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:98>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_6 = __this->___treeCollider;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:98>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_8 = __this->___treeCollider;
+		NullCheck(L_8);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_8, (bool)1, NULL);
+	}
+
+IL_0063:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:99>
+		return;
+	}
+}
+// Method Definition Index: 149343
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResourceTree__ctor_mC512FCA39CC17EA31ECA4C83E53FFCFDB23F5AFF (ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:10>
+		__this->___yieldAmount = ((int32_t)10);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:11>
+		__this->___respawnTime = (10.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:12>
+		__this->___hitCooldown = (0.5f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:25>
+		__this->___isAvailable = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:26>
+		__this->___canBeHit = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149344
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCooldownTimerU3Ed__17__ctor_mA7752BEB44727FE9EEA7B460001BBF03A2EF4923 (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 149345
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCooldownTimerU3Ed__17_System_IDisposable_Dispose_mF371208AFEB922FFE035C2544AD2315608C7B3D5 (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 149346
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCooldownTimerU3Ed__17_MoveNext_mED7E11F4EC5EDCE39C6A497761457385465C1E68 (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:53>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_4 = V_1;
+		NullCheck(L_4);
+		L_4->___canBeHit = (bool)0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:54>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_5 = V_1;
+		NullCheck(L_5);
+		float L_6 = L_5->___hitCooldown;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, L_6, NULL);
+		__this->___U3CU3E2__current = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_7);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_003f:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:55>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_8 = V_1;
+		NullCheck(L_8);
+		L_8->___canBeHit = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:56>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 149347
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCooldownTimerU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mEE425685E2A573CA6ACBCB89977F455110BC90A4 (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 149348
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCooldownTimerU3Ed__17_System_Collections_IEnumerator_Reset_mD21369B14A09B6658F017F32BD1053F20EEDF632 (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCooldownTimerU3Ed__17_System_Collections_IEnumerator_Reset_mD21369B14A09B6658F017F32BD1053F20EEDF632_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 149349
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCooldownTimerU3Ed__17_System_Collections_IEnumerator_get_Current_mACFDD729D2F4D7AEA894C708CA654D4A2244FD91 (U3CCooldownTimerU3Ed__17_t6677E97A9C064AFDA6CAA5A88B76536748D260FF* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149350
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleHarvestU3Ed__18__ctor_m88B1831DAA86DC831D8690E391DFFCBC8C2F26C2 (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 149351
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleHarvestU3Ed__18_System_IDisposable_Dispose_m9BF5B33CCF7A5BC1C2FF9177B96D5A2B484D138F (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 149352
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CHandleHarvestU3Ed__18_MoveNext_m8BA385B1209E736D9745A64C0093287F4EE8D53D (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral49FDD8CA6955B620A2DC8499142C1D7D1CEFC1EB);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_00a7;
+			}
+			case 2:
+			{
+				goto IL_012c;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:60>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_3 = V_1;
+		NullCheck(L_3);
+		L_3->___isAvailable = (bool)0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:63>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_4 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:65>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_6 = V_1;
+		NullCheck(L_6);
+		int32_t L_7 = L_6->___typeOfTree;
+		if (L_7)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:66>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_8 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_9 = V_1;
+		NullCheck(L_9);
+		int32_t L_10 = L_9->___yieldAmount;
+		NullCheck(L_8);
+		ResourceManager_AddOak_mBC72CA44802886276AA34147611749E57089FE98(L_8, L_10, NULL);
+		goto IL_0070;
+	}
+
+IL_0057:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:67>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_11 = V_1;
+		NullCheck(L_11);
+		int32_t L_12 = L_11->___typeOfTree;
+		if ((!(((uint32_t)L_12) == ((uint32_t)1))))
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:68>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_13 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_14 = V_1;
+		NullCheck(L_14);
+		int32_t L_15 = L_14->___yieldAmount;
+		NullCheck(L_13);
+		ResourceManager_AddMaple_m2B1A8D11A36247EF6D4BF4A13E36611B3D05F549(L_13, L_15, NULL);
+	}
+
+IL_0070:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:70>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_16 = V_1;
+		NullCheck(L_16);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_17 = L_16->___treeAnimator;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_18;
+		L_18 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_17, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_18)
+		{
+			goto IL_00ae;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:71>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_19 = V_1;
+		NullCheck(L_19);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_20 = L_19->___treeAnimator;
+		NullCheck(L_20);
+		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_20, _stringLiteral49FDD8CA6955B620A2DC8499142C1D7D1CEFC1EB, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:72>
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_21 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_21, (1.10000002f), NULL);
+		__this->___U3CU3E2__current = L_21;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_21);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_00a7:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_00ae:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:74>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_22 = V_1;
+		NullCheck(L_22);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_23 = L_22->___FallAudio;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_24;
+		L_24 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_23, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_24)
+		{
+			goto IL_00c7;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:75>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_25 = V_1;
+		NullCheck(L_25);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_26 = L_25->___FallAudio;
+		NullCheck(L_26);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_26, NULL);
+	}
+
+IL_00c7:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:78>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_27 = V_1;
+		NullCheck(L_27);
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_28 = L_27->___particles;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_29;
+		L_29 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_28, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_29)
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:79>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_30 = V_1;
+		NullCheck(L_30);
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_31 = L_30->___particles;
+		NullCheck(L_31);
+		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_31, NULL);
+	}
+
+IL_00e0:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:82>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_32 = V_1;
+		NullCheck(L_32);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = L_32->___fullTreeModel;
+		NullCheck(L_33);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_33, (bool)0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:83>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_34 = V_1;
+		NullCheck(L_34);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = L_34->___cutStumpModel;
+		NullCheck(L_35);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_35, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:84>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_36 = V_1;
+		NullCheck(L_36);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_37 = L_36->___treeCollider;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_38;
+		L_38 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_37, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_38)
+		{
+			goto IL_0112;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:84>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_39 = V_1;
+		NullCheck(L_39);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_40 = L_39->___treeCollider;
+		NullCheck(L_40);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_40, (bool)0, NULL);
+	}
+
+IL_0112:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:86>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_41 = V_1;
+		NullCheck(L_41);
+		float L_42 = L_41->___respawnTime;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_43 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_43, L_42, NULL);
+		__this->___U3CU3E2__current = L_43;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_43);
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_012c:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:87>
+		ResourceTree_t4FDA5FE5A5ECF1CF9E2D9622E304B725D1A50B7B* L_44 = V_1;
+		NullCheck(L_44);
+		ResourceTree_ResetTree_mF4A1B8952EA0FDC3C9979B48C9B93152823EA2D6(L_44, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ResourceTree.cs:88>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 149353
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHandleHarvestU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m885E5481548BACA4F6AAEC62BBA6F368C82149F2 (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 149354
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CHandleHarvestU3Ed__18_System_Collections_IEnumerator_Reset_m84A29AFFB8FD14DD8F6F3C5FF0205552529EC829 (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CHandleHarvestU3Ed__18_System_Collections_IEnumerator_Reset_m84A29AFFB8FD14DD8F6F3C5FF0205552529EC829_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 149355
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CHandleHarvestU3Ed__18_System_Collections_IEnumerator_get_Current_mF0C2102925F9940388F9882ADAE94A31FC08A0BB (U3CHandleHarvestU3Ed__18_t8BFD88AA6279A0214CAF87DC7C05BF352CC492B5* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149356
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptedEase_OnEnable_m3579AAF0A85DC25F1FC37BE1D90B01BBA99C706D (ScriptedEase_t114A3A33FBDB552243E4E8AB6F8C367B8F83B510* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:27>
+		ScriptedEase_TriggerEase_m5FD8EA443F11D219371FCD352AE70FF79ED67A26(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 149357
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptedEase_TriggerEase_m5FD8EA443F11D219371FCD352AE70FF79ED67A26 (ScriptedEase_t114A3A33FBDB552243E4E8AB6F8C367B8F83B510* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:35>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_0, NULL);
+		__this->___goalScale = L_1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:37>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		__this->___currentScale = L_2;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:38>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = __this->___currentScale;
+		NullCheck(L_3);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_3, L_4, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:39>
+		__this->___hasOvershot = (bool)0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:40>
+		__this->___isEasing = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:41>
+		return;
+	}
+}
+// Method Definition Index: 149358
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptedEase_Update_m75C60B745A1A67CC757882D063AAE3196687AB8B (ScriptedEase_t114A3A33FBDB552243E4E8AB6F8C367B8F83B510* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:45>
+		bool L_0 = __this->___isEasing;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:45>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:50>
+		bool L_1 = __this->___hasOvershot;
+		if (L_1)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:52>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = __this->___goalScale;
+		float L_3 = __this->___overshootAmount;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_2, L_3, NULL);
+		V_0 = L_4;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:53>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = __this->___currentScale;
+		float L_6 = __this->___easeSpeed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = __this->___currentScale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_7, L_8, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline(L_6, L_9, NULL);
+		float L_11;
+		L_11 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_10, L_11, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_5, L_12, NULL);
+		__this->___currentScale = L_13;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:56>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_14 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___currentScale);
+		float L_15 = L_14->___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_16 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___goalScale);
+		float L_17 = L_16->___x;
+		float L_18 = __this->___overshootAmount;
+		if ((!(((float)L_15) >= ((float)((float)il2cpp_codegen_multiply(L_17, ((float)il2cpp_codegen_subtract(L_18, (0.0500000007f)))))))))
+		{
+			goto IL_00e8;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:58>
+		__this->___hasOvershot = (bool)1;
+		goto IL_00e8;
+	}
+
+IL_0083:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:64>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = __this->___goalScale;
+		V_0 = L_19;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:65>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = __this->___currentScale;
+		float L_21 = __this->___easeSpeed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = __this->___currentScale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
+		L_24 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_22, L_23, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
+		L_25 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline(L_21, L_24, NULL);
+		float L_26;
+		L_26 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_25, L_26, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_20, L_27, NULL);
+		__this->___currentScale = L_28;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:68>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29 = __this->___currentScale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = __this->___goalScale;
+		float L_31;
+		L_31 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_29, L_30, NULL);
+		float L_32 = __this->___snapThreshold;
+		if ((!(((float)L_31) < ((float)L_32))))
+		{
+			goto IL_00e8;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:70>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = __this->___goalScale;
+		__this->___currentScale = L_33;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:71>
+		__this->___isEasing = (bool)0;
+	}
+
+IL_00e8:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:75>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34;
+		L_34 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = __this->___currentScale;
+		NullCheck(L_34);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_34, L_35, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:76>
+		return;
+	}
+}
+// Method Definition Index: 149359
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptedEase_TriggerPunchEase_m8CDF645527336BA29585022434E7F91941C2E4AB (ScriptedEase_t114A3A33FBDB552243E4E8AB6F8C367B8F83B510* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:84>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_0, NULL);
+		__this->___goalScale = L_1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:85>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = __this->___goalScale;
+		float L_3 = __this->___overshootAmount;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_2, L_3, NULL);
+		__this->___currentScale = L_4;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:86>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = __this->___currentScale;
+		NullCheck(L_5);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_5, L_6, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:87>
+		__this->___hasOvershot = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:88>
+		__this->___isEasing = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:89>
+		return;
+	}
+}
+// Method Definition Index: 149360
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptedEase__ctor_m128A052EB13463BFAC4F3C2241744F4E1F3CB7E0 (ScriptedEase_t114A3A33FBDB552243E4E8AB6F8C367B8F83B510* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:12>
+		__this->___easeSpeed = (8.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:15>
+		__this->___overshootAmount = (1.20000005f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/ScriptedEase.cs:18>
+		__this->___snapThreshold = (0.00999999978f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149361
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurgeGrabTrigger_OnSurgeSpawned_m110CCD33850B80C761BD68973C367A23DDE48270 (SurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurgeGrabTrigger.cs:25>
+		float L_0;
+		L_0 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		__this->___spawnTime = L_0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurgeGrabTrigger.cs:26>
+		return;
+	}
+}
+// Method Definition Index: 149362
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurgeGrabTrigger_OnTriggerEnter_m80FF6AA8B8F1B47D1DF51928925672D89B000928 (SurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7ED0961CB02548464DF74A594D714C18B6E38A9A);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurgeGrabTrigger.cs:31>
+		float L_0;
+		L_0 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_1 = __this->___spawnTime;
+		float L_2 = __this->___grabGracePeriod;
+		if ((!(((float)((float)il2cpp_codegen_subtract(L_0, L_1))) < ((float)L_2))))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurgeGrabTrigger.cs:32>
+		return;
+	}
+
+IL_0015:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurgeGrabTrigger.cs:34>
+		String_t* L_3 = __this->___handTag;
+		bool L_4;
+		L_4 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_3, NULL);
+		if (L_4)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_5 = ___0_other;
+		String_t* L_6 = __this->___handTag;
+		NullCheck(L_5);
+		bool L_7;
+		L_7 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_5, L_6, NULL);
+		if (L_7)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurgeGrabTrigger.cs:35>
+		return;
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurgeGrabTrigger.cs:37>
+		il2cpp_codegen_runtime_class_init_inline(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* L_8 = ((SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_StaticFields*)il2cpp_codegen_static_fields_for(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurgeGrabTrigger.cs:39>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_10 = ___0_other;
+		NullCheck(L_10);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
+		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_10, NULL);
+		NullCheck(L_11);
+		String_t* L_12;
+		L_12 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_11, NULL);
+		String_t* L_13;
+		L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral7ED0961CB02548464DF74A594D714C18B6E38A9A, L_12, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_13, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurgeGrabTrigger.cs:40>
+		il2cpp_codegen_runtime_class_init_inline(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* L_14 = ((SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_StaticFields*)il2cpp_codegen_static_fields_for(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_14);
+		SurpriseSurge_GrabSurge_mA68C0A877C26C1E71089DAE5021857C9B0BD6ADD(L_14, NULL);
+	}
+
+IL_0062:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurgeGrabTrigger.cs:42>
+		return;
+	}
+}
+// Method Definition Index: 149363
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurgeGrabTrigger__ctor_m96F5DACD1A96D19D3286F84488083E42E0351547 (SurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurgeGrabTrigger.cs:13>
+		__this->___handTag = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___handTag), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurgeGrabTrigger.cs:16>
+		__this->___grabGracePeriod = (1.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurgeGrabTrigger.cs:18>
+		__this->___spawnTime = (-999.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149364
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_Awake_mB8EAAF5BC978F6DE81B91F98A6F9071A9767C612 (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:58>
+		il2cpp_codegen_runtime_class_init_inline(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* L_0 = ((SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_StaticFields*)il2cpp_codegen_static_fields_for(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:58>
+		il2cpp_codegen_runtime_class_init_inline(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		((SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_StaticFields*)il2cpp_codegen_static_fields_for(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var))->___Instance = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&((SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_StaticFields*)il2cpp_codegen_static_fields_for(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var))->___Instance), (void*)__this);
+		return;
+	}
+
+IL_0014:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:59>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:60>
+		return;
+	}
+}
+// Method Definition Index: 149365
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_Start_m65F3DB80A76C61F195206BE089D81DC85F57FF6E (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:64>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___surgeObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:66>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___surgeObject;
+		NullCheck(L_2);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_2, NULL);
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_3, NULL);
+		__this->___surgeOriginalScale = L_4;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:67>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___surgeObject;
+		NullCheck(L_5);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_5, NULL);
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		__this->___surgeSpawnPosition = L_7;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:68>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___surgeObject;
+		NullCheck(L_8);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_8, NULL);
+		il2cpp_codegen_runtime_class_init_inline(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ((SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_StaticFields*)il2cpp_codegen_static_fields_for(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var))->___HIDDEN_POSITION;
+		NullCheck(L_9);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_9, L_10, NULL);
+	}
+
+IL_004f:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:72>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___spawnParticleObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_12)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:72>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___spawnParticleObject;
+		NullCheck(L_13);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
+	}
+
+IL_0069:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:73>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___grabParticleObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_15;
+		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_15)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:73>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___grabParticleObject;
+		NullCheck(L_16);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)0, NULL);
+	}
+
+IL_0083:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:75>
+		SurpriseSurge_ResetSpawnTimer_m1558DD7BCAD237A1BDCCED838A29AB2FE8CB61FB(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:76>
+		SurpriseSurge_UpdateStatusText_mA17809E18B204FA481D544164669A807213E7718(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:77>
+		return;
+	}
+}
+// Method Definition Index: 149366
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_Update_mC80D7EA55B93C8D9B460C8719906BA392E06EB3B (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:81>
+		bool L_0 = __this->___surgeActive;
+		if (L_0)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		bool L_1 = __this->___boostActive;
+		if (L_1)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:83>
+		float L_2 = __this->___spawnTimer;
+		float L_3;
+		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___spawnTimer = ((float)il2cpp_codegen_subtract(L_2, L_3));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:84>
+		float L_4 = __this->___spawnTimer;
+		if ((!(((float)L_4) <= ((float)(0.0f)))))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:85>
+		SurpriseSurge_SpawnSurge_m5C54B5F6C912328CDC39E52DED875FCFBB666DE6(__this, NULL);
+	}
+
+IL_0035:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:88>
+		bool L_5 = __this->___surgeActive;
+		if (!L_5)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:90>
+		float L_6 = __this->___surgeTimer;
+		float L_7;
+		L_7 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___surgeTimer = ((float)il2cpp_codegen_subtract(L_6, L_7));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:93>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___surgeObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_00e3;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:95>
+		float L_10 = __this->___pulsePhase;
+		float L_11;
+		L_11 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___pulsePhase = ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(L_11, (3.0f)))));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:96>
+		float L_12 = __this->___pulsePhase;
+		float L_13;
+		L_13 = sinf(L_12);
+		V_0 = ((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply(L_13, (0.150000006f)))));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:97>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = __this->___surgeOriginalScale;
+		float L_15 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_14, L_15, NULL);
+		V_1 = L_16;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:98>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___surgeObject;
+		NullCheck(L_17);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
+		L_18 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_17, NULL);
+		NullCheck(L_18);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		L_19 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_18, NULL);
+		V_2 = L_19;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:99>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___surgeObject;
+		NullCheck(L_20);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
+		L_21 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_20, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_2;
+		float L_23 = __this->___easeSpeed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		L_26 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_24, L_25, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline(L_23, L_26, NULL);
+		float L_28;
+		L_28 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_27, L_28, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
+		L_30 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_22, L_29, NULL);
+		NullCheck(L_21);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_21, L_30, NULL);
+	}
+
+IL_00e3:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:102>
+		float L_31 = __this->___surgeTimer;
+		if ((!(((float)L_31) <= ((float)(0.0f)))))
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:103>
+		SurpriseSurge_DespawnSurge_m257A4A728DDE6991278D44BC3F5968BAB7664932(__this, NULL);
+	}
+
+IL_00f6:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:106>
+		bool L_32 = __this->___boostActive;
+		if (!L_32)
+		{
+			goto IL_0129;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:108>
+		float L_33 = __this->___boostTimer;
+		float L_34;
+		L_34 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___boostTimer = ((float)il2cpp_codegen_subtract(L_33, L_34));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:109>
+		SurpriseSurge_UpdateStatusText_mA17809E18B204FA481D544164669A807213E7718(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:110>
+		float L_35 = __this->___boostTimer;
+		if ((!(((float)L_35) <= ((float)(0.0f)))))
+		{
+			goto IL_0129;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:111>
+		SurpriseSurge_EndBoost_mBD2D1F517E91A420512DDC9B8F76BE4DE4541CCA(__this, NULL);
+	}
+
+IL_0129:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:113>
+		return;
+	}
+}
+// Method Definition Index: 149367
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_SpawnSurge_m5C54B5F6C912328CDC39E52DED875FCFBB666DE6 (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisSurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4_m7F3B055849E1CD73237C3E57CCC6F315111309DA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4* V_0 = NULL;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:117>
+		__this->___surgeActive = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:118>
+		float L_0 = __this->___surgeDuration;
+		__this->___surgeTimer = L_0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:119>
+		__this->___pulsePhase = (0.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:122>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___grabParticleObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:122>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___grabParticleObject;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+	}
+
+IL_0038:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:124>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___surgeObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:126>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___surgeObject;
+		NullCheck(L_6);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
+		L_7 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_6, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = __this->___surgeSpawnPosition;
+		NullCheck(L_7);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_7, L_8, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:127>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___surgeObject;
+		NullCheck(L_9);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
+		L_10 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_9, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = __this->___surgeOriginalScale;
+		NullCheck(L_10);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_10, L_11, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:129>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___surgeObject;
+		NullCheck(L_12);
+		SurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4* L_13;
+		L_13 = GameObject_GetComponent_TisSurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4_m7F3B055849E1CD73237C3E57CCC6F315111309DA(L_12, GameObject_GetComponent_TisSurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4_m7F3B055849E1CD73237C3E57CCC6F315111309DA_RuntimeMethod_var);
+		V_0 = L_13;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:130>
+		SurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4* L_14 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_15;
+		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_15)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:131>
+		SurgeGrabTrigger_t89AAD4F449CE5D267B784060834686959AE120A4* L_16 = V_0;
+		NullCheck(L_16);
+		SurgeGrabTrigger_OnSurgeSpawned_m110CCD33850B80C761BD68973C367A23DDE48270(L_16, NULL);
+	}
+
+IL_008d:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:135>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___spawnParticleObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_18;
+		L_18 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_17, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_18)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:135>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___spawnParticleObject;
+		NullCheck(L_19);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_19, (bool)1, NULL);
+	}
+
+IL_00a7:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:136>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_20 = __this->___spawnAudio;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_21;
+		L_21 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_20, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_21)
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:136>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_22 = __this->___spawnAudio;
+		NullCheck(L_22);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_22, NULL);
+	}
+
+IL_00c0:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:137>
+		return;
+	}
+}
+// Method Definition Index: 149368
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_GrabSurge_mA68C0A877C26C1E71089DAE5021857C9B0BD6ADD (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:144>
+		bool L_0 = __this->___surgeActive;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:144>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:145>
+		__this->___surgeActive = (bool)0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:148>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___spawnParticleObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:148>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___spawnParticleObject;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+	}
+
+IL_002a:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:151>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___grabParticleObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:153>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___grabParticleObject;
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:154>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___grabParticleObject;
+		RuntimeObject* L_8;
+		L_8 = SurpriseSurge_DisableAfterDelay_m409FF410D88A62EE42A5FBA1AEC97AD93BC26733(__this, L_7, (2.0f), NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_9;
+		L_9 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_8, NULL);
+	}
+
+IL_005c:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:156>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10 = __this->___grabAudio;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_11)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:156>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_12 = __this->___grabAudio;
+		NullCheck(L_12);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_12, NULL);
+	}
+
+IL_0075:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:159>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___surgeObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_14)
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:160>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___surgeObject;
+		NullCheck(L_15);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
+		L_16 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_15, NULL);
+		il2cpp_codegen_runtime_class_init_inline(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = ((SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_StaticFields*)il2cpp_codegen_static_fields_for(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var))->___HIDDEN_POSITION;
+		NullCheck(L_16);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_16, L_17, NULL);
+	}
+
+IL_0098:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:162>
+		SurpriseSurge_StartBoost_m97AB106A801C5802DB65EF974F35A15B9D1E5460(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:163>
+		return;
+	}
+}
+// Method Definition Index: 149369
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_StartBoost_m97AB106A801C5802DB65EF974F35A15B9D1E5460 (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6AA6FB022477208867BE47054924EBB41498E37F);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:167>
+		__this->___boostActive = (bool)1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:168>
+		float L_0 = __this->___boostDuration;
+		__this->___boostTimer = L_0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:169>
+		float L_1 = __this->___surgeMultiplier;
+		__this->___currentBoostMultiplier = L_1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:170>
+		SurpriseSurge_UpdateStatusText_mA17809E18B204FA481D544164669A807213E7718(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:171>
+		float L_2 = __this->___surgeMultiplier;
+		float L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_defaults.single_class, &L_3);
+		float L_5 = __this->___boostDuration;
+		float L_6 = L_5;
+		RuntimeObject* L_7 = Box(il2cpp_defaults.single_class, &L_6);
+		String_t* L_8;
+		L_8 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral6AA6FB022477208867BE47054924EBB41498E37F, L_4, L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_8, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:172>
+		return;
+	}
+}
+// Method Definition Index: 149370
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_EndBoost_mBD2D1F517E91A420512DDC9B8F76BE4DE4541CCA (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D6227421E4213BC37252E8FD990245DFC8445E7);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:176>
+		__this->___boostActive = (bool)0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:177>
+		__this->___currentBoostMultiplier = (1.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:178>
+		SurpriseSurge_UpdateStatusText_mA17809E18B204FA481D544164669A807213E7718(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:179>
+		SurpriseSurge_ResetSpawnTimer_m1558DD7BCAD237A1BDCCED838A29AB2FE8CB61FB(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:180>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral8D6227421E4213BC37252E8FD990245DFC8445E7, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:181>
+		return;
+	}
+}
+// Method Definition Index: 149371
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_DespawnSurge_m257A4A728DDE6991278D44BC3F5968BAB7664932 (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:185>
+		__this->___surgeActive = (bool)0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:188>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___spawnParticleObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:188>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___spawnParticleObject;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+	}
+
+IL_0021:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:190>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___surgeObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:191>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___surgeObject;
+		NullCheck(L_5);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ((SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_StaticFields*)il2cpp_codegen_static_fields_for(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var))->___HIDDEN_POSITION;
+		NullCheck(L_6);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_6, L_7, NULL);
+	}
+
+IL_0044:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:193>
+		SurpriseSurge_ResetSpawnTimer_m1558DD7BCAD237A1BDCCED838A29AB2FE8CB61FB(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:194>
+		return;
+	}
+}
+// Method Definition Index: 149372
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SurpriseSurge_DisableAfterDelay_m409FF410D88A62EE42A5FBA1AEC97AD93BC26733 (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_obj, float ___1_delay, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479* L_0 = (U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479*)il2cpp_codegen_object_new(U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479_il2cpp_TypeInfo_var);
+		U3CDisableAfterDelayU3Ed__31__ctor_mD7910B5A4D3FBC42E5D058502C712E17D05413DC(L_0, 0, NULL);
+		U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479* L_1 = L_0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = ___0_obj;
+		NullCheck(L_1);
+		L_1->___obj = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___obj), (void*)L_2);
+		U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479* L_3 = L_1;
+		float L_4 = ___1_delay;
+		NullCheck(L_3);
+		L_3->___delay = L_4;
+		return L_3;
+	}
+}
+// Method Definition Index: 149373
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_ResetSpawnTimer_m1558DD7BCAD237A1BDCCED838A29AB2FE8CB61FB (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:204>
+		float L_0 = __this->___minSpawnInterval;
+		float L_1 = __this->___maxSpawnInterval;
+		float L_2;
+		L_2 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_0, L_1, NULL);
+		__this->___spawnTimer = L_2;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:205>
+		return;
+	}
+}
+// Method Definition Index: 149374
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SurpriseSurge_GetSurgeMultiplier_m436797457DEC58BA73EE0638944AB537FF732AA0 (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:209>
+		float L_0 = __this->___currentBoostMultiplier;
+		return L_0;
+	}
+}
+// Method Definition Index: 149375
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge_UpdateStatusText_mA17809E18B204FA481D544164669A807213E7718 (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC61C0E70ADA8201D42C9C13CA1A8E878C2E8FD87);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:214>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___surgeStatusText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:214>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:216>
+		bool L_2 = __this->___boostActive;
+		if (!L_2)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:217>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_3 = __this->___surgeStatusText;
+		float L_4 = __this->___surgeMultiplier;
+		float L_5 = L_4;
+		RuntimeObject* L_6 = Box(il2cpp_defaults.single_class, &L_5);
+		float L_7 = __this->___boostTimer;
+		float L_8 = L_7;
+		RuntimeObject* L_9 = Box(il2cpp_defaults.single_class, &L_8);
+		String_t* L_10;
+		L_10 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralC61C0E70ADA8201D42C9C13CA1A8E878C2E8FD87, L_6, L_9, NULL);
+		NullCheck(L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_3, L_10);
+		return;
+	}
+
+IL_0043:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:219>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_11 = __this->___surgeStatusText;
+		NullCheck(L_11);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_11, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:220>
+		return;
+	}
+}
+// Method Definition Index: 149376
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge__ctor_m782B4691B6F8172E8CCAD5DFFA70D626A1CEE1B7 (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:18>
+		__this->___minSpawnInterval = (45.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:19>
+		__this->___maxSpawnInterval = (90.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:20>
+		__this->___surgeDuration = (10.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:23>
+		__this->___surgeMultiplier = (3.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:24>
+		__this->___boostDuration = (15.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:41>
+		__this->___easeSpeed = (8.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:46>
+		__this->___currentBoostMultiplier = (1.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 149377
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SurpriseSurge__cctor_mC1B881E5B0D9DE87E5DEC95C7FBAF187E6F2D160 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:54>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (0.0f), (-9999.0f), (0.0f), NULL);
+		((SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_StaticFields*)il2cpp_codegen_static_fields_for(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var))->___HIDDEN_POSITION = L_0;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149378
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDisableAfterDelayU3Ed__31__ctor_mD7910B5A4D3FBC42E5D058502C712E17D05413DC (U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 149379
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDisableAfterDelayU3Ed__31_System_IDisposable_Dispose_m141D1FB1F024AFF84EED6DFBD89CA1A1673F7259 (U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 149380
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDisableAfterDelayU3Ed__31_MoveNext_m60F52749711D079D79AA3BDACBA0D038B39F7491 (U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0010:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:198>
+		float L_3 = __this->___delay;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, L_3, NULL);
+		__this->___U3CU3E2__current = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_4);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0031:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:199>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___obj;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:199>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___obj;
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
+	}
+
+IL_0052:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:200>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 149381
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDisableAfterDelayU3Ed__31_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1D0A9DD9744F4177CE25D6D8836C1049D371E379 (U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 149382
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDisableAfterDelayU3Ed__31_System_Collections_IEnumerator_Reset_mDF40E528AF3A71630F43DCA08544E79867AD5366 (U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDisableAfterDelayU3Ed__31_System_Collections_IEnumerator_Reset_mDF40E528AF3A71630F43DCA08544E79867AD5366_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 149383
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDisableAfterDelayU3Ed__31_System_Collections_IEnumerator_get_Current_m9E1D01E6A46FC6B0EEE0052E65E2DC9C88F0575F (U3CDisableAfterDelayU3Ed__31_t89DDB8BB26E168B3F0195A4237216E056B2B2479* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149384
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrophyJuice_Update_m98EA9B9C18E9524719782B160ED38A963D095C61 (TrophyJuice_t14C1B76A2B9D3FA9886CAD33FC5791B7316C08D5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TrophyJuice.cs:9>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		float L_2 = __this->___rotationSpeed;
+		float L_3;
+		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		NullCheck(L_0);
+		Transform_Rotate_m35B44707FE16FF8015D519D8C162C0B4A85D6D1F(L_0, L_1, ((float)il2cpp_codegen_multiply(L_2, L_3)), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TrophyJuice.cs:10>
+		return;
+	}
+}
+// Method Definition Index: 149385
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrophyJuice__ctor_m161C02BEDDA214099001F16C5E87B14EB165ED7F (TrophyJuice_t14C1B76A2B9D3FA9886CAD33FC5791B7316C08D5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TrophyJuice.cs:5>
+		__this->___rotationSpeed = (50.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149386
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrailGroup__ctor_m6C686BEA8F4AC23190495838F57582590FB3A75A (TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149387
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_Awake_m06E4FF8381CC6AD40FAEC2AF297910C672064A9B (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:55>
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_0 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:55>
+		((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance), (void*)__this);
+		return;
+	}
+
+IL_0014:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:56>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:57>
+		return;
+	}
+}
+// Method Definition Index: 149388
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_Start_m9AFD9D05FBE895420E3F47BC399DA71CC1D02B9B (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:61>
+		TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:63>
+		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_0 = __this->___oakGeneratorTrailGroups;
+		float L_1 = __this->___oakProductionMultiplier;
+		TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205(__this, L_0, L_1, (bool)0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:64>
+		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_2 = __this->___mapleGeneratorTrailGroups;
+		float L_3 = __this->___mapleProductionMultiplier;
+		TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205(__this, L_2, L_3, (bool)0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:65>
+		return;
+	}
+}
+// Method Definition Index: 149389
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_BuyOakGenerator_mDFAE8D4AF8F3D8FE7CD8E52C09E50D67EF62C573 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:71>
+		int32_t L_0 = __this->___oakGenBaseCost;
+		int32_t L_1 = __this->___oakGenCount;
+		int32_t L_2;
+		L_2 = TycoonManager_GetExponentialCost_m844EBA14BF3E7FB48DFB6AFE15858A4C3F414A19(__this, L_0, L_1, NULL);
+		V_0 = L_2;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:72>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_3 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_3);
+		int32_t L_4 = L_3->___oakCount;
+		int32_t L_5 = V_0;
+		if ((((int32_t)L_4) < ((int32_t)L_5)))
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		int32_t L_6 = __this->___oakGenCount;
+		if ((((int32_t)L_6) >= ((int32_t)4)))
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:74>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_7 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		ResourceManager_AddOak_mBC72CA44802886276AA34147611749E57089FE98(L_7, ((-L_8)), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:75>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_9 = __this->___oakGenModels;
+		int32_t L_10 = __this->___oakGenCount;
+		NullCheck(L_9);
+		int32_t L_11 = L_10;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		NullCheck(L_12);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:76>
+		int32_t L_13 = __this->___oakGenCount;
+		__this->___oakGenCount = ((int32_t)il2cpp_codegen_add(L_13, 1));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:79>
+		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_14 = __this->___oakGeneratorTrailGroups;
+		float L_15 = __this->___oakProductionMultiplier;
+		TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205(__this, L_14, L_15, (bool)0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:80>
+		TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:81>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_16 = __this->___eyeSurprise;
+		NullCheck(L_16);
+		EyeSurprise_TriggerSurprise_m794930C97781BECAE4726603ADB60E88A401CC50(L_16, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:82>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_17 = __this->___eyeSurprise2;
+		NullCheck(L_17);
+		EyeSurprise_TriggerSurprise_m794930C97781BECAE4726603ADB60E88A401CC50(L_17, NULL);
+	}
+
+IL_0085:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:85>
+		return;
+	}
+}
+// Method Definition Index: 149390
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpgradeOakMultiplier_m39EC94BEF2F8FF02E7EA594566165CD95CA4F9B3 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:89>
+		float L_0 = __this->___oakProductionMultiplier;
+		int32_t L_1;
+		L_1 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(L_0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:90>
+		V_0 = ((int32_t)il2cpp_codegen_multiply(L_1, ((int32_t)100)));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:92>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_2 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_2);
+		int32_t L_3 = L_2->___oakCount;
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_3) < ((int32_t)L_4)))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		float L_5 = __this->___oakProductionMultiplier;
+		if ((!(((float)L_5) < ((float)(5.0f)))))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:94>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_6 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		ResourceManager_AddOak_mBC72CA44802886276AA34147611749E57089FE98(L_6, ((-L_7)), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:95>
+		float L_8 = __this->___oakProductionMultiplier;
+		__this->___oakProductionMultiplier = ((float)il2cpp_codegen_add(L_8, (1.0f)));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:98>
+		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_9 = __this->___oakGeneratorTrailGroups;
+		float L_10 = __this->___oakProductionMultiplier;
+		TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205(__this, L_9, L_10, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:99>
+		TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:100>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_11 = __this->___eyeSurprise;
+		NullCheck(L_11);
+		EyeSurprise_TriggerSurprise_m794930C97781BECAE4726603ADB60E88A401CC50(L_11, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:101>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_12 = __this->___eyeSurprise2;
+		NullCheck(L_12);
+		EyeSurprise_TriggerSurprise_m794930C97781BECAE4726603ADB60E88A401CC50(L_12, NULL);
+	}
+
+IL_0076:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:104>
+		return;
+	}
+}
+// Method Definition Index: 149391
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_BuyMapleGenerator_m65DC72FF0DB9EE0C18A05B3777075102CD8989B0 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:110>
+		int32_t L_0 = __this->___mapleGenBaseCost;
+		int32_t L_1 = __this->___mapleGenCount;
+		int32_t L_2;
+		L_2 = TycoonManager_GetExponentialCost_m844EBA14BF3E7FB48DFB6AFE15858A4C3F414A19(__this, L_0, L_1, NULL);
+		V_0 = L_2;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:111>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_3 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_3);
+		int32_t L_4 = L_3->___mapleCount;
+		int32_t L_5 = V_0;
+		if ((((int32_t)L_4) < ((int32_t)L_5)))
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		int32_t L_6 = __this->___mapleGenCount;
+		if ((((int32_t)L_6) >= ((int32_t)4)))
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:113>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_7 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		ResourceManager_AddMaple_m2B1A8D11A36247EF6D4BF4A13E36611B3D05F549(L_7, ((-L_8)), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:114>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_9 = __this->___mapleGenModels;
+		int32_t L_10 = __this->___mapleGenCount;
+		NullCheck(L_9);
+		int32_t L_11 = L_10;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		NullCheck(L_12);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:115>
+		int32_t L_13 = __this->___mapleGenCount;
+		__this->___mapleGenCount = ((int32_t)il2cpp_codegen_add(L_13, 1));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:117>
+		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_14 = __this->___mapleGeneratorTrailGroups;
+		float L_15 = __this->___mapleProductionMultiplier;
+		TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205(__this, L_14, L_15, (bool)0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:118>
+		TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:119>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_16 = __this->___eyeSurprise;
+		NullCheck(L_16);
+		EyeSurprise_TriggerSurprise_m794930C97781BECAE4726603ADB60E88A401CC50(L_16, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:120>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_17 = __this->___eyeSurprise2;
+		NullCheck(L_17);
+		EyeSurprise_TriggerSurprise_m794930C97781BECAE4726603ADB60E88A401CC50(L_17, NULL);
+	}
+
+IL_0085:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:124>
+		return;
+	}
+}
+// Method Definition Index: 149392
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpgradeMapleMultiplier_m52012D735D6966CC5E2168351E3E6E726528A5A6 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:128>
+		float L_0 = __this->___mapleProductionMultiplier;
+		int32_t L_1;
+		L_1 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(L_0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:129>
+		V_0 = ((int32_t)il2cpp_codegen_multiply(L_1, ((int32_t)100)));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:131>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_2 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_2);
+		int32_t L_3 = L_2->___mapleCount;
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_3) < ((int32_t)L_4)))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		float L_5 = __this->___mapleProductionMultiplier;
+		if ((!(((float)L_5) < ((float)(5.0f)))))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:133>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_6 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		ResourceManager_AddMaple_m2B1A8D11A36247EF6D4BF4A13E36611B3D05F549(L_6, ((-L_7)), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:134>
+		float L_8 = __this->___mapleProductionMultiplier;
+		__this->___mapleProductionMultiplier = ((float)il2cpp_codegen_add(L_8, (1.0f)));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:136>
+		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_9 = __this->___mapleGeneratorTrailGroups;
+		float L_10 = __this->___mapleProductionMultiplier;
+		TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205(__this, L_9, L_10, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:137>
+		TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:138>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_11 = __this->___eyeSurprise;
+		NullCheck(L_11);
+		EyeSurprise_TriggerSurprise_m794930C97781BECAE4726603ADB60E88A401CC50(L_11, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:139>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_12 = __this->___eyeSurprise2;
+		NullCheck(L_12);
+		EyeSurprise_TriggerSurprise_m794930C97781BECAE4726603ADB60E88A401CC50(L_12, NULL);
+	}
+
+IL_0076:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:143>
+		return;
+	}
+}
+// Method Definition Index: 149393
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpdateAllTrailVisuals_m0088AA38831AE753351E9C2D35D4DB3C3D131205 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* ___0_groups, float ___1_multiplierValue, bool ___2_playEffects, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* V_1 = NULL;
+	int32_t V_2 = 0;
+	TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* V_3 = NULL;
+	int32_t V_4 = 0;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:149>
+		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_0 = ___0_groups;
+		if (L_0)
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:149>
+		return;
+	}
+
+IL_0004:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:151>
+		float L_1 = ___1_multiplierValue;
+		int32_t L_2;
+		L_2 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:154>
+		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_3 = ___0_groups;
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_005e;
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:154>
+		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_4 = V_1;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		V_3 = L_7;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:156>
+		TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* L_8 = V_3;
+		NullCheck(L_8);
+		TrailU5BU5D_t037D9521EB28FE1A7303144D3D27C96AF5428B49* L_9 = L_8->___trails;
+		if (!L_9)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:159>
+		V_4 = 0;
+		goto IL_004e;
+	}
+
+IL_0024:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:161>
+		TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* L_10 = V_3;
+		NullCheck(L_10);
+		TrailU5BU5D_t037D9521EB28FE1A7303144D3D27C96AF5428B49* L_11 = L_10->___trails;
+		int32_t L_12 = V_4;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_15;
+		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_15)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:163>
+		TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* L_16 = V_3;
+		NullCheck(L_16);
+		TrailU5BU5D_t037D9521EB28FE1A7303144D3D27C96AF5428B49* L_17 = L_16->___trails;
+		int32_t L_18 = V_4;
+		NullCheck(L_17);
+		int32_t L_19 = L_18;
+		Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		int32_t L_21 = V_4;
+		int32_t L_22 = V_0;
+		NullCheck(L_20);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_20, (bool)((((int32_t)L_21) == ((int32_t)L_22))? 1 : 0), NULL);
+	}
+
+IL_0048:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:159>
+		int32_t L_23 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_23, 1));
+	}
+
+IL_004e:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:159>
+		int32_t L_24 = V_4;
+		TrailGroup_t7F75D8B8E9CBCA981D1451D23F47A43D5A4EA141* L_25 = V_3;
+		NullCheck(L_25);
+		TrailU5BU5D_t037D9521EB28FE1A7303144D3D27C96AF5428B49* L_26 = L_25->___trails;
+		NullCheck(L_26);
+		if ((((int32_t)L_24) < ((int32_t)((int32_t)(((RuntimeArray*)L_26)->max_length)))))
+		{
+			goto IL_0024;
+		}
+	}
+
+IL_005a:
+	{
+		int32_t L_27 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+	}
+
+IL_005e:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:154>
+		int32_t L_28 = V_2;
+		TrailGroupU5BU5D_t19800742D4BAA61FB8B1209A6AFE87BFA85A711A* L_29 = V_1;
+		NullCheck(L_29);
+		if ((((int32_t)L_28) < ((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length)))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:168>
+		bool L_30 = ___2_playEffects;
+		if (!L_30)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		bool L_31;
+		L_31 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
+		if (!L_31)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:170>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_32 = __this->___upgradeAudio;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_33;
+		L_33 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_32, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_33)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:170>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_34 = __this->___upgradeAudio;
+		NullCheck(L_34);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_34, NULL);
+	}
+
+IL_0087:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:171>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_35 = __this->___upgradeParticles;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_36;
+		L_36 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_35, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_36)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:171>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_37 = __this->___upgradeParticles;
+		NullCheck(L_37);
+		ParticleSystem_Play_mD943E601BFE16CB9BB5D1F5E6AED5C36F5F11EF5(L_37, NULL);
+	}
+
+IL_00a0:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:173>
+		return;
+	}
+}
+// Method Definition Index: 149394
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TycoonManager_GetExponentialCost_m844EBA14BF3E7FB48DFB6AFE15858A4C3F414A19 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, int32_t ___0_baseCost, int32_t ___1_ownedCount, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:177>
+		int32_t L_0 = ___0_baseCost;
+		float L_1 = __this->___priceMultiplier;
+		int32_t L_2 = ___1_ownedCount;
+		float L_3;
+		L_3 = powf(L_1, ((float)L_2));
+		int32_t L_4;
+		L_4 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(((float)il2cpp_codegen_multiply(((float)L_0), L_3)), NULL);
+		return L_4;
+	}
+}
+// Method Definition Index: 149395
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_UpdateTycoonUI_mEC54075E3566F9F7D2E0EE3B72B61C305CAD8577 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B044319176CF6DDBAB9F80C6E423EBF80702786);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral84776BAA9E332E9A5B4427021595C78441B38948);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral98C74595D5A83FE66358BE209491FCFC5D1D0347);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA388989D9DF8742156F786F59DB4CC6F661306F2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBBE69C24A7FEA8BAB64D4C2805A3DC3AA9C3E3AE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCE7DB4634F256015DFF876919389CA921B4BFED8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE3730FAB74F10FB4D596B408FFAA85142E1A2E50);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	float V_1 = 0.0f;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	float V_4 = 0.0f;
+	String_t* V_5 = NULL;
+	String_t* G_B4_0 = NULL;
+	String_t* G_B9_0 = NULL;
+	String_t* G_B14_0 = NULL;
+	String_t* G_B19_0 = NULL;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:183>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___oakGenCostText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:184>
+		int32_t L_2 = __this->___oakGenCount;
+		if ((((int32_t)L_2) >= ((int32_t)4)))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		int32_t L_3 = __this->___oakGenBaseCost;
+		int32_t L_4 = __this->___oakGenCount;
+		int32_t L_5;
+		L_5 = TycoonManager_GetExponentialCost_m844EBA14BF3E7FB48DFB6AFE15858A4C3F414A19(__this, L_3, L_4, NULL);
+		int32_t L_6 = L_5;
+		RuntimeObject* L_7 = Box(il2cpp_defaults.int32_class, &L_6);
+		String_t* L_8;
+		L_8 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral5B044319176CF6DDBAB9F80C6E423EBF80702786, L_7, NULL);
+		G_B4_0 = L_8;
+		goto IL_003f;
+	}
+
+IL_003a:
+	{
+		G_B4_0 = _stringLiteralE3730FAB74F10FB4D596B408FFAA85142E1A2E50;
+	}
+
+IL_003f:
+	{
+		V_0 = G_B4_0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:185>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = __this->___oakGenCostText;
+		String_t* L_10 = V_0;
+		String_t* L_11;
+		L_11 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralBBE69C24A7FEA8BAB64D4C2805A3DC3AA9C3E3AE, L_10, NULL);
+		NullCheck(L_9);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_9, L_11);
+	}
+
+IL_0056:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:187>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = __this->___oakMultText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_13;
+		L_13 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_13)
+		{
+			goto IL_00ba;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:188>
+		float L_14 = __this->___oakProductionMultiplier;
+		int32_t L_15;
+		L_15 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(L_14, NULL);
+		V_1 = ((float)((int32_t)il2cpp_codegen_multiply(L_15, ((int32_t)100))));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:189>
+		float L_16 = __this->___oakProductionMultiplier;
+		if ((((float)L_16) >= ((float)(5.0f))))
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		float L_17 = V_1;
+		float L_18 = L_17;
+		RuntimeObject* L_19 = Box(il2cpp_defaults.single_class, &L_18);
+		String_t* L_20;
+		L_20 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral5B044319176CF6DDBAB9F80C6E423EBF80702786, L_19, NULL);
+		G_B9_0 = L_20;
+		goto IL_0098;
+	}
+
+IL_0093:
+	{
+		G_B9_0 = _stringLiteralE3730FAB74F10FB4D596B408FFAA85142E1A2E50;
+	}
+
+IL_0098:
+	{
+		V_2 = G_B9_0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:190>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_21 = __this->___oakMultText;
+		String_t* L_22 = V_2;
+		float L_23 = __this->___oakProductionMultiplier;
+		float L_24 = L_23;
+		RuntimeObject* L_25 = Box(il2cpp_defaults.single_class, &L_24);
+		String_t* L_26;
+		L_26 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralCE7DB4634F256015DFF876919389CA921B4BFED8, L_22, L_25, NULL);
+		NullCheck(L_21);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_21, L_26);
+	}
+
+IL_00ba:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:194>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_27 = __this->___mapleGenCostText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_28;
+		L_28 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_27, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_28)
+		{
+			goto IL_0110;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:195>
+		int32_t L_29 = __this->___mapleGenCount;
+		if ((((int32_t)L_29) >= ((int32_t)4)))
+		{
+			goto IL_00f4;
+		}
+	}
+	{
+		int32_t L_30 = __this->___mapleGenBaseCost;
+		int32_t L_31 = __this->___mapleGenCount;
+		int32_t L_32;
+		L_32 = TycoonManager_GetExponentialCost_m844EBA14BF3E7FB48DFB6AFE15858A4C3F414A19(__this, L_30, L_31, NULL);
+		int32_t L_33 = L_32;
+		RuntimeObject* L_34 = Box(il2cpp_defaults.int32_class, &L_33);
+		String_t* L_35;
+		L_35 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral98C74595D5A83FE66358BE209491FCFC5D1D0347, L_34, NULL);
+		G_B14_0 = L_35;
+		goto IL_00f9;
+	}
+
+IL_00f4:
+	{
+		G_B14_0 = _stringLiteralE3730FAB74F10FB4D596B408FFAA85142E1A2E50;
+	}
+
+IL_00f9:
+	{
+		V_3 = G_B14_0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:196>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_36 = __this->___mapleGenCostText;
+		String_t* L_37 = V_3;
+		String_t* L_38;
+		L_38 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral84776BAA9E332E9A5B4427021595C78441B38948, L_37, NULL);
+		NullCheck(L_36);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_36, L_38);
+	}
+
+IL_0110:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:198>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_39 = __this->___mapleMultText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_40;
+		L_40 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_39, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_40)
+		{
+			goto IL_0178;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:199>
+		float L_41 = __this->___mapleProductionMultiplier;
+		int32_t L_42;
+		L_42 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(L_41, NULL);
+		V_4 = ((float)((int32_t)il2cpp_codegen_multiply(L_42, ((int32_t)100))));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:200>
+		float L_43 = __this->___mapleProductionMultiplier;
+		if ((((float)L_43) >= ((float)(5.0f))))
+		{
+			goto IL_014f;
+		}
+	}
+	{
+		float L_44 = V_4;
+		float L_45 = L_44;
+		RuntimeObject* L_46 = Box(il2cpp_defaults.single_class, &L_45);
+		String_t* L_47;
+		L_47 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral98C74595D5A83FE66358BE209491FCFC5D1D0347, L_46, NULL);
+		G_B19_0 = L_47;
+		goto IL_0154;
+	}
+
+IL_014f:
+	{
+		G_B19_0 = _stringLiteralE3730FAB74F10FB4D596B408FFAA85142E1A2E50;
+	}
+
+IL_0154:
+	{
+		V_5 = G_B19_0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:201>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_48 = __this->___mapleMultText;
+		String_t* L_49 = V_5;
+		float L_50 = __this->___mapleProductionMultiplier;
+		float L_51 = L_50;
+		RuntimeObject* L_52 = Box(il2cpp_defaults.single_class, &L_51);
+		String_t* L_53;
+		L_53 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralA388989D9DF8742156F786F59DB4CC6F661306F2, L_49, L_52, NULL);
+		NullCheck(L_48);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_48, L_53);
+	}
+
+IL_0178:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:203>
+		return;
+	}
+}
+// Method Definition Index: 149396
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_TryPurchaseOakHouse_m6E5EFB91545573806EA6541ADD05588BB032A290 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* ___0_toggler, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral67AC01D23967737E26112B8442FBD99E6005CA09);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:207>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_0 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->___oakCount;
+		int32_t L_2 = __this->___oakHouseCost;
+		if ((((int32_t)L_1) < ((int32_t)L_2)))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:209>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_3 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		int32_t L_4 = __this->___oakHouseCost;
+		NullCheck(L_3);
+		ResourceManager_AddOak_mBC72CA44802886276AA34147611749E57089FE98(L_3, ((-L_4)), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:210>
+		HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* L_5 = ___0_toggler;
+		NullCheck(L_5);
+		HouseToggler_EnableHouse_m89DFFE96987C4395B3C435D7BCD6261424170B0A(L_5, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:211>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_6 = __this->___eyeSurprise;
+		NullCheck(L_6);
+		EyeSurprise_TriggerSurprise_m794930C97781BECAE4726603ADB60E88A401CC50(L_6, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:212>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_7 = __this->___eyeSurprise2;
+		NullCheck(L_7);
+		EyeSurprise_TriggerSurprise_m794930C97781BECAE4726603ADB60E88A401CC50(L_7, NULL);
+		return;
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:216>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral67AC01D23967737E26112B8442FBD99E6005CA09, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:218>
+		return;
+	}
+}
+// Method Definition Index: 149397
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager_TryPurchaseMapleHouse_mECE044D0D6F4BF39B39A7FADF8B6724E0816EDED (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* ___0_toggler, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral67AC01D23967737E26112B8442FBD99E6005CA09);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:222>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_0 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->___mapleCount;
+		int32_t L_2 = __this->___mapleHouseCost;
+		if ((((int32_t)L_1) < ((int32_t)L_2)))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:224>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_3 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		int32_t L_4 = __this->___mapleHouseCost;
+		NullCheck(L_3);
+		ResourceManager_AddMaple_m2B1A8D11A36247EF6D4BF4A13E36611B3D05F549(L_3, ((-L_4)), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:225>
+		HouseToggler_t32774D57836BDFE228AA084D371CFD129309A34D* L_5 = ___0_toggler;
+		NullCheck(L_5);
+		HouseToggler_EnableHouse_m89DFFE96987C4395B3C435D7BCD6261424170B0A(L_5, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:226>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_6 = __this->___eyeSurprise;
+		NullCheck(L_6);
+		EyeSurprise_TriggerSurprise_m794930C97781BECAE4726603ADB60E88A401CC50(L_6, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:227>
+		EyeSurprise_t2D724EAC22E746816630406501E392C9F2DE27DA* L_7 = __this->___eyeSurprise2;
+		NullCheck(L_7);
+		EyeSurprise_TriggerSurprise_m794930C97781BECAE4726603ADB60E88A401CC50(L_7, NULL);
+		return;
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:231>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral67AC01D23967737E26112B8442FBD99E6005CA09, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:233>
+		return;
+	}
+}
+// Method Definition Index: 149398
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TycoonManager__ctor_m691AF408B63265AA471EEED80E2D5FECCCFF4F26 (TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:21>
+		__this->___priceMultiplier = (1.5f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:24>
+		__this->___oakGenBaseCost = ((int32_t)10);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:26>
+		__this->___oakProductionMultiplier = (1.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:35>
+		__this->___mapleGenBaseCost = ((int32_t)50);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:37>
+		__this->___mapleProductionMultiplier = (1.0f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:50>
+		__this->___oakHouseCost = ((int32_t)5000);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/TycoonManager.cs:51>
+		__this->___mapleHouseCost = ((int32_t)5000);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149399
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OakGenerator_Update_mDE2EA1A0F9E3FB6F05FFB1C536427D62540150E0 (OakGenerator_t88C9C272F601F14868272351C8F0E6C3BC1C9C7F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/WoodGenerator.cs:11>
+		float L_0 = __this->___timer;
+		float L_1;
+		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___timer = ((float)il2cpp_codegen_add(L_0, L_1));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/WoodGenerator.cs:13>
+		float L_2 = __this->___timer;
+		float L_3 = __this->___tickInterval;
+		if ((!(((float)L_2) >= ((float)L_3))))
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/WoodGenerator.cs:15>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_4 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_6 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/WoodGenerator.cs:18>
+		TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2* L_8 = ((TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_StaticFields*)il2cpp_codegen_static_fields_for(TycoonManager_t9F0528605F14D7E08898BEA5DD130EA93CA5DDF2_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_8);
+		float L_9 = L_8->___oakProductionMultiplier;
+		V_0 = L_9;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/WoodGenerator.cs:21>
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_10 = ((PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_StaticFields*)il2cpp_codegen_static_fields_for(PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_11)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/WoodGenerator.cs:22>
+		float L_12 = V_0;
+		PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F* L_13 = ((PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_StaticFields*)il2cpp_codegen_static_fields_for(PrestigeManager_t3A2BB95BDB5755B7F7BF66247B81E9E1AA544A2F_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_13);
+		float L_14;
+		L_14 = PrestigeManager_GetPrestigeMultiplier_m363026183C95ABBB5A37F3165C0ED53867BF2D0B(L_13, NULL);
+		V_0 = ((float)il2cpp_codegen_multiply(L_12, L_14));
+	}
+
+IL_005f:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/WoodGenerator.cs:25>
+		il2cpp_codegen_runtime_class_init_inline(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* L_15 = ((SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_StaticFields*)il2cpp_codegen_static_fields_for(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var))->___Instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_16;
+		L_16 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_16)
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/WoodGenerator.cs:26>
+		float L_17 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var);
+		SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* L_18 = ((SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_StaticFields*)il2cpp_codegen_static_fields_for(SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6_il2cpp_TypeInfo_var))->___Instance;
+		NullCheck(L_18);
+		float L_19;
+		L_19 = SurpriseSurge_GetSurgeMultiplier_m436797457DEC58BA73EE0638944AB537FF732AA0_inline(L_18, NULL);
+		V_0 = ((float)il2cpp_codegen_multiply(L_17, L_19));
+	}
+
+IL_0079:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/WoodGenerator.cs:28>
+		int32_t L_20 = __this->___baseOakPerTick;
+		float L_21 = V_0;
+		int32_t L_22;
+		L_22 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(((float)il2cpp_codegen_multiply(((float)L_20), L_21)), NULL);
+		V_1 = L_22;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/WoodGenerator.cs:30>
+		ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E* L_23 = ((ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_StaticFields*)il2cpp_codegen_static_fields_for(ResourceManager_t3C786E6B9CB06BD30723E3099A98FEF2F853355E_il2cpp_TypeInfo_var))->___Instance;
+		int32_t L_24 = V_1;
+		NullCheck(L_23);
+		ResourceManager_AddOak_mBC72CA44802886276AA34147611749E57089FE98(L_23, L_24, NULL);
+	}
+
+IL_0093:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/WoodGenerator.cs:32>
+		__this->___timer = (0.0f);
+	}
+
+IL_009e:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/WoodGenerator.cs:34>
+		return;
+	}
+}
+// Method Definition Index: 149400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OakGenerator__ctor_mFD769E4E6C098111E3EC889840297E314A1DBA8C (OakGenerator_t88C9C272F601F14868272351C8F0E6C3BC1C9C7F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/WoodGenerator.cs:5>
+		__this->___baseOakPerTick = ((int32_t)10);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/WoodGenerator.cs:6>
+		__this->___tickInterval = (5.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149401
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
+{
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149402
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149403
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____0FBD29DBDAE9B1CDB5E4BCA58E5AE14C5D32D9807E273A110443973E2C00F7B6_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____FD3002C28C944C22331B79ECC0215BBCE7AC1E659A31F3107681861A02E87E11_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)808));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____FD3002C28C944C22331B79ECC0215BBCE7AC1E659A31F3107681861A02E87E11_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)426));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____0FBD29DBDAE9B1CDB5E4BCA58E5AE14C5D32D9807E273A110443973E2C00F7B6_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = ((int32_t)21);
+		(&V_0)->___TotalTypes = ((int32_t)23);
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 149404
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149405
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* Trail_get_Points_m308228726E79789505D69E943B2310AA18B36E92 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:67>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = __this->___points;
+		return L_0;
+	}
+}
+// Method Definition Index: 149406
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_set_Points_m61AFA4720C55BF311594A7B724A377C8AEA08186 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:68>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = ___0_value;
+		__this->___points = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___points), (void*)L_0);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:68>
+		return;
+	}
+}
+// Method Definition Index: 149407
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Trail_get_Loop_mCEDE91351271055CCAD3F4F00CE7213ABEB84CD2 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:74>
+		bool L_0 = __this->___loop;
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = __this->___points;
+		NullCheck(L_1);
+		return (bool)((((int32_t)((((int32_t)((int32_t)(((RuntimeArray*)L_1)->max_length))) < ((int32_t)3))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_0017:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 149408
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_Clear_mE953F6A275D7108CDDFAC1490AC781341D4EB986 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:81>
+		bool L_0;
+		L_0 = Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1(__this, NULL);
+		if (!L_0)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		int32_t L_1 = __this->___pointCount;
+		if ((((int32_t)L_1) <= ((int32_t)1)))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___trailGo;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_2, NULL);
+		if (L_3)
+		{
+			goto IL_001f;
+		}
+	}
+
+IL_001e:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:82>
+		return;
+	}
+
+IL_001f:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:84>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4 = __this->___update;
+		if (!L_4)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:85>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5 = __this->___update;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_5, NULL);
+	}
+
+IL_0033:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:87>
+		Trail_ClearVertices_mCBC4D612D4E24C5541D90E43AD4D359957D80787(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:89>
+		RuntimeObject* L_6;
+		L_6 = Trail_PhysicsUpdate_mE362F1BB517BFEEEA4AE6D4C68AC2550F7BCB6B1(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_7;
+		L_7 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_6, NULL);
+		__this->___update = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___update), (void*)L_7);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:90>
+		return;
+	}
+}
+// Method Definition Index: 149409
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_Start_m708A7F0D90C3287659FBE0DC8D0612EC4E0F8547 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mDF6525BCE37B444313BE0AA2305BDF4EB8B92FE8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD8A460B57C708AAE5B3FE032970AB4EB08FDAB9B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF26B5DDABB07812EF8D39B917D1DD7AAF2F0D1A0);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:94>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		__this->___cacheTM = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___cacheTM), (void*)L_0);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:96>
+		String_t* L_1;
+		L_1 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(__this, NULL);
+		String_t* L_2;
+		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_1, _stringLiteralD8A460B57C708AAE5B3FE032970AB4EB08FDAB9B, NULL);
+		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_3 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)2);
+		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_4 = L_3;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_6;
+		L_6 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_5, NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_6);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t*)L_6);
+		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_7 = L_4;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_8 = { reinterpret_cast<intptr_t> (MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_0_0_0_var) };
+		Type_t* L_9;
+		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
+		NullCheck(L_7);
+		ArrayElementTypeCheck (L_7, L_9);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t*)L_9);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0(L_10, L_2, L_7, NULL);
+		__this->___trailGo = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___trailGo), (void*)L_10);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:97>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___trailGo;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_11, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:99>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_12 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
+		Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00(L_12, NULL);
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_13 = L_12;
+		NullCheck(L_13);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_13, _stringLiteralF26B5DDABB07812EF8D39B917D1DD7AAF2F0D1A0, NULL);
+		__this->___mesh = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mesh), (void*)L_13);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:100>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_14 = __this->___mesh;
+		NullCheck(L_14);
+		Mesh_MarkDynamic_m718089940F240AFE625D6DC9DA4E6F20229CC322(L_14, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:101>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___trailGo;
+		NullCheck(L_15);
+		MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* L_16;
+		L_16 = GameObject_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mDF6525BCE37B444313BE0AA2305BDF4EB8B92FE8(L_15, GameObject_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mDF6525BCE37B444313BE0AA2305BDF4EB8B92FE8_RuntimeMethod_var);
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_17 = __this->___mesh;
+		NullCheck(L_16);
+		MeshFilter_set_sharedMesh_m946F7E3F583761982642BDA4753784AF1DF6E16F(L_16, L_17, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:102>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___trailGo;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19;
+		L_19 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_19);
+		int32_t L_20;
+		L_20 = GameObject_get_layer_m108902B9C89E9F837CE06B9942AA42307450FEAF(L_19, NULL);
+		NullCheck(L_18);
+		GameObject_set_layer_m6E1AF478A2CC86BD222B96317BEB78B7D89B18D0(L_18, L_20, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:104>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___trailGo;
+		NullCheck(L_21);
+		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_22;
+		L_22 = GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D(L_21, GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D_RuntimeMethod_var);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:105>
+		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_23 = L_22;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_24 = __this->___material;
+		NullCheck(L_23);
+		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(L_23, L_24, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:106>
+		NullCheck(L_23);
+		Renderer_set_shadowCastingMode_mB0CD3D153E43044388AEFF7AEFDA93E80EB36D11(L_23, 0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:108>
+		float L_25 = __this->___duration;
+		float L_26;
+		L_26 = Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381(NULL);
+		Trail_Initialize_mD6D19FD649BB0F2EB34DAB64C80727164967E0F9(__this, il2cpp_codegen_cast_double_to_int<int32_t>(((float)(L_25/L_26))), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:109>
+		return;
+	}
+}
+// Method Definition Index: 149410
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_OnDestroy_m3E3310823A332ECDE7B7B2703AB31E5E92D2A307 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:113>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_0 = __this->___mesh;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:114>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2 = __this->___mesh;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:115>
+		__this->___mesh = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mesh), (void*)(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:117>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___trailGo;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:118>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___trailGo;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_5, NULL);
+	}
+
+IL_0039:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:119>
+		__this->___trailGo = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___trailGo), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:120>
+		return;
+	}
+}
+// Method Definition Index: 149411
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_OnEnable_m4B38E62CE40DE011286D5E3069D4E1AFD0F63704 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:124>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___trailGo;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:125>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:127>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___trailGo;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:128>
+		float L_3 = __this->___duration;
+		float L_4;
+		L_4 = Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381(NULL);
+		Trail_Initialize_mD6D19FD649BB0F2EB34DAB64C80727164967E0F9(__this, il2cpp_codegen_cast_double_to_int<int32_t>(((float)(L_3/L_4))), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:129>
+		return;
+	}
+}
+// Method Definition Index: 149412
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_OnDisable_m72DC0A5A7215E679C0171404934F8C8828980925 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:133>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___trailGo;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:134>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___trailGo;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:136>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3 = __this->___update;
+		if (!L_3)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:137>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4 = __this->___update;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_4, NULL);
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:138>
+		__this->___update = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___update), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:139>
+		return;
+	}
+}
+// Method Definition Index: 149413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_SetVerticesAndCorner_mC2982F5F431189429650982EC51A823A276E736F (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	float V_10 = 0.0f;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:143>
+		int32_t L_0 = __this->___pointCount;
+		int32_t L_1 = __this->___pointCount;
+		int32_t L_2 = __this->___corner;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_0, ((int32_t)il2cpp_codegen_multiply(L_1, L_2))));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:145>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = __this->___vertices;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_4 = __this->___vertices;
+		int32_t L_5 = V_0;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_6 = __this->___vertices;
+		NullCheck(L_6);
+		int32_t L_7 = V_0;
+		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_3, 0, (RuntimeArray*)L_4, L_5, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_6)->max_length)), L_7)), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:147>
+		Trail_TransformVertices_mCD3A970146EC2BE618FAB3C3606A1B075D5234D5(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:149>
+		int32_t L_8 = V_0;
+		V_1 = ((int32_t)il2cpp_codegen_multiply(L_8, 2));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:150>
+		int32_t L_9 = V_0;
+		V_2 = ((int32_t)il2cpp_codegen_multiply(L_9, 3));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:152>
+		V_3 = (-1);
+		goto IL_00f6;
+	}
+
+IL_0047:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:154>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_10 = __this->___vertices;
+		int32_t L_11 = V_3;
+		NullCheck(L_10);
+		int32_t L_12 = L_11;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		V_4 = L_13;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:155>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_14 = __this->___vertices;
+		int32_t L_15 = V_3;
+		int32_t L_16 = V_0;
+		NullCheck(L_14);
+		int32_t L_17 = ((int32_t)il2cpp_codegen_add(L_15, L_16));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		V_5 = L_18;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:156>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_19 = __this->___vertices;
+		int32_t L_20 = V_3;
+		int32_t L_21 = V_1;
+		NullCheck(L_19);
+		int32_t L_22 = ((int32_t)il2cpp_codegen_add(L_20, L_21));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		V_6 = L_23;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:157>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_24 = __this->___vertices;
+		int32_t L_25 = V_3;
+		int32_t L_26 = V_2;
+		NullCheck(L_24);
+		int32_t L_27 = ((int32_t)il2cpp_codegen_add(L_25, L_26));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		V_7 = L_28;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:159>
+		V_8 = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:159>
+		int32_t L_29 = __this->___pointCount;
+		int32_t L_30 = V_3;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_29, L_30));
+		goto IL_00e7;
+	}
+
+IL_0094:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:161>
+		int32_t L_31 = V_8;
+		float L_32 = __this->___toCornerT;
+		V_10 = ((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_add(L_31, 1))), L_32));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:162>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_33 = __this->___vertices;
+		int32_t L_34 = V_9;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_6;
+		float L_39 = V_10;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
+		L_40 = Trail_CatmullRomSpline_m2418B6C31CC2210DC8C4F90A6057A0004D278E34(L_35, L_36, L_37, L_38, L_39, NULL);
+		NullCheck(L_33);
+		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(L_34), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_40);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:163>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_41 = __this->___vertices;
+		int32_t L_42 = V_9;
+		int32_t L_43 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = V_7;
+		float L_48 = V_10;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49;
+		L_49 = Trail_CatmullRomSpline_m2418B6C31CC2210DC8C4F90A6057A0004D278E34(L_44, L_45, L_46, L_47, L_48, NULL);
+		NullCheck(L_41);
+		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_42, L_43))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_49);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:159>
+		int32_t L_50 = V_9;
+		int32_t L_51 = __this->___pointCount;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_50, L_51));
+	}
+
+IL_00e7:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:159>
+		int32_t L_52 = V_8;
+		int32_t L_53 = ((int32_t)il2cpp_codegen_add(L_52, 1));
+		V_8 = L_53;
+		int32_t L_54 = __this->___corner;
+		if ((((int32_t)L_53) < ((int32_t)L_54)))
+		{
+			goto IL_0094;
+		}
+	}
+
+IL_00f6:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:152>
+		int32_t L_55 = V_3;
+		int32_t L_56 = ((int32_t)il2cpp_codegen_add(L_55, 1));
+		V_3 = L_56;
+		int32_t L_57 = __this->___pointCount;
+		if ((((int32_t)L_56) < ((int32_t)L_57)))
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:166>
+		return;
+	}
+}
+// Method Definition Index: 149414
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_SetVertices_mD496D871550256959B71199651F71ADC33CC446B (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:170>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = __this->___vertices;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = __this->___vertices;
+		int32_t L_2 = __this->___pointCount;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = __this->___vertices;
+		NullCheck(L_3);
+		int32_t L_4 = __this->___pointCount;
+		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_0, 0, (RuntimeArray*)L_1, L_2, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_3)->max_length)), L_4)), NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:171>
+		Trail_TransformVertices_mCD3A970146EC2BE618FAB3C3606A1B075D5234D5(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:172>
+		return;
+	}
+}
+// Method Definition Index: 149415
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Trail_PhysicsUpdate_mE362F1BB517BFEEEA4AE6D4C68AC2550F7BCB6B1 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* L_0 = (U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9*)il2cpp_codegen_object_new(U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9_il2cpp_TypeInfo_var);
+		U3CPhysicsUpdateU3Ed__26__ctor_mD1A954AEC1CD22C5F8E29B20BB1462EA7562C239(L_0, 0, NULL);
+		U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 149416
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_LateUpdate_mE3DB6F5B9FC7AF4BF18CA4A67F732C09996F6734 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:190>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___cacheTM;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = Transform_get_hasChanged_m570B3328E80AA338FF074A5C208500E98E440795(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:191>
+		Trail_TransformVertices_mCD3A970146EC2BE618FAB3C3606A1B075D5234D5(__this, NULL);
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:193>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2 = __this->___mesh;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = __this->___vertices;
+		NullCheck(L_2);
+		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_2, L_3, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:194>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4 = __this->___mesh;
+		NullCheck(L_4);
+		Mesh_RecalculateBounds_mA9B293F57C6CD298AE2D2DB19061FC23B05AB90B(L_4, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:195>
+		return;
+	}
+}
+// Method Definition Index: 149417
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_TransformVertices_mCD3A970146EC2BE618FAB3C3606A1B075D5234D5 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
+{
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:199>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___cacheTM;
+		NullCheck(L_0);
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_1;
+		L_1 = Transform_get_localToWorldMatrix_m5D35188766856338DD21DE756F42277C21719E6D(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:200>
+		V_1 = (-1);
+		goto IL_002f;
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:201>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = __this->___vertices;
+		int32_t L_3 = V_1;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_4 = __this->___points;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline((&V_0), L_7, NULL);
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(L_3), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_8);
+	}
+
+IL_002f:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:200>
+		int32_t L_9 = V_1;
+		int32_t L_10 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+		V_1 = L_10;
+		int32_t L_11 = __this->___pointCount;
+		if ((((int32_t)L_10) < ((int32_t)L_11)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:202>
+		return;
+	}
+}
+// Method Definition Index: 149418
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_ClearVertices_mCBC4D612D4E24C5541D90E43AD4D359957D80787 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:206>
+		Trail_TransformVertices_mCD3A970146EC2BE618FAB3C3606A1B075D5234D5(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:208>
+		int32_t L_0 = __this->___pointCount;
+		V_0 = L_0;
+		goto IL_0031;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:209>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = __this->___vertices;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = __this->___vertices;
+		int32_t L_3 = V_0;
+		int32_t L_4 = __this->___pointCount;
+		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_1, 0, (RuntimeArray*)L_2, L_3, L_4, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:208>
+		int32_t L_5 = V_0;
+		int32_t L_6 = __this->___pointCount;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_5, L_6));
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:208>
+		int32_t L_7 = V_0;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_8 = __this->___vertices;
+		NullCheck(L_8);
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length)))))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:210>
+		return;
+	}
+}
+// Method Definition Index: 149419
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail_Initialize_mD6D19FD649BB0F2EB34DAB64C80727164967E0F9 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, int32_t ___0_segment, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* V_2 = NULL;
+	bool V_3 = false;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_4 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	int32_t V_12 = 0;
+	int32_t V_13 = 0;
+	int32_t V_14 = 0;
+	int32_t V_15 = 0;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int32_t V_19 = 0;
+	int32_t G_B3_0 = 0;
+	int32_t G_B12_0 = 0;
+	int32_t G_B26_0 = 0;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:214>
+		int32_t L_0 = ___0_segment;
+		if ((((int32_t)L_0) >= ((int32_t)3)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		G_B3_0 = 0;
+		goto IL_000d;
+	}
+
+IL_0007:
+	{
+		int32_t L_1 = __this->___corner;
+		G_B3_0 = L_1;
+	}
+
+IL_000d:
+	{
+		V_0 = G_B3_0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:216>
+		int32_t L_2 = __this->___lastSegmentCount;
+		int32_t L_3 = ___0_segment;
+		if ((!(((uint32_t)L_2) == ((uint32_t)L_3))))
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		int32_t L_4 = __this->___pointCount;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_5 = __this->___points;
+		NullCheck(L_5);
+		if ((!(((uint32_t)L_4) == ((uint32_t)((int32_t)(((RuntimeArray*)L_5)->max_length))))))
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		int32_t L_6 = __this->___lastCorner;
+		int32_t L_7 = V_0;
+		if ((!(((uint32_t)L_6) == ((uint32_t)L_7))))
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:218>
+		Trail_ClearVertices_mCBC4D612D4E24C5541D90E43AD4D359957D80787(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:220>
+		RuntimeObject* L_8;
+		L_8 = Trail_PhysicsUpdate_mE362F1BB517BFEEEA4AE6D4C68AC2550F7BCB6B1(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_9;
+		L_9 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_8, NULL);
+		__this->___update = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___update), (void*)L_9);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:221>
+		return;
+	}
+
+IL_0049:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:224>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_10 = __this->___points;
+		NullCheck(L_10);
+		__this->___pointCount = ((int32_t)(((RuntimeArray*)L_10)->max_length));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:225>
+		int32_t L_11 = V_0;
+		__this->___lastCorner = L_11;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:226>
+		int32_t L_12 = ___0_segment;
+		__this->___lastSegmentCount = L_12;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:228>
+		int32_t L_13 = __this->___pointCount;
+		if ((((int32_t)L_13) > ((int32_t)1)))
+		{
+			goto IL_007a;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:230>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_14 = __this->___mesh;
+		NullCheck(L_14);
+		Mesh_Clear_m0F95397EA143D31AD0B4D332E8C6FA25A7957BC0(L_14, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:231>
+		return;
+	}
+
+IL_007a:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:234>
+		int32_t L_15 = ___0_segment;
+		int32_t L_16 = ___0_segment;
+		int32_t L_17 = V_0;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_15, ((int32_t)il2cpp_codegen_multiply(L_16, L_17))));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:236>
+		int32_t L_18 = __this->___pointCount;
+		int32_t L_19 = V_1;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_20 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_18, ((int32_t)il2cpp_codegen_add(L_19, 1)))));
+		V_2 = L_20;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:238>
+		bool L_21;
+		L_21 = Trail_get_Loop_mCEDE91351271055CCAD3F4F00CE7213ABEB84CD2(__this, NULL);
+		V_3 = L_21;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:240>
+		bool L_22 = V_3;
+		if (L_22)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		int32_t L_23 = __this->___pointCount;
+		G_B12_0 = ((int32_t)il2cpp_codegen_subtract(L_23, 1));
+		goto IL_00aa;
+	}
+
+IL_00a4:
+	{
+		int32_t L_24 = __this->___pointCount;
+		G_B12_0 = L_24;
+	}
+
+IL_00aa:
+	{
+		int32_t L_25 = V_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_26 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(G_B12_0, 6)), L_25)));
+		V_4 = L_26;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:242>
+		il2cpp_codegen_initobj((&V_5), sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:244>
+		int32_t L_27 = __this->___pointCount;
+		V_6 = ((int32_t)il2cpp_codegen_subtract(L_27, 1));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:246>
+		int32_t L_28 = ___0_segment;
+		V_7 = ((float)((1.0f)/((float)L_28)));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:247>
+		int32_t L_29 = V_6;
+		V_8 = ((float)((1.0f)/((float)L_29)));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:248>
+		int32_t L_30 = V_0;
+		__this->___toCornerT = ((float)((1.0f)/((float)((int32_t)il2cpp_codegen_add(L_30, 1)))));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:250>
+		V_11 = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:250>
+		V_12 = (-1);
+		goto IL_019e;
+	}
+
+IL_00f7:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:252>
+		int32_t L_31 = V_11;
+		float L_32 = V_7;
+		(&V_5)->___y = ((float)il2cpp_codegen_multiply(((float)L_31), L_32));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:253>
+		V_13 = (-1);
+		goto IL_0125;
+	}
+
+IL_0109:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:255>
+		int32_t L_33 = V_13;
+		float L_34 = V_8;
+		(&V_5)->___x = ((float)il2cpp_codegen_multiply(((float)L_33), L_34));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:256>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_35 = V_2;
+		int32_t L_36 = V_12;
+		int32_t L_37 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+		V_12 = L_37;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_38 = V_5;
+		NullCheck(L_35);
+		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(L_37), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_38);
+	}
+
+IL_0125:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:253>
+		int32_t L_39 = V_13;
+		int32_t L_40 = ((int32_t)il2cpp_codegen_add(L_39, 1));
+		V_13 = L_40;
+		int32_t L_41 = __this->___pointCount;
+		if ((((int32_t)L_40) < ((int32_t)L_41)))
+		{
+			goto IL_0109;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:259>
+		int32_t L_42 = V_11;
+		int32_t L_43 = ___0_segment;
+		if ((((int32_t)L_42) == ((int32_t)L_43)))
+		{
+			goto IL_019e;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:262>
+		V_14 = (-1);
+		goto IL_0194;
+	}
+
+IL_013e:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:264>
+		int32_t L_44 = V_11;
+		float L_45 = V_7;
+		int32_t L_46 = V_11;
+		float L_47 = V_7;
+		int32_t L_48 = V_14;
+		float L_49 = __this->___toCornerT;
+		float L_50;
+		L_50 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(((float)il2cpp_codegen_multiply(((float)L_44), L_45)), ((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_add(L_46, 1))), L_47)), ((float)il2cpp_codegen_multiply(((float)((int32_t)il2cpp_codegen_add(L_48, 1))), L_49)), NULL);
+		(&V_5)->___y = L_50;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:266>
+		V_15 = (-1);
+		goto IL_0185;
+	}
+
+IL_0169:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:268>
+		int32_t L_51 = V_15;
+		float L_52 = V_8;
+		(&V_5)->___x = ((float)il2cpp_codegen_multiply(((float)L_51), L_52));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:269>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_53 = V_2;
+		int32_t L_54 = V_12;
+		int32_t L_55 = ((int32_t)il2cpp_codegen_add(L_54, 1));
+		V_12 = L_55;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_56 = V_5;
+		NullCheck(L_53);
+		(L_53)->SetAt(static_cast<il2cpp_array_size_t>(L_55), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_56);
+	}
+
+IL_0185:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:266>
+		int32_t L_57 = V_15;
+		int32_t L_58 = ((int32_t)il2cpp_codegen_add(L_57, 1));
+		V_15 = L_58;
+		int32_t L_59 = __this->___pointCount;
+		if ((((int32_t)L_58) < ((int32_t)L_59)))
+		{
+			goto IL_0169;
+		}
+	}
+
+IL_0194:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:262>
+		int32_t L_60 = V_14;
+		int32_t L_61 = ((int32_t)il2cpp_codegen_add(L_60, 1));
+		V_14 = L_61;
+		int32_t L_62 = V_0;
+		if ((((int32_t)L_61) < ((int32_t)L_62)))
+		{
+			goto IL_013e;
+		}
+	}
+
+IL_019e:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:250>
+		int32_t L_63 = V_11;
+		int32_t L_64 = ((int32_t)il2cpp_codegen_add(L_63, 1));
+		V_11 = L_64;
+		int32_t L_65 = ___0_segment;
+		if ((((int32_t)L_64) <= ((int32_t)L_65)))
+		{
+			goto IL_00f7;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:274>
+		V_9 = 0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:275>
+		bool L_66 = V_3;
+		if (L_66)
+		{
+			goto IL_01b5;
+		}
+	}
+	{
+		int32_t L_67 = V_6;
+		G_B26_0 = L_67;
+		goto IL_01b9;
+	}
+
+IL_01b5:
+	{
+		int32_t L_68 = V_6;
+		G_B26_0 = ((int32_t)il2cpp_codegen_add(L_68, 1));
+	}
+
+IL_01b9:
+	{
+		V_10 = G_B26_0;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:277>
+		V_16 = (-1);
+		goto IL_0253;
+	}
+
+IL_01c3:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:279>
+		int32_t L_69 = V_16;
+		int32_t L_70 = __this->___pointCount;
+		V_17 = ((int32_t)il2cpp_codegen_multiply(L_69, L_70));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:280>
+		int32_t L_71 = V_16;
+		int32_t L_72 = __this->___pointCount;
+		V_18 = ((int32_t)il2cpp_codegen_multiply(L_71, L_72));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:281>
+		bool L_73 = V_3;
+		if (!L_73)
+		{
+			goto IL_01e5;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:282>
+		int32_t L_74 = V_17;
+		int32_t L_75 = V_6;
+		V_17 = ((int32_t)il2cpp_codegen_add(L_74, L_75));
+		goto IL_01eb;
+	}
+
+IL_01e5:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:284>
+		int32_t L_76 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_76, 1));
+	}
+
+IL_01eb:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:286>
+		V_19 = (-1);
+		goto IL_0248;
+	}
+
+IL_01f0:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:288>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_77 = V_4;
+		int32_t L_78 = V_9;
+		int32_t L_79 = V_17;
+		NullCheck(L_77);
+		(L_77)->SetAt(static_cast<il2cpp_array_size_t>(L_78), (int32_t)L_79);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:289>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_80 = V_4;
+		int32_t L_81 = V_9;
+		int32_t L_82 = V_17;
+		int32_t L_83 = __this->___pointCount;
+		NullCheck(L_80);
+		(L_80)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_81, 1))), (int32_t)((int32_t)il2cpp_codegen_add(L_82, L_83)));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:290>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_84 = V_4;
+		int32_t L_85 = V_9;
+		int32_t L_86 = V_18;
+		NullCheck(L_84);
+		(L_84)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_85, 2))), (int32_t)L_86);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:291>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_87 = V_4;
+		int32_t L_88 = V_9;
+		int32_t L_89 = V_18;
+		NullCheck(L_87);
+		(L_87)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_88, 3))), (int32_t)L_89);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:292>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_90 = V_4;
+		int32_t L_91 = V_9;
+		int32_t L_92 = V_17;
+		int32_t L_93 = __this->___pointCount;
+		NullCheck(L_90);
+		(L_90)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_91, 4))), (int32_t)((int32_t)il2cpp_codegen_add(L_92, L_93)));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:293>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_94 = V_4;
+		int32_t L_95 = V_9;
+		int32_t L_96 = V_18;
+		int32_t L_97 = __this->___pointCount;
+		NullCheck(L_94);
+		(L_94)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_95, 5))), (int32_t)((int32_t)il2cpp_codegen_add(L_96, L_97)));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:286>
+		int32_t L_98 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_98, 6));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:286>
+		int32_t L_99 = V_18;
+		int32_t L_100 = L_99;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_100, 1));
+		V_17 = L_100;
+	}
+
+IL_0248:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:286>
+		int32_t L_101 = V_19;
+		int32_t L_102 = ((int32_t)il2cpp_codegen_add(L_101, 1));
+		V_19 = L_102;
+		int32_t L_103 = V_10;
+		if ((((int32_t)L_102) < ((int32_t)L_103)))
+		{
+			goto IL_01f0;
+		}
+	}
+
+IL_0253:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:277>
+		int32_t L_104 = V_16;
+		int32_t L_105 = ((int32_t)il2cpp_codegen_add(L_104, 1));
+		V_16 = L_105;
+		int32_t L_106 = V_1;
+		if ((((int32_t)L_105) < ((int32_t)L_106)))
+		{
+			goto IL_01c3;
+		}
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:297>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_107 = V_2;
+		NullCheck(L_107);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_108 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_107)->max_length)));
+		__this->___vertices = L_108;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___vertices), (void*)L_108);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:298>
+		Trail_ClearVertices_mCBC4D612D4E24C5541D90E43AD4D359957D80787(__this, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:300>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_109 = __this->___mesh;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_110 = __this->___vertices;
+		NullCheck(L_109);
+		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_109, L_110, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:301>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_111 = __this->___mesh;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_112 = V_2;
+		NullCheck(L_111);
+		Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617(L_111, L_112, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:302>
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_113 = __this->___mesh;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_114 = V_4;
+		NullCheck(L_113);
+		Mesh_SetIndices_m2AE7ED76A6C77D218C37C011DDB948589FD45B97(L_113, L_114, 0, 0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:304>
+		RuntimeObject* L_115;
+		L_115 = Trail_PhysicsUpdate_mE362F1BB517BFEEEA4AE6D4C68AC2550F7BCB6B1(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_116;
+		L_116 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_115, NULL);
+		__this->___update = L_116;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___update), (void*)L_116);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:305>
+		return;
+	}
+}
+// Method Definition Index: 149420
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Trail_CatmullRomSpline_m2418B6C31CC2210DC8C4F90A6057A0004D278E34 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_p0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_p1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_p2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_p3, float ___4_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:314>
+		float L_0 = ___4_t;
+		float L_1 = ___4_t;
+		V_0 = ((float)il2cpp_codegen_multiply(L_0, L_1));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:315>
+		float L_2 = V_0;
+		float L_3 = ___4_t;
+		V_1 = ((float)il2cpp_codegen_multiply(L_2, L_3));
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:316>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_p1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((2.0f), L_4, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_p0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_6, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___2_p2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_7, L_8, NULL);
+		float L_10 = ___4_t;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_9, L_10, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_5, L_11, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___0_p0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((2.0f), L_13, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = ___1_p1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((5.0f), L_15, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_14, L_16, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___2_p2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		L_19 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((4.0f), L_18, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_17, L_19, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = ___3_p3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_20, L_21, NULL);
+		float L_23 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
+		L_24 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_22, L_23, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
+		L_25 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_12, L_24, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = ___0_p0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_26, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = ___1_p1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((3.0f), L_28, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
+		L_30 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_27, L_29, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = ___2_p2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		L_32 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((3.0f), L_31, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_30, L_32, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = ___3_p3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
+		L_35 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_33, L_34, NULL);
+		float L_36 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
+		L_37 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_35, L_36, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
+		L_38 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_25, L_37, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
+		L_39 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((0.5f), L_38, NULL);
+		return L_39;
+	}
+}
+// Method Definition Index: 149421
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trail__ctor_m361AA7E260DEB110310D62E00415F2520F5328B4 (Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:39>
+		__this->___duration = (0.100000001f);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:42>
+		__this->___corner = 1;
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:48>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)2);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = L_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2), (0.0f), (0.0f), (-1.0f), NULL);
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_2);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = L_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_4), (0.0f), (0.0f), (1.0f), NULL);
+		NullCheck(L_3);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_4);
+		__this->___points = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___points), (void*)L_3);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:56>
+		__this->___lastSegmentCount = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:57>
+		__this->___lastCorner = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:58>
+		__this->___pointCount = (-1);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 149422
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPhysicsUpdateU3Ed__26__ctor_mD1A954AEC1CD22C5F8E29B20BB1462EA7562C239 (U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 149423
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPhysicsUpdateU3Ed__26_System_IDisposable_Dispose_mF366062C1C1A06EEE1F5F0D49E2A0F524224E6B2 (U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 149424
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CPhysicsUpdateU3Ed__26_MoveNext_m432DA2081F49F41AABD02F9EB68AFDC4783896E4 (U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Trail_SetVerticesAndCorner_mC2982F5F431189429650982EC51A823A276E736F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Trail_SetVertices_mD496D871550256959B71199651F71ADC33CC446B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* V_1 = NULL;
+	U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* G_B5_0 = NULL;
+	U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* G_B4_0 = NULL;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B6_0 = NULL;
+	U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* G_B6_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:176>
+		WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7* L_4 = (WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7*)il2cpp_codegen_object_new(WaitForFixedUpdate_t86F5BC0B6A668AEF2903DE9ADB52062E457BD1B7_il2cpp_TypeInfo_var);
+		WaitForFixedUpdate__ctor_m28D22FD61960FCD538753493FAC080DA5EC7A9E7(L_4, NULL);
+		__this->___U3CwaitU3E5__2 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CwaitU3E5__2), (void*)L_4);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:178>
+		Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* L_5 = V_1;
+		NullCheck(L_5);
+		int32_t L_6 = L_5->___corner;
+		if ((((int32_t)L_6) > ((int32_t)0)))
+		{
+			G_B5_0 = __this;
+			goto IL_0041;
+		}
+		G_B4_0 = __this;
+	}
+	{
+		Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* L_7 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_8, L_7, (intptr_t)((void*)Trail_SetVertices_mD496D871550256959B71199651F71ADC33CC446B_RuntimeMethod_var), NULL);
+		G_B6_0 = L_8;
+		G_B6_1 = G_B4_0;
+		goto IL_004d;
+	}
+
+IL_0041:
+	{
+		Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* L_9 = V_1;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_10, L_9, (intptr_t)((void*)Trail_SetVerticesAndCorner_mC2982F5F431189429650982EC51A823A276E736F_RuntimeMethod_var), NULL);
+		G_B6_0 = L_10;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_004d:
+	{
+		NullCheck(G_B6_1);
+		G_B6_1->___U3CactionU3E5__3 = G_B6_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B6_1->___U3CactionU3E5__3), (void*)G_B6_0);
+	}
+
+IL_0052:
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:182>
+		YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D* L_11 = __this->___U3CwaitU3E5__2;
+		__this->___U3CU3E2__current = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_11);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0067:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:183>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_12 = __this->___U3CactionU3E5__3;
+		NullCheck(L_12);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_12, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:184>
+		Trail_t687AE6743F5FC0F41A01321B2A925847E7BCFD5C* L_13 = V_1;
+		NullCheck(L_13);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = L_13->___cacheTM;
+		NullCheck(L_14);
+		Transform_set_hasChanged_mCE980898F6D52F81E7E6B772DCA89E13A15870AE(L_14, (bool)0, NULL);
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/MiniGames/Trail/Trail.cs:180>
+		goto IL_0052;
+	}
+}
+// Method Definition Index: 149425
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPhysicsUpdateU3Ed__26_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m26F88D20FD08359017063FCB29FDD904AE099059 (U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 149426
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPhysicsUpdateU3Ed__26_System_Collections_IEnumerator_Reset_m352E9CF47534E705848906FF0CDEB0A5F5D8D8CD (U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CPhysicsUpdateU3Ed__26_System_Collections_IEnumerator_Reset_m352E9CF47534E705848906FF0CDEB0A5F5D8D8CD_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 149427
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPhysicsUpdateU3Ed__26_System_Collections_IEnumerator_get_Current_m4931459AA71CC21681619ED73A4438F50D1D7400 (U3CPhysicsUpdateU3Ed__26_t685D145DE1BC2C7A08732712F464A34F229556F9* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 60059
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 60009
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_b;
+		float L_5 = L_4.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___x;
+		float L_8 = ___2_t;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_5, L_7)), L_8))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_a;
+		float L_10 = L_9.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___1_b;
+		float L_12 = L_11.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___0_a;
+		float L_14 = L_13.___y;
+		float L_15 = ___2_t;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, L_14)), L_15))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___0_a;
+		float L_17 = L_16.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___1_b;
+		float L_19 = L_18.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___0_a;
+		float L_21 = L_20.___z;
+		float L_22 = ___2_t;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_19, L_21)), L_22))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_0;
+		V_1 = L_23;
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_1;
+		return L_24;
+	}
+}
+// Method Definition Index: 60057
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 60029
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_Normalize_m1DE89849FE2019B6AA0031306896F3B800849399_inline(__this, NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 60015
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 60056
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_9, L_11));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 60040
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		float L_4 = __this->___z;
+		float L_5 = __this->___z;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_6;
+		L_6 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))))));
+		return ((float)L_6);
+	}
+}
+// Method Definition Index: 60037
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_18;
+		L_18 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))))));
+		V_3 = ((float)L_18);
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		float L_19 = V_3;
+		return L_19;
+	}
+}
+// Method Definition Index: 149374
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float SurpriseSurge_GetSurgeMultiplier_m436797457DEC58BA73EE0638944AB537FF732AA0_inline (SurpriseSurge_t3369347644023B12022FDE479BA9DCDABD0AB6E6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/mshang4/Documents/GitHub/Take2/All-the-Juice/Idle Sim/Assets/Scripts/SurpriseSurge.cs:209>
+		float L_0 = __this->___currentBoostMultiplier;
+		return L_0;
+	}
+}
+// Method Definition Index: 60169
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		float L_0 = ___0_f;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = bankers_round(((double)L_0));
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+// Method Definition Index: 60047
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 60060
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___0_d;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___0_d;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___0_d;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 60051
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___upVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 60168
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		float L_0 = ___0_f;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = floor(((double)L_0));
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+// Method Definition Index: 59983
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814_inline (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_point, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		float L_0 = __this->___m00;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_point;
+		float L_2 = L_1.___x;
+		float L_3 = __this->___m01;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_point;
+		float L_5 = L_4.___y;
+		float L_6 = __this->___m02;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___0_point;
+		float L_8 = L_7.___z;
+		float L_9 = __this->___m03;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_2)), ((float)il2cpp_codegen_multiply(L_3, L_5)))), ((float)il2cpp_codegen_multiply(L_6, L_8)))), L_9));
+		float L_10 = __this->___m10;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___0_point;
+		float L_12 = L_11.___x;
+		float L_13 = __this->___m11;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = ___0_point;
+		float L_15 = L_14.___y;
+		float L_16 = __this->___m12;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = ___0_point;
+		float L_18 = L_17.___z;
+		float L_19 = __this->___m13;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_10, L_12)), ((float)il2cpp_codegen_multiply(L_13, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_18)))), L_19));
+		float L_20 = __this->___m20;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = ___0_point;
+		float L_22 = L_21.___x;
+		float L_23 = __this->___m21;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = ___0_point;
+		float L_25 = L_24.___y;
+		float L_26 = __this->___m22;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = ___0_point;
+		float L_28 = L_27.___z;
+		float L_29 = __this->___m23;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_20, L_22)), ((float)il2cpp_codegen_multiply(L_23, L_25)))), ((float)il2cpp_codegen_multiply(L_26, L_28)))), L_29));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = V_0;
+		return L_30;
+	}
+}
+// Method Definition Index: 60174
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 60058
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		(&V_0)->___x = ((-L_1));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___y;
+		(&V_0)->___y = ((-L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___z;
+		(&V_0)->___z = ((-L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 889
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 60173
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 60027
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_m1DE89849FE2019B6AA0031306896F3B800849399_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B3_0;
+	memset((&G_B3_0), 0, sizeof(G_B3_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = ___0_value;
+		float L_1;
+		L_1 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline(L_0, NULL);
+		V_0 = L_1;
+		float L_2 = V_0;
+		if ((((float)L_2) > ((float)(9.99999975E-06f))))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		G_B3_0 = L_3;
+		goto IL_004d;
+	}
+
+IL_0017:
+	{
+		il2cpp_codegen_initobj((&V_1), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_4 = ___0_value;
+		float L_5 = L_4->___x;
+		float L_6 = V_0;
+		(&V_1)->___x = ((float)(L_5/L_6));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = ___0_value;
+		float L_8 = L_7->___y;
+		float L_9 = V_0;
+		(&V_1)->___y = ((float)(L_8/L_9));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_10 = ___0_value;
+		float L_11 = L_10->___z;
+		float L_12 = V_0;
+		(&V_1)->___z = ((float)(L_11/L_12));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_1;
+		G_B3_0 = L_13;
+	}
+
+IL_004d:
+	{
+		V_2 = G_B3_0;
+		goto IL_0050;
+	}
+
+IL_0050:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_2;
+		return L_14;
+	}
+}
